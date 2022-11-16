@@ -1,5 +1,7 @@
+
+
 <div id="header" align="center">
-  <img src="./mario.gif" width="50%"/>
+  <img src="./mario.gif" width="10%"/>
 </div>
 
 <div align="center">

@@ -2,6 +2,14 @@
 
 # Govinda Systems DAO (__whitepaper__)
 
+Desenvolvimento de softwares baseados em comunidades.
+
+Hoje, os usuários não querem mais apenas uma tela de cadastro, ou um relatório.
+
+Buscamos soluções que ajudam os usuários e realizar suas tarefas e a possibilidade de compartilhar conhecimento.
+
+Utilizamos a especiencia que os usuários possuem na utilização de redes sociais para desenvolvermos softwares baseados em comunidades.
+
 Empresa de desenvolvimento de Software baseado na inovação, agilidade e tecnologia.
 
 Focada nas necessidades dos clientes.
@@ -20,11 +28,15 @@ Pequenas e médias empresas, que desejam criar experiências inovadoras de atend
 
 > E-Commerce - Marketplace (montamos a sua loja virtual e te mostramos como administrar).
 
-* Módulos de pago.
-* Dashboard BI.
-* Suporte para dispositivos móveis.
-* Integração com SEO.
+* Cadastro de produtos
 * Segmentação de produtos por categoria.
+* Pagamento
+* Workflow de faturamento
+* Controle de estoque
+* Avaliação de produtos
+* SAC (atendimento ao cliente)
+* Dashboard BI.
+* Integração com SEO.
 * Suporte acessível e online.
 * Escalabilidade.
 
