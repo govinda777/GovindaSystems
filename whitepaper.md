@@ -8,7 +8,7 @@ Hoje, os usuários não querem mais apenas uma tela de cadastro, ou um relatóri
 
 Buscamos soluções que ajudam os usuários e realizar suas tarefas e a possibilidade de compartilhar conhecimento.
 
-Utilizamos a especiencia que os usuários possuem na utilização de redes sociais para desenvolvermos softwares baseados em comunidades.
+Utilizamos a experiência que os usuários possuem na utilização de redes sociais para desenvolvermos softwares baseados em comunidades.
 
 Empresa de desenvolvimento de Software baseado na inovação, agilidade e tecnologia.
 
@@ -18,7 +18,7 @@ Mentoria organizacional para melhoria de processos.
 
 # Propósito
 
-Criar soluções de software que os ajudem a trazer melhores resultados no seu dia-a-dia.
+Criar soluções de software que os ajudem a trazer melhores resultados no seu dia a dia.
 
 ## Nicho
 
@@ -49,11 +49,11 @@ Pequenas e médias empresas, que desejam criar experiências inovadoras de atend
 > Consultoria de metodologias ágil (metodologias e processos ágeis) >>  [|new| - rss](https://github.com/govinda777/orfeo.feed)
 
 * Transformação ágil.
-* Diagnóstico de maturiada ágil da sua empresa.
+* Diagnóstico de maturidade ágil da sua empresa.
 * Criação de métricas ágeis.
 * Criação de quadros de gestão visual.
 
-> Soluções industriais baseadas em IOT (AWS IOT, Esp8266, MQTT Protocol) (Automatize seu negócio utilizando todas as ferramentas da Industrica 3.0)
+> Soluções industriais baseadas em IOT (AWS IOT, Esp8266, MQTT Protocol) (Automatize seu negócio utilizando todas as ferramentas da Indústria 3.0)
 
 * Automação industrial.
 * Monitoramento e telemetria do processo de fabricação.
@@ -70,18 +70,18 @@ Módulos :
    * Cashback (compatível com MetaMask).
    * Atendimento ao cliente.
 
-      - Chat bot de atendimento ao cliente, utilizando Inteligencia Artificial. (crie jornadas customizadas de atendimento. Teste o seu script de atendimento. Utilize nossos módulos de integração com outros sistemas).
+      - Chat bot de atendimento ao cliente, utilizando Inteligência Artificial. (crie jornadas customizadas de atendimento. Teste o seu script de atendimento. Utilize nossos módulos de integração com outros sistemas).
 
    * Seja avaliado pelo seu cliente.
 
-          - Colha feedbacks dos seus cliente.
+          - Colha feedbacks dos seus clientes.
           - Dashboard de avaliações.
           - Indicadores.
           - Bonifique seu cliente por cada avaliação.
 
    * Canal de comunicação. (tenha a sua própria rede social)
    * Canal de notificação. (crie e envie notificações instantaneamente)
-   * App de gameficação. (de missões para os seus cliente e os bonifique por isso)
+   * App de gameficação. (de missões para os seus clientes e os bonifiquem por isso)
    
 
 > Help Desk
@@ -98,17 +98,17 @@ Módulos :
 
    - 1 - Maquete do produto. (protótipo)
    - 2 - Documentação.
-   - 3 - Manuais de funcinamento.
+   - 3 - Manuais de funcionamento.
    - 4 - Software funcionando.
 
 ## Diferenciais
 
    - Fluxo Workflow de qual etapa está a demanda (Etapas: Backlog | Em construção | Em Validação | Pronto).
-   - Processo de aprovação do projeto. (pré requisito para o segundo faturamento)
+   - Processo de aprovação do projeto. (pré-requisito para o segundo faturamento)
 
 ## Como funciona o pagamento ?
 
-50% no inicio do projeto 
+50% no início do projeto 
 + 
 50% na entrega, ok do cliente
 
@@ -118,7 +118,7 @@ A Govinda Systems segue algumas premissas para a construção de todos os seus p
 
 1 - Satisfação do nosso cliente.
 
-Somos movidos pelo sentimento de satisfação dos nossos clientes. Sabe quando você contrata um serviço e ele foi alem das suas espectativas ? 
+Somos movidos pelo sentimento de satisfação dos nossos clientes. Sabe quando você contrata um serviço e ele foi além das suas expectativas ? 
 
 É esse o nosso combustível. 
 
@@ -127,7 +127,7 @@ Somos movidos pelo sentimento de satisfação dos nossos clientes. Sabe quando v
  ## Diferencial dos nossos produtos.
 
 * Atendimento personalizado ao cliente.
-* Garantia e compromisso com os dessafios dos nossos clientes.
+* Garantia e compromisso com os desafios dos nossos clientes.
 * Sentimentos de donos.
 * Não reinventamos a roda, Usamos Open Souce  :)
 
@@ -159,7 +159,7 @@ origin <client> from <govinda.systems>
 origin <client> from <govinda.systems> 
 
 
--- * A Govinda systems me ajudou a automatizar os meus processos com AWS IOT e micro controladores. 
+-- * A Govinda systems me ajudou a automatizar os meus processos com AWS IOT e microcontroladores. 
 
 ```
 
@@ -177,11 +177,11 @@ origin <client> from <govinda.systems>
 
 ```
 
-## Sobre nos
+## Sobre nós
 
-Organização decentralizada e distribuida, baseada em soluções eficientes para nossos clientes.
+Organização decentralizada e distribuída, baseada em soluções eficientes para nossos clientes.
 
-Desenvolvemos nossas soluções baseadas apenas nas necessidados dos nossos clientes.
+Desenvolvemos nossas soluções baseadas apenas nas necessidades dos nossos clientes.
 
 ## Área do Investidor 
 
@@ -200,7 +200,7 @@ Desenvolvemos nossas soluções baseadas apenas nas necessidados dos nossos clie
 
 ## Pesquisa e Inovação
 
-## Sistema AccountVAX de transparencia
+## Sistema AccountVAX de transparência
 
 * Objetivo
 Entender a partir de uma pequena amostra de problemas relacionados a Fraudes Financeiras (Foi usado o termo pequena amostra, pois entendemos que problemas relacionados a fraudes financeiras, são demasiadamente complexos e que requerem entendimento e coleta de diversas variáveis correspondentes ao contexto e falhas no processo Sistêmico e Manual, a fim de permitir a Fraude ou CORRUPÇÃO).
@@ -222,13 +222,13 @@ https://github.com/govinda777/AccountVAX
 
 ## Ferramentas do investidor
 
-* Canal de transparencia. ["compliance channel"](./README.compliance.md)
+* Canal de transparência. ["compliance channel"](./README.compliance.md)
 
-* Cultura Desentralizadora 
+* Cultura Decentralizadora 
   
-  - Por sermos uma DAO todas nossas decições são Desentralizadas e Distribuidas.
+  - Por sermos uma DAO todas nossas decisões são Decentralizadas e Distribuídas.
 
-* Processo de contrução de processos.
+* Processo de construção de processos.
 
 * Todo investimento entra como Assets na nossa Blockchain
 
@@ -238,32 +238,32 @@ https://github.com/govinda777/AccountVAX
 
 ## Qual é a relação de uma empresa com a Anatomia de um mamífero?
 
-Controllers: São os anticorpos, São os elementos que mantem a saúde do corpo. Uma das linhas de defesa do corpo, contra Virus, Parazitas ou Bactérias. Agente que impede a morte Financeira do corpo (no nosso caso Empresa).
+Controllers: São os anticorpos, São os elementos que mantem a saúde do corpo. Uma das linhas de defesa do corpo, contra Virus, Parasitas ou Bactérias. Agente que impede a morte Financeira do corpo (no nosso caso Empresa).
 
 Times de produção, pesquisa e desenvolvimento: são os pulmões, coração, ossos e músculos. São os que fazem o corpo (ou empresa) se mover.
 
-Presidentes / Diretores / Heads / Gestores / Coordenadores: São o cérebro e sistema nevorso do corpo. São os agentes que estimulam a motivação intrínseca.
+Presidentes / Diretores / Heads / Gestores / Coordenadores: São o cérebro e sistema nervoso do corpo. São os agentes que estimulam a motivação intrínseca.
 
 Investidores, Clientes e Ativos: São os agentes que dão vida ao Ecossistema. Na nossa analogia eles seriam o ar, a água e o alimento que mantem o corpo vivo.
 
-Vírus, Parazitas ou Bactérias: São elementos que atuam causando uma disfunção no bom funcionamento do corpo. São os elementos que tornam esse corpo improdutivo e infértil para a Vida (me refiro vida como se fosse a capacidade produtiva do corpo, bom funcionamento de todos os orgãos) são:
+Vírus, Parasitas ou Bactérias: São elementos que atuam causando uma disfunção no bom funcionamento do corpo. São os elementos que tornam esse corpo improdutivo e infértil para a Vida (me refiro vida como se fosse a capacidade produtiva do corpo, bom funcionamento de todos os órgãos) são:
 
     * Investimentos feitos de forma mal planejada.
     * Investimentos com baixas chances de serem concluídos.
     * Investimentos que são maiores que as necessidades da empresa.
     * Grupo de pessoas que formam um cartel na empresa.
-    * Grupo de pessoas e individuos que atrapalham a produtividade da empresa.
-    * Adquirir uma tecnologia, onde o time não tem capacidade de sustentá-la. (provavelemente você terá mais gastos)
+    * Grupo de pessoas e indivíduos que atrapalham a produtividade da empresa.
+    * Adquirir uma tecnologia, onde o time não tem capacidade de sustentá-la. (provavelmente você terá mais gastos)
     * Caixa 2
         - Contratação de empresas para caixa 2.
         - Contratação de produtos para caixa 2.
-        - Contratos desvantajoços e improdutivos, visando caixa 2
+        - Contratos desvantajosos e improdutivos, visando caixa 2
     * Estímulos que proporcionam corrupção.
         - 
         -
         -
 
-Caso você seja um investidor e você tivesse um certificado, onde garantisse que aos mesmos os times de "Produção" foram ouvidos referente a descisão sobre algum investimento, você ficaria mais seguro? Você seria capaz de investir mais dinheiro em uma empresa ao saber que ela leva em consideração a opinião de seu "pulmão / coração / ossos / músculos"?
+Caso você seja um investidor e você tivesse um certificado, onde garantisse que aos mesmos os times de "Produção" foram ouvidos referente a decisão sobre algum investimento, você ficaria mais seguro? Você seria capaz de investir mais dinheiro em uma empresa ao saber que ela leva em consideração a opinião de seu "pulmão / coração / ossos / músculos"?
 
 
 ## Por que consultar os times pode ser uma boa ideia?
@@ -278,15 +278,15 @@ Dessa vez acionamos o Desenvolvedor da área. O problema foi esclarecido e soluc
 
 Entenda que o que quero expor não foi nesse caso a ineficiência do Gerente e nem mesmo a promoção do Desenvolvedor. O que quero chamar a atenção, é que o propulsor produtivo e agente eficiente e adaptado para a solução do problema nesse caso é o Desenvolvedor.
 
-Em melhores palavras, eu gerente, atuante nesse Corpo como cérebro e sistema nevorso, nunca serei tão eficiente para bombear sanque, quanto o coração.
+Em melhores palavras, eu gerente, atuante nesse Corpo como cérebro e sistema nervoso, nunca serei tão eficiente para bombear sangue, quanto o coração.
 
-Se realmente encaramos os "Times de produção, pesquisa e desenvolvimento" como o pulmôes, coração, ossos, e músculos será que não seria interessante saber ao menos a opnião dos integrantes desse time, qual tipo de investimento seria interessante fazer visando o aumento da performance no time?
+Se realmente encaramos os "Times de produção, pesquisa e desenvolvimento" como o pulmão, coração, ossos, e músculos será que não seria interessante saber ao menos a opinião dos integrantes desse time, qual tipo de investimento seria interessante fazer visando o aumento da performance no time?
 
 ## Por que consultar os times pode não ser uma boa ideia?
 
 ..........
 
-## Por que antigamente não era possivel revolver o : O problema dos generais bizantinos (PGB)
+## Por que antigamente não era possível revolver o : O problema dos generais bizantinos (PGB)
 
 O problema dos generais bizantinos (PGB)
 
@@ -307,9 +307,9 @@ O problema dos generais bizantinos (PGB)
 
 </p>
 
-> Link de referencia: Falha Bizantina : https://academy.bit2me.com/pt/que-es-falla-bizantina/
+> Link de referência: Falha Bizantina : https://academy.bit2me.com/pt/que-es-falla-bizantina/
 
-Como você pode ver, o problema é que dentro da cidade inimigos poderiam capturar mensageiros. Se eles puderem ser interceptados, a mensagem pode ser modificado e, conseqüentemente, o ataque não seria realizado de maneira coordenada. Se não fossem executados de maneira coordenada, os exércitos atacantes seriam derrotados, fracassando em sua missão.
+Como você pode ver, o problema é que dentro da cidade inimigos poderiam capturar mensageiros. Se eles puderem ser interceptados, a mensagem pode ser modificada e, consequentemente, o ataque não seria realizado de maneira coordenada. Se não fossem executados de maneira coordenada, os exércitos atacantes seriam derrotados, fracassando em sua missão.
 
 Por exemplo, se uma mensagem dos generais fosse "Ataque amanhã", O texto pode ser alterado adicionando" somente se chover "atrás. Desta forma, o outro exército pode pensar que está concordando em atacar apenas em caso de chuva, e confirmar a mensagem. Assim, o primeiro exército atacaria e o segundo não poderia e se retiraria se não chovesse.
 
@@ -336,13 +336,13 @@ Criptografia As informações em um blockchain só podem ser compartilhadas de f
 Nodos completos podem verificar de maneira autônoma e autoritária qualquer transação sem referência externa (ANTONOPOULOS, 2014)." (from "Blockchain e Organizações Descentralizadas" by João Guilherme Lyra)
 
 
-## Entendendo uma organização desentralizada.DAO
+## Entendendo uma organização desentralizada. DAO
 
-Blockchain e contratos inteligentes podem introduzir novas maneiras de coordenar atividades como alocação de tarefas, coordenação e supervisão de um grupo de pessoas que compartilham interesses econômicos comuns, mas são geograficamente distribuídas, sem a necessidade de uma organização gerenciada centralmente. Isso poderia ser possível com DAOs ou através de autoalinhamento automático em torno de pontos focais de Schelling (SHERMIN, 2017)." (from "Blockchain e Organizações Descentralizadas" by João Guilherme Lyra)
+Blockchain e contratos inteligentes podem introduzir novas maneiras de coordenar atividades como alocação de tarefas, coordenação e supervisão de um grupo de pessoas que compartilham interesses econômicos comuns, mas são geograficamente distribuídas, sem a necessidade de uma organização gerenciada centralmente. Isso poderia ser possível com DAOs ou através de auto alinhamento automático em torno de pontos focais de Schelling (SHERMIN, 2017)." (from "Blockchain e Organizações Descentralizadas" by João Guilherme Lyra)
 
 ## Hierarquia
 
-"As organizações descentralizadas (DOs), em vez de uma estrutura hierárquica gerenciada por um conjunto de seres humanos interagindo pessoalmente e controlando a propriedade através do sistema legal, envolvem um conjunto de seres humanos interagindo entre si de acordo com um protocolo especificado em código imposto a todos por um blockchain." (from "Blockchain e Organizações Descentralizadas" by João Guilherme Lyra)
+"As organizações descentralizadas (DAOs), em vez de uma estrutura hierárquica gerenciada por um conjunto de seres humanos interagindo pessoalmente e controlando a propriedade através do sistema legal, envolvem um conjunto de seres humanos interagindo entre si de acordo com um protocolo especificado em código imposto a todos por um blockchain." (from "Blockchain e Organizações Descentralizadas" by João Guilherme Lyra)
 
 ## Características essenciais de uma DAO
 
@@ -435,7 +435,7 @@ Curso de Blockchain: aumente a confiança da sua aplicação : https://cursos.al
 
 ## Links
 
-> [![Watch the video](./imgs/COMPONENTES_README-List-VIDEO.jpeg)](https://www.youtube.com/watch?v=VEVJQipsA7M)
+> [![Watch the vídeo](./imgs/COMPONENTES_README-List-VIDEO.jpeg)](https://www.youtube.com/watch?v=VEVJQipsA7M)
 
 * Build web3 apps on Kaleido with Hyperledger FireFly SuperNodes : https://www.youtube.com/watch?v=oWs6NuOE9uM
 * Introducing Hyperledger FireFly - An API orchestration layer for Fabric and Ethereum blockchains : https://www.youtube.com/watch?v=2XzxdlqN0ks&t=1512s
@@ -446,7 +446,7 @@ Curso de Blockchain: aumente a confiança da sua aplicação : https://cursos.al
 
 * Link plataforma: https://www.kaleido.io/
 
-* Link de video mostrando como utilizar: https://www.youtube.com/watch?v=2XzxdlqN0ks&ab_channel=Kaleido
+* Link de vídeo mostrando como utilizar: https://www.youtube.com/watch?v=2XzxdlqN0ks&ab_channel=Kaleido
 
 * Documentação firefly: https://github.com/hyperledger/firefly
 
@@ -484,7 +484,7 @@ Exemplo de Incentivos errados que possibilitam a corrupção : https://www.youtu
 
 Falha Bizantina : https://academy.bit2me.com/pt/que-es-falla-bizantina/
 
-## Videos
+## Vídeos
 
 Bitcoin na Lua : https://www.youtube.com/watch?v=JJ2k1XWSfd4
 
@@ -496,7 +496,7 @@ Nova ordem mundial : https://www.youtube.com/watch?v=6cn3jKySrFU&t=68s
 
 Pais ANCAP : https://www.youtube.com/watch?v=iF9jaN3LHMo
 
-Insentivos errados : https://www.youtube.com/watch?v=Jv1kjhZSXsE
+Incentivos errados : https://www.youtube.com/watch?v=Jv1kjhZSXsE
 
 Economia Argentina : https://www.youtube.com/watch?v=L_TZJfCn7_I
 
@@ -504,7 +504,7 @@ Metrô do Rio: Um exemplo clássico de ineficiência estatal : https://www.youtu
 
 O que é Economia : https://www.youtube.com/watch?v=5vCOhPrlRUs
 
-Progamação linear : https://www.youtube.com/watch?v=iljf9W2__uo&t=976s
+Programação linear : https://www.youtube.com/watch?v=iljf9W2__uo&t=976s
 
 "A lei frequentemente destrói o que deveria preservar" : https://www.youtube.com/watch?v=6tsNkKXvu84&t=378s
 
