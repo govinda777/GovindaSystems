@@ -86,14 +86,6 @@ Módulos :
 
 > Help Desk
 
-## Requisitos mínimos de um projeto :
-
-* Valor mínimo. (R$ 1500)
-
-* Tempo mínimo de entrega: 2,5 meses (isso significa que quando algum cliente nos contratar, o prazo mínimo que iremos pedir é 2,5 meses)
-
-   - Lead Time : 40 dias
-
 ## Como nossas entregas funcionam ?
 
    - 1 - Maquete do produto. (protótipo)
@@ -101,16 +93,15 @@ Módulos :
    - 3 - Manuais de funcinamento.
    - 4 - Software funcionando.
 
-## Diferenciais
-
-   - Fluxo Workflow de qual etapa está a demanda (Etapas: Backlog | Em construção | Em Validação | Pronto).
-   - Processo de aprovação do projeto. (pré requisito para o segundo faturamento)
-
 ## Como funciona o pagamento ?
 
 50% no inicio do projeto 
 + 
 50% na entrega, ok do cliente
+
+## Diferenciais
+
+
 
 ## Nosso Combustível
 
@@ -129,11 +120,8 @@ Somos movidos pelo sentimento de satisfação dos nossos clientes. Sabe quando v
 * Atendimento personalizado ao cliente.
 * Garantia e compromisso com os dessafios dos nossos clientes.
 * Sentimentos de donos.
-* Não reinventamos a roda, Usamos Open Souce  :)
-
-Nos, entregamos com mais qualidade pois todos os nossos Softwares passam por uma rigorosa inspeção / validação e testes de qualidade.
-
-Head: Andrea Mit (architect and developer Automation Tests [cypress.io]) --> e2e Engineer specialist.
+* Fluxo Workflow de qual etapa está a demanda (Etapas: Backlog | Em construção | Em Validação | Pronto).
+* Não reinventamos a roda, Usamos Open Source  :)
 
 ## Depoimentos
 
@@ -159,11 +147,12 @@ origin <client> from <govinda.systems>
 origin <client> from <govinda.systems> 
 
 
--- * A Govinda systems me ajudou a automatizar os meus processos com AWS IOT e micro controladores. 
+-- * Nos, entregamos com mais qualidade pois todos os nossos Softwares passam por uma rigorosa inspeção / validação e testes de qualidade.
+
+Head: Andrea Mit (architect and developer Automation Tests [cypress.io]) --> e2e Engineer specialist.
+
 
 ```
-
-
 
 [<img src="https://avatars.githubusercontent.com/u/498332?s=400&u=9b7a8aa8743ec4dd3c84d8c382aa31fb1b6c8abf&v=4" width=115><br><sub>Name: Henrique</sub><br><sub>Company: Mit Inove Tour</sub><br><sub>Sócio Fundador</sub>](https://github.com/govinda777)
 
