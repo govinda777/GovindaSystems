@@ -26,6 +26,10 @@ Pequenas e médias empresas, que desejam criar experiências inovadoras de atend
 
 ## Nossos Produtos.
 
+> Sistemas financeiros.
+   * Derivativos
+   * DeFi
+
 > E-Commerce - Marketplace (montamos a sua loja virtual e te mostramos como administrar).
 
 * Cadastro de produtos
@@ -46,7 +50,7 @@ Pequenas e médias empresas, que desejam criar experiências inovadoras de atend
 * Implementação de processo Escrow de garantia.
 * Atualização dos termos contratuais, sob consentimento das partes.
 
-> Consultoria de metodologias ágil (metodologias e processos ágeis) >>  [|new| - rss](https://github.com/govinda777/orfeo.feed)
+> Consultoria de metodologias ágeis (metodologias e processos ágeis) >>  [|new| - rss](https://github.com/govinda777/orfeo.feed)
 
 * Transformação ágil.
 * Diagnóstico de maturidade ágil da sua empresa.
@@ -59,9 +63,7 @@ Pequenas e médias empresas, que desejam criar experiências inovadoras de atend
 * Monitoramento e telemetria do processo de fabricação.
 * 
 
-> Sistemas financeiros.
-   * Derivativos
-   * DeFi
+
 
 > CRM (ferramentas para cuidar do seu cliente)
 
@@ -88,6 +90,8 @@ Módulos :
 
 ## Como nossas entregas funcionam ?
 
+Sequimos esse fluxo de contrução.
+
    - 1 - Maquete do produto. (protótipo)
    - 2 - Documentação.
    - 3 - Manuais de funcionamento.
@@ -97,16 +101,6 @@ Módulos :
 
    - Fluxo Workflow de qual etapa está a demanda (Etapas: Backlog | Em construção | Em Validação | Pronto).
    - Processo de aprovação do projeto. (pré-requisito para o segundo faturamento)
-
-## Como funciona o pagamento ?
-
-50% no início do projeto 
-+ 
-50% na entrega, ok do cliente
-
-## Diferenciais
-
-
 
 ## Nosso Combustível
 
