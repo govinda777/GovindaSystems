@@ -93,6 +93,6 @@ Sequimos esse fluxo de contrução.
    - 3 - Validação
    - 4 - Manual de Jornadas
    - 5 - Em Construção
-   Em testes
-   Em produção
+   - Em testes
+   - Em produção
    
