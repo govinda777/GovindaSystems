@@ -2,31 +2,6 @@
 
 # Govinda Systems DAO (__whitepaper__)
 
-## Index
-
-### Apresentação da Govinda Systems DAO
-### Missão
-### Propósito
-### Pilares fundamentais 
-
-## Serviços
-
-### Desenvolvimento Web3
-### Marketing digital
-### Consultoria
-
-## Token Govinda
-
-### Uso do token
-### Direitos dos detentores de GVT
-### Vantagens competitivas
-
-## Soluções inovadoras
-### Abordagem personalizada
-### Transparência e segurança
-### Comunidade-driven
-
-
 A Govinda Systems DAO é uma organização autônoma descentralizada que oferece soluções de marketing digital e desenvolve sistemas Web3. Seu propósito principal é fornecer soluções financeiras descentralizadas para indivíduos e empresas, baseadas em tecnologia blockchain, oferecendo mais controle, transparência e privacidade aos usuários. A organização é fundamentada em três pilares: Marketing Digital, Desenvolvimento Web3 e Transparência. A DAO oferece serviços de desenvolvimento Web3, marketing digital e consultoria personalizada. O token Govinda (GVT) é usado para acessar os serviços e os detentores de GVT têm direitos de voto dentro da DAO. A organização valoriza soluções inovadoras, abordagem personalizada, transparência, segurança e colaboração da comunidade. Entre os produtos oferecidos estão a criação de sites institucionais, gestão de mídias sociais e campanhas de anúncios pagos nas redes sociais.
 
 ## **Missão:**
@@ -196,3 +171,27 @@ Uma empresa DAO é uma organização descentralizada e autônoma que usa a tecno
 Além disso, as DAOs são capazes de recompensar os membros que contribuem para o desenvolvimento da organização por meio de sua participação ativa na tomada de decisões e na realização de tarefas. Isso cria um incentivo para que os membros da comunidade se envolvam e ajudem a desenvolver a organização, resultando em um ecossistema mais colaborativo e eficiente.
 
 As DAOs têm o potencial de revolucionar a forma como as empresas são gerenciadas, tornando-as mais transparentes, democráticas e eficientes. As DAOs podem ser usadas em vários setores, desde o desenvolvimento de tecnologia até o gerenciamento de recursos comunitários. A Govinda System DAO é um exemplo de como essa tecnologia pode ser aplicada no desenvolvimento de soluções inovadoras em Web3 e marketing digital.
+
+## Index
+
+### Apresentação da Govinda Systems DAO
+### Missão
+### Propósito
+### Pilares fundamentais 
+
+## Serviços
+
+### Desenvolvimento Web3
+### Marketing digital
+### Consultoria
+
+## Token Govinda
+
+### Uso do token
+### Direitos dos detentores de GVT
+### Vantagens competitivas
+
+## Soluções inovadoras
+### Abordagem personalizada
+### Transparência e segurança
+### Comunidade-driven
