@@ -72,11 +72,13 @@ Nossos smart contracts são organizados em módulos, que representam as diferent
 
 Cada módulo é responsável por implementar uma determinada funcionalidade.
 
-* 
-
-como por exemplo, 
-criar pedido
-gerenciamento de tokens, votação, governança, tesouraria, entre outras.
+como por exemplo: 
+* criar pedido
+* gerenciamento de tokens
+* votação
+* governança
+* tesouraria
+* entre outras.
 
 Esses módulos são interconectados e interagem entre si para formar a estrutura completa da DAO. Além disso, eles podem ser atualizados e melhorados de forma independente, sem que isso afete o funcionamento de outros módulos.
 
