@@ -66,7 +66,7 @@ Curso de Blockchain para Negócios: aplicações e cases reais : https://cursos.
 Curso de Blockchain: aumente a confiança da sua aplicação : https://cursos.alura.com.br/course/blockchain-confianca-da-sua-aplicacao
 
 
-## Organizamos nossos processos baseado em Smart Contracts ?
+## Organizamos nossos processos baseado em Smart Contracts
 
 Nossos smart contracts são organizados em módulos, que representam as diferentes áreas de atuação da organização. 
 
@@ -83,18 +83,6 @@ Esses módulos são interconectados e interagem entre si para formar a estrutura
 Uma forma comum de implementação é através do uso de interfaces, que definem as funcionalidades e eventos que devem ser implementados pelos módulos. Dessa forma, é possível criar novos módulos compatíveis com a DAO existente, ou substituir módulos antigos por novas versões sem causar incompatibilidades.
 
 A organização dos smart contracts pode variar de acordo com a DAO em questão e suas necessidades específicas. No entanto, é comum adotar uma abordagem modular e bem definida para facilitar o desenvolvimento, manutenção e evolução da organização.
-
-## Como nossas entregas funcionam ?
-
-Sequimos esse fluxo de contrução.
-
-   - 1 - Maquete do produto. (protótipo)
-   - 2 - Documentação.
-   - 3 - Validação
-   - 4 - Manual de Jornadas
-   - 5 - Em Construção
-   - Em testes
-   - Em produção
 
 ## Vantagens de participar de uma DAO.
    

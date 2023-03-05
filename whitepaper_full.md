@@ -70,7 +70,6 @@ Criar soluções de software que ajude nossos Clientes melhorar seus resultados.
 
 * Automação industrial.
 * Monitoramento e telemetria do processo de fabricação.
-* 
 
 ### COMPLIANCE
 
