@@ -26,7 +26,6 @@ Database SQL & NoSQL engineer: SQL Server, Oracle, My SQL, Postgresql, Mongo DB 
 
 - <b>Release Manager:</b> Gestão e facilitação de releases, afim de garantir a execução do processo e qualidade do produto.
 
-
 <br />
 
 * [profile](https://www.canva.com/design/DAE_seh-8Rk/lbx5UZfgk46Ed9wsDlclsw/view?utm_content=DAE_seh-8Rk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)

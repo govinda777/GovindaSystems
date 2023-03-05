@@ -74,3 +74,10 @@ Pode incluir a compra e venda de criptomoedas, a gestão do tesouro da DAO e a c
 ## Avaliar o desempenho e ajustar a estratégia:
 
 Avaliar regularmente o desempenho da DAO e ajustar sua estratégia para atingir seus objetivos. Isso pode incluir a introdução de novas iniciativas, a alteração da estratégia de governança ou a revisão dos smart contracts.
+
+## Comunicar e envolver a comunidade:
+
+Comunicar a criação da DAO e sua missão para atrair membros e incentivar a participação. Considere o uso de plataformas sociais e fóruns para se conectar com a comunidade e encorajar o engajamento.
+
+## Estabelecer parcerias:
+Identificar parceiros que possam ajudar a DAO a atingir seus objetivos e fortalecer sua posição no mercado. Isso pode incluir outras DAOs, projetos de blockchain, empresas ou organizações.

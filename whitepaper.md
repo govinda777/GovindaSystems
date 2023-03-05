@@ -8,11 +8,11 @@ A Govinda System DAO é uma organização autônoma descentralizada que se conce
 
 Nossa DAO oferece uma variedade de serviços para ajudar empresas e organizações a prosperar na era digital:
 
-Desenvolvimento Web3 - Nossa equipe de desenvolvedores especializados em construir aplicativos descentralizados (dApps) usando tecnologia blockchain, contratos inteligentes e outras ferramentas Web3. Criamos soluções seguras, transparentes e escaláveis, com foco em fornecer uma experiência de usuário perfeita.
+**Desenvolvimento Web3** - Nossa equipe de desenvolvedores especializados em construir aplicativos descentralizados (dApps) usando tecnologia blockchain, contratos inteligentes e outras ferramentas Web3. Criamos soluções seguras, transparentes e escaláveis, com foco em fornecer uma experiência de usuário perfeita.
 
-Marketing digital - Oferecemos uma variedade de soluções de marketing digital para ajudar nossos clientes a alcançar seu público-alvo e crescer sua marca online. Nossos serviços incluem marketing em mídias sociais, otimização de mecanismos de pesquisa, criação de conteúdo e publicidade paga.
+**Marketing digital** - Oferecemos uma variedade de soluções de marketing digital para ajudar nossos clientes a alcançar seu público-alvo e crescer sua marca online. Nossos serviços incluem marketing em mídias sociais, otimização de mecanismos de pesquisa, criação de conteúdo e publicidade paga.
 
-Consultoria - Nossa equipe de especialistas fornece serviços de consultoria para ajudar empresas e organizações a navegar no complexo mundo do Web3 e do marketing digital. Oferecemos soluções personalizadas e conselhos estratégicos para ajudar nossos clientes a alcançar seus objetivos.
+**Consultoria** - Nossa equipe de especialistas fornece serviços de consultoria para ajudar empresas e organizações a navegar no complexo mundo do Web3 e do marketing digital. Oferecemos soluções personalizadas e conselhos estratégicos para ajudar nossos clientes a alcançar seus objetivos.
 
 ## O token Govinda
 

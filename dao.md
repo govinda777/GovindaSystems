@@ -95,4 +95,33 @@ Sequimos esse fluxo de contrução.
    - 5 - Em Construção
    - Em testes
    - Em produção
+
+## Vantagens de participar de uma DAO.
    
+Governança democrática: todos os membros da DAO têm a oportunidade de contribuir e votar em decisões importantes, tornando o processo de governança mais justo e transparente.
+
+Maior segurança: as DAOs são construídas em blockchain, o que as torna altamente seguras e resistentes a fraudes e ataques cibernéticos.
+
+Baixo custo: ao participar de uma DAO, os custos de operação são compartilhados entre todos os membros, tornando mais acessível para pequenos investidores.
+
+Liquidez: alguns tokens de DAOs são listados em exchanges de criptomoedas, o que proporciona maior liquidez para os membros.
+
+Benefícios financeiros: membros de uma DAO podem receber recompensas financeiras por contribuir com a organização ou pela valorização do token da DAO.
+
+Maior autonomia: a DAO é uma organização autônoma e descentralizada, o que significa que os membros têm maior liberdade para tomar decisões e implementar projetos sem a necessidade de aprovação de uma entidade centralizada.
+
+## Desvantagens de participar de uma DAO.
+
+Assim como qualquer outra estrutura organizacional, as DAOs também apresentam algumas desvantagens. Algumas das principais desvantagens de participar de uma DAO incluem:
+
+**Falta de regulamentação:** Como as DAOs são organizações descentralizadas, elas operam fora da estrutura regulatória tradicional. Isso pode levar a incertezas legais e dificuldades em lidar com questões como conformidade fiscal.
+
+**Risco de ataque cibernético:** As DAOs geralmente operam online, o que pode torná-las vulneráveis a ataques cibernéticos. Se um ataque bem-sucedido ocorrer, isso pode resultar na perda de fundos ou informações valiosas.
+
+**Falta de centralização:** A falta de uma estrutura de gerenciamento centralizado pode levar a desafios em termos de tomada de decisão e coordenação entre os membros da DAO.
+
+**Dificuldades na resolução de conflitos:** Com tantos membros e opiniões diferentes, a resolução de conflitos pode ser difícil em uma DAO. Sem um processo bem definido para resolver disputas, as decisões podem levar mais tempo para serem tomadas.
+
+**Volatilidade dos preços:** As DAOs geralmente operam em criptomoedas, o que significa que seus preços podem ser extremamente voláteis. Isso pode tornar difícil prever os fluxos de caixa e planejar a longo prazo.
+
+**Barreira de entrada:** Participar de uma DAO pode exigir conhecimentos técnicos e uma compreensão profunda de criptomoedas e blockchain. Isso pode tornar a participação difícil para pessoas sem experiência nessa área.
