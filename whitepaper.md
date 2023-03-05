@@ -130,6 +130,7 @@ Para adquirir uma versão de teste gratuita dos produtos da Govinda Systems DAO,
 
 ## O que é uma DAO ?
 
+
 Uma empresa DAO é uma organização descentralizada e autônoma que usa a tecnologia blockchain para operar. Essa tecnologia permite que a empresa seja gerenciada de forma transparente e democrática pelos seus membros, sem a necessidade de um comando centralizado. As decisões importantes são tomadas em conjunto pelos membros, que possuem poder de voto de acordo com a quantidade de tokens da empresa que possuem. A DAO é regida por um conjunto de regras predefinidas, chamadas de smart contracts, que garantem que todas as transações e decisões sejam executadas de forma segura e transparente.
 
 Além disso, as DAOs são capazes de recompensar os membros que contribuem para o desenvolvimento da organização por meio de sua participação ativa na tomada de decisões e na realização de tarefas. Isso cria um incentivo para que os membros da comunidade se envolvam e ajudem a desenvolver a organização, resultando em um ecossistema mais colaborativo e eficiente.
