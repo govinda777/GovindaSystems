@@ -1,83 +1,127 @@
 <img src="./imgs/logo.png" height="100%" width="100%" alt="Unform" />
 
-# Govinda Systems DAO (__whitepaper__)
+# Govinda Systems DAO (whitepaper)
 
-A Govinda Systems DAO é uma organização autônoma descentralizada que oferece soluções de marketing digital e desenvolve sistemas Web3. Seu propósito principal é fornecer soluções financeiras descentralizadas para indivíduos e empresas, baseadas em tecnologia blockchain, oferecendo mais controle, transparência e privacidade aos usuários. A organização é fundamentada em três pilares: Marketing Digital, Desenvolvimento Web3 e Transparência. A DAO oferece serviços de desenvolvimento Web3, marketing digital e consultoria personalizada. O token Govinda (GVT) é usado para acessar os serviços e os detentores de GVT têm direitos de voto dentro da DAO. A organização valoriza soluções inovadoras, abordagem personalizada, transparência, segurança e colaboração da comunidade. Entre os produtos oferecidos estão a criação de sites institucionais, gestão de mídias sociais e campanhas de anúncios pagos nas redes sociais.
+A Govinda Systems DAO é uma organização descentralizada autônoma (DAO) especializada em
+fornecer soluções tecnológicas e consultorias para empresas. Nossa missão é impulsionar a
+inovação e transformar negócios por meio da aplicação de tecnologias emergentes e
+metodologias ágeis. Nosso propósito é ajudar nossos clientes a se adaptarem às rápidas
+mudanças do mercado, otimizando seus processos e alcançando melhores resultados.
+
+## Nossos Tokens
+
+* Token de Governança : GST
+
+O token Govinda Systems (GST) é usado para acessar os serviços e os detentores de GST têm direitos de voto dentro da DAO. A organização valoriza soluções inovadoras, abordagem personalizada, transparência, segurança e colaboração da comunidade. Entre os produtos oferecidos estão a criação de sites institucionais, gestão de mídias sociais e campanhas de anúncios pagos nas redes sociais.
+
+* Token de Serviço : GOV
+
+GOVs são adquiridos para execução de serviços. Ao adquirir GOV Coins o cliente ganha 30% de cash back.
 
 ## **Missão:**
-A missão da Govinda Systems DAO é capacitar as pessoas a alcançar a independência financeira e a liberdade pessoal, promovendo a adoção de tecnologias descentralizadas e a educação em finanças pessoais.
+
+Nossa missão é impulsionar a
+inovação e transformar negócios por meio da aplicação de tecnologias emergentes e
+metodologias ágeis.
+
+A missão da Govinda Systems DAO é ser um modelo de negócio auto sustentável e autonomo, onde é eficiente em prestar serviços de desenvolvimento de sistemas Web3 e impulcionar as vendas dos clientes com técnicas de Marketing Digital e Cripto Moedas.
 
 ## **Propósito:**
-A Govinda Systems DAO tem como propósito principal fornecer soluções financeiras descentralizadas, baseadas em tecnologia blockchain, para indivíduos e empresas. Através de nossos produtos e serviços, estamos comprometidos em fornecer acesso fácil e seguro a ferramentas financeiras descentralizadas, oferecendo mais controle, transparência e privacidade aos nossos usuários.
 
-## **Pilares:**
-Os três pilares fundamentais da Govinda Systems DAO são:
+A Govinda Systems DAO tem como propósito fornecer soluções financeiras descentralizadas, baseadas em tecnologia blockchain, para indivíduos e empresas. 
 
-### **Marketing Digital:** 
+Temos também como propósito prestar consultoria de Agilidade e Fluxo dos processos, adoramos responder a pergunta, o que devo fazer para deixar a minha empresa mais Ágil.
 
-Estamos comprometidos em usar estratégias de marketing digital eficientes para alcançar nosso público-alvo e promover nossos produtos e serviços. Acreditamos que o marketing digital é uma ferramenta fundamental para alcançar o sucesso nos negócios, especialmente na indústria de criptomoedas.
+Através de nossos produtos e serviços, estamos comprometidos em fornecer acesso seguro a ferramentas financeiras descentralizadas, oferecendo mais controle, transparência e privacidade aos nossos usuários.
 
-### **Desenvolvimento Web3:** 
+## **Transparência:** 
 
-Acreditamos que a Web3 é a próxima revolução da internet e estamos comprometidos em desenvolver produtos e serviços que aproveitem o potencial da tecnologia blockchain. Nosso objetivo é criar soluções financeiras descentralizadas que sejam mais seguras, eficientes e acessíveis do que as soluções financeiras tradicionais.
+Estamos comprometidos em ser uma organização transparente em todos os aspectos do nosso negócio. Acreditamos que a transparência é fundamental para ganhar a confiança e a lealdade dos nossos usuários e da comunidade cripto em geral.
 
-### **Consultoria:**
+## Produtos & Serviços
 
-> ### Desenvolvimento de produtos
-* Análise de mercado e pesquisa de usuários
-* Design e arquitetura de sistemas Web3
+### Consultoria Agilidade
+
+* Transformação ágil em empresas.
+* Diagnóstico de maturidade ágil da empresa.
+* Criação de métricas ágeis e quadros de gestão visual.
+
+* Mapeamento e Diagramação dos processos da Empresa
+* Mapeamento de Gargalos, Desperdícios
+* Mapeamento Redução de Custos dos processos
+* Mapeamento de Automação de processos
+* Análise de desempenho e qualidade dos processos
+
+### Desenvolvimento Web3
+
+* Construção de aplicativos descentralizados (dApps)
 * Desenvolvimento de contratos inteligentes
 * Integração de soluções DeFi (Finanças Descentralizadas)
 * Testes de segurança e auditoria de contratos inteligentes
 * Desenvolvimento de interfaces de usuário e experiência do usuário (UI/UX)
 
-> ### Estratégia de Negócios
-* Identificação de oportunidades de mercado para produtos Web3
-* Definição de modelos de negócios baseados em criptomoedas
-* Consultoria em gestão de risco e governança
-* Planejamento de lançamentos de produtos Web3
+* **Desenvolvimento de contratos inteligentes:** a Govinda Systems DAO oferece suporte para o desenvolvimento de contratos inteligentes personalizados, que podem ser usados para criar soluções automatizadas em uma variedade de setores, incluindo finanças, saúde e energia.
 
-> ### Marketing e Comunicação
+* **Desenvolvimento de aplicativos descentralizados (dApps):** a Govinda Systems DAO trabalha com tecnologias como Ethereum, IPFS e Arweave para desenvolver dApps que oferecem uma experiência de usuário aprimorada e segura.
 
-* Posicionamento de marca e storytelling
-* Desenvolvimento de estratégias de marketing para produtos Web3
-* Gestão de comunidades online e criação de engajamento
-* Consultoria em Relações Públicas (RP) para empresas Web3
+* **Integração de blockchain:** a Govinda Systems DAO ajuda empresas a integrar blockchain em seus processos existentes, permitindo a automação e o gerenciamento de dados descentralizados.
 
-> ### Educação e Treinamento
+* **Segurança de blockchain:** a Govinda Systems DAO trabalha com as tecnologias mais recentes em segurança blockchain para garantir que seus clientes possam operar com segurança em ambientes descentralizados.
 
+### E-Commerce - Marketplace
+
+* Montagem de lojas virtuais completas e personalizadas.
+* Cadastro de produtos e segmentação por categoria.
+* Implementação de sistema de pagamento.
+* Configuração do workflow de faturamento.
+* Controle de estoque e avaliação de produtos.
+* Implementação de sistema de SAC (atendimento ao cliente).
+* Dashboard BI para monitoramento das vendas e estoque.
+* Integração com SEO para melhorar o posicionamento nos mecanismos de busca.
+* Suporte acessível e online.
+* Escalabilidade para atender o crescimento do negócio.
+
+### Desenvolvimento em IOT
+
+* Automação industrial para monitoramento e telemetria do processo de fabricação
+* Utilização de tecnologias como AWS IOT, Esp8266, MQTT Protocol
+
+### Marketing digital
+
+#### Criação de Sites institucionais e Hot Sites
+* Desenvolvimento de sites institucionais e hot sites para promover produtos e serviços online.
+* Criação de layouts personalizados e responsivos para diferentes dispositivos.
+* Desenvolvimento de landing pages para campanhas de marketing.
+
+#### Gestão de mídias sociais
+* Análise de boas práticas de redes sociais.
+* Criação de posts para as redes sociais.
+* Criação de loja virtual no Instagram / Google Shopping / etc.
+* Criação de campanhas de anúncios pagos nas redes sociais.
+* Análise de métricas para otimização de campanhas.
+* Gestão de tráfego
+* Gerenciamento de campanhas de tráfego pago no Google Ads, Facebook Ads e outras plataformas.
+* Otimização de campanhas para aumentar o tráfego e conversão de vendas.
+
+#### Gestão de produtos
+* Análise de boas práticas para produtos online.
+* Análise de portfólio de produtos.
+* Criação de novos produtos e serviços.
+
+### Jurídico
+* Criação de smart contracts para automação de contratos e garantias.
+* Implementação de processo Escrow para garantia de transações financeiras.
+* Atualização dos termos contratuais, sob consentimento das partes.
+
+### Compliance
+* Desenvolvimento de sistemas de auditoria de processos e prevenção a fraudes
+* Implementação de sistemas de votação, compliance financeira, certificado de transparência e protocolo anti-corrupção
+
+### Treinamento
 * Workshops para introdução à Web3 e criptomoedas
 * Treinamentos técnicos em desenvolvimento de produtos Web3
 * Treinamentos em gestão de risco e governança
-* Treinamentos em marketing e comunicação para empresas Web3.
-
-### **Transparência:** 
-
-Estamos comprometidos em ser uma organização transparente em todos os aspectos do nosso negócio. Acreditamos que a transparência é fundamental para ganhar a confiança e a lealdade dos nossos usuários e da comunidade cripto em geral.
-
-## Serviços
-
-Nossa DAO oferece uma variedade de serviços para ajudar empresas e organizações a prosperar na era digital:
-
-**Desenvolvimento Web3** - Nossa equipe de desenvolvedores especializados em construir aplicativos descentralizados (dApps) usando tecnologia blockchain, contratos inteligentes e outras ferramentas Web3. Criamos soluções seguras, transparentes e escaláveis, com foco em fornecer uma experiência de usuário perfeita.
-
-**Marketing digital** - Oferecemos uma variedade de soluções de marketing digital para ajudar nossos clientes a alcançar seu público-alvo e crescer sua marca online. Nossos serviços incluem marketing em mídias sociais, otimização de mecanismos de pesquisa, criação de conteúdo e publicidade paga.
-
-**Consultoria** - Nossa equipe de especialistas fornece serviços de consultoria para ajudar empresas e organizações a navegar no complexo mundo do Web3 e do marketing digital. Oferecemos soluções personalizadas e conselhos estratégicos para ajudar nossos clientes a alcançar seus objetivos.
-
-## O token Govinda
-
-A Govinda System DAO possui sua própria criptomoeda, o token Govinda (GVT). Este token é usado para acessar nossos serviços e também é um meio de troca dentro do ecossistema. Os detentores de GVT têm direitos de voto dentro da DAO e podem contribuir para os processos de tomada de decisão.
-
-**Soluções inovadoras** - Usamos a tecnologia mais recente e as melhores práticas para criar soluções de ponta que estão à frente da curva.
-
-**Abordagem personalizada** - Entendemos que cada empresa é única e trabalhamos em estreita colaboração com nossos clientes para fornecer soluções personalizadas que atendam às suas necessidades específicas.
-
-**Transparente e seguro** - Priorizamos a transparência e a segurança em tudo o que fazemos, garantindo que os dados de nossos clientes estejam protegidos e sua confiança seja mantida.
-
-**Comunidade-driven** - Nossa DAO é uma organização impulsionada pela comunidade, com foco na colaboração e na tomada de decisões compartilhadas.
-
-# Produtos
+* Treinamentos em marketing e comunicação para empresas Web3
 
 ## Pilar Marketing / Marketing digital
 
@@ -102,46 +146,10 @@ A Govinda System DAO possui sua própria criptomoeda, o token Govinda (GVT). Est
 * Análise de portfólio de produtos.
 * Criação de novos produtos e serviços.
 
-## Pilar Tecnologia
-
-### E-Commerce - Marketplace
-* Montagem de lojas virtuais completas e personalizadas.
-* Cadastro de produtos e segmentação por categoria.
-* Implementação de sistema de pagamento.
-* Configuração do workflow de faturamento.
-* Controle de estoque e avaliação de produtos.
-* Implementação de sistema de SAC (atendimento ao cliente).
-* Dashboard BI para monitoramento das vendas e estoque.
-* Integração com SEO para melhorar o posicionamento nos mecanismos de busca.
-* Suporte acessível e online.
-* Escalabilidade para atender o crescimento do negócio.
-
 ### Sistemas financeiros
 
 * Desenvolvimento e implantação de sistemas financeiros.
 * Utilização de Derivativos e DeFi para investimentos em criptomoedas e outras moedas digitais.
-
-### Jurídico
-
-* Criação de smart contracts para automação de contratos e garantias.
-* Implementação de processo Escrow para garantia de transações financeiras.
-* Atualização dos termos contratuais, sob consentimento das partes.
-
-### Consultoria de metodologias ágeis
-
-* Transformação ágil em empresas.
-* Diagnóstico de maturidade ágil da empresa.
-* Criação de métricas ágeis e quadros de gestão visual.
-
-### Soluções industriais baseadas em IOT
-
-* Automação industrial para monitoramento e telemetria do processo de fabricação.
-Utilização de tecnologias como AWS IOT, Esp8266, MQTT Protocol.
-
-### COMPLIANCE
-
-* Desenvolvimento de sistemas de auditoria de processos e prevenção a fraudes.
-* Implementação de sistemas de votação, compliance financeira, certificado de transparência e protocolo anti-corrupção.
 
 ### CRM
 
@@ -172,26 +180,7 @@ Além disso, as DAOs são capazes de recompensar os membros que contribuem para 
 
 As DAOs têm o potencial de revolucionar a forma como as empresas são gerenciadas, tornando-as mais transparentes, democráticas e eficientes. As DAOs podem ser usadas em vários setores, desde o desenvolvimento de tecnologia até o gerenciamento de recursos comunitários. A Govinda System DAO é um exemplo de como essa tecnologia pode ser aplicada no desenvolvimento de soluções inovadoras em Web3 e marketing digital.
 
-## Index
 
-### Apresentação da Govinda Systems DAO
-### Missão
-### Propósito
-### Pilares fundamentais 
+## Tire suas dúvidas no nosso stack overflow
 
-## Serviços
-
-### Desenvolvimento Web3
-### Marketing digital
-### Consultoria
-
-## Token Govinda
-
-### Uso do token
-### Direitos dos detentores de GVT
-### Vantagens competitivas
-
-## Soluções inovadoras
-### Abordagem personalizada
-### Transparência e segurança
-### Comunidade-driven
+https://stackoverflowteams.com/c/govinda-systems-dao

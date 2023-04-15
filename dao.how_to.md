@@ -2,11 +2,11 @@
 
 Eu procurei seguir os seguintes pontos:
 
-## Criar um whitepaper
+## Criar um whitepaper - [x]
 
 Escrever um whitepaper que descreva a visão, missão, objetivos e funcionamento da DAO. Inclua detalhes sobre o token da DAO, sua utilidade e distribuição.
 
-## Definir o propósito da DAO
+## Definir o propósito da DAO - [x]
  
 * Identificar o objetivo da DAO
 * Identificar os valores da DAO
