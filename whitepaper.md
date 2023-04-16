@@ -24,7 +24,17 @@ Nossa missão é impulsionar a
 inovação e transformar negócios por meio da aplicação de tecnologias emergentes e
 metodologias ágeis.
 
-A missão da Govinda Systems DAO é ser um modelo de negócio auto sustentável e autonomo, onde é eficiente em prestar serviços de desenvolvimento de sistemas Web3 e impulcionar as vendas dos clientes com técnicas de Marketing Digital e Cripto Moedas.
+A missão da Govinda Systems DAO é ser um modelo de negócio auto sustentável e autonomo, onde é eficiente em prestar serviços de desenvolvimento de sistemas Web3 e impulcionar as vendas dos clientes. 
+
+## O nosso diferencial
+
+Conseguimos utilizando técinicas de processos Inovadores e Tecnologias Inovadoras para obter o melhor resultado **custo e benefício** para os nossos clientes.
+
+Somos uma empresa desentralizada e autonoma, **focada nos seguintes pilares**:
+
+* Consultoria de Agilidade / Automação de processos **+**
+* Tecnologias Web3 (**Defi** / **DApp** / **Tokenização**) **+**
+* Marketing Digital
 
 ## **Propósito:**
 
@@ -83,8 +93,13 @@ Estamos comprometidos em ser uma organização transparente em todos os aspectos
 
 ### Desenvolvimento em IOT
 
-* Automação industrial para monitoramento e telemetria do processo de fabricação
-* Utilização de tecnologias como AWS IOT, Esp8266, MQTT Protocol
+Utilizando o nosso Frame Work ganhamos agilidade ao registrar/gerencia um dispositivo IOT e coletar dados ou executar ações.
+
+#### Sergiços
+
+* Automação industrial para monitoramento e telemetria do processo de fabricação.
+
+Utilizamos as tecnologias AWS IOT, Esp8266, MQTT Protocol, Blockchain, Next.js
 
 ### Marketing digital
 
