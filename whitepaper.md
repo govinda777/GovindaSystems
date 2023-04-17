@@ -12,7 +12,7 @@ mudanças do mercado, otimizando seus processos e alcançando melhores resultado
 
 * Token de Governança : GSTG
 
-Govinda System Governance:
+Govinda SysTem Governance:
 
 O token Govinda Systems (GSTG) é usado para acessar os serviços e os detentores de GST têm direitos de voto dentro da DAO. A organização valoriza soluções inovadoras, abordagem personalizada, transparência, segurança e colaboração da comunidade. Entre os produtos oferecidos estão a criação de sites institucionais, gestão de mídias sociais e campanhas de anúncios pagos nas redes sociais.
 
