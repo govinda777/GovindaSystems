@@ -9,10 +9,11 @@ checkout main
 commit
 commit
 ```
+**
 
 * Teste
 
-``` sequenceDiagram
+```sequenceDiagram
     participant Alice
     participant Bob
     Alice->>John: Hello John, how are you?
@@ -24,3 +25,12 @@ commit
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```    
+
+* Teste 2
+
+```graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
