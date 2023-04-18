@@ -14,30 +14,21 @@ Aprenda como nossos tokens funcionam.
 Processo de cash back.
 <p>
 
-
-```
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
+## Token 
 
 ```mermaid
 sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
+actor Client
+Client->>Govinda_Systems: Realiza o pagamento (PIX)
+Govinda_Systems->> Jornada_Pagamento : Cadastro de usuário / Promoção / Cashback
+loop Validacao
+    Jornada_Pagamento->>Jornada_Pagamento: Verifica se o pagamento foi creditado.
 end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
+Note right of Jornada_Pagamento: Integração Chainlink Oracles
+Jornada_Pagamento->> Tela_Confirmacao_Pagamento : Credita os tokens na carteira do cliente
+Tela_Confirmacao_Pagamento-->> Client: Envio de comprovante de pagamento
 ```
+
 
 ### Gantt chart [<a href="https://mermaid-js.github.io/mermaid/#/gantt">docs</a> - <a href="https://mermaid.live/edit#pako:eNp90cGOgyAQBuBXIZxtFbG29bbZ3fsmvXKZylhJEAyOTZrGd1_sto3xsHMBhu-HBO689hp5xS_giJQbsCbjHTv9jcp9-q63SKhZpb3DhMXSOIiE5ZkoNpnYZGXynh6U-4jBK7JnVfBYJo9QvgjtEya1cj8QwFq0TMz4lZqxTBg0hOF5m1jifI2Lf7Bc490CyxUu1rhc4GLGPOEdhg6Mjq92V44xxanFDhWv4lRjA6MlxZWbIh17DYTf2pAPvGrADphwGMmfbq7mFYURX-jLwCVA91bWg8YYunO69Y8vMgPFI2vvGnOZ-2Owsd0S9UOVpvP29mKoHc_b2nfpYHQLgdrrsUzLvDxALrHcS9hJqeuzOB6avBCN3mciBz5N0y_wxZ0J">live editor</a>]
 

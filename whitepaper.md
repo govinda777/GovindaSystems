@@ -20,6 +20,14 @@ O token Govinda Systems (GSTG) é usado para acessar os serviços e os detentore
 
 GOVs são adquiridos para execução de serviços. Ao adquirir GOV Coins o cliente ganha 30% de cash back.
 
+* Token de Pagamento : GOV_PAG
+
+A Govinda Pagamento Coin funciona como um Token de pagamento.
+
+Você pode trocar por outras cripto moedas pelo site:
+
+https://uniswap.org/
+
 ## **Missão:**
 
 Nossa missão é impulsionar a
@@ -27,6 +35,14 @@ inovação e transformar negócios por meio da aplicação de tecnologias emerge
 metodologias ágeis.
 
 A missão da Govinda Systems DAO é ser um modelo de negócio auto sustentável e autonomo, onde é eficiente em prestar serviços de desenvolvimento de sistemas Web3 e impulcionar as vendas dos clientes. 
+
+## **Propósito:**
+
+A Govinda Systems DAO tem como propósito fornecer soluções financeiras descentralizadas, baseadas em tecnologia blockchain, para indivíduos e empresas. 
+
+Temos também como propósito prestar consultoria de Agilidade e Fluxo dos processos, adoramos responder a pergunta, o que devo fazer para deixar a minha empresa mais Ágil.
+
+Através de nossos produtos e serviços, estamos comprometidos em fornecer acesso seguro a ferramentas financeiras descentralizadas, oferecendo mais controle, transparência e privacidade aos nossos usuários.
 
 ## O nosso diferencial
 
@@ -37,14 +53,6 @@ Somos uma empresa desentralizada e autonoma, **focada nos seguintes pilares**:
 * Consultoria de Agilidade / Automação de processos **+**
 * Tecnologias Web3 (**Defi** / **DApp** / **Tokenização**) **+**
 * Marketing Digital
-
-## **Propósito:**
-
-A Govinda Systems DAO tem como propósito fornecer soluções financeiras descentralizadas, baseadas em tecnologia blockchain, para indivíduos e empresas. 
-
-Temos também como propósito prestar consultoria de Agilidade e Fluxo dos processos, adoramos responder a pergunta, o que devo fazer para deixar a minha empresa mais Ágil.
-
-Através de nossos produtos e serviços, estamos comprometidos em fornecer acesso seguro a ferramentas financeiras descentralizadas, oferecendo mais controle, transparência e privacidade aos nossos usuários.
 
 ## **Transparência:** 
 
@@ -80,29 +88,6 @@ Estamos comprometidos em ser uma organização transparente em todos os aspectos
 
 * **Segurança de blockchain:** a Govinda Systems DAO trabalha com as tecnologias mais recentes em segurança blockchain para garantir que seus clientes possam operar com segurança em ambientes descentralizados.
 
-### E-Commerce - Marketplace
-
-* Montagem de lojas virtuais completas e personalizadas.
-* Cadastro de produtos e segmentação por categoria.
-* Implementação de sistema de pagamento.
-* Configuração do workflow de faturamento.
-* Controle de estoque e avaliação de produtos.
-* Implementação de sistema de SAC (atendimento ao cliente).
-* Dashboard BI para monitoramento das vendas e estoque.
-* Integração com SEO para melhorar o posicionamento nos mecanismos de busca.
-* Suporte acessível e online.
-* Escalabilidade para atender o crescimento do negócio.
-
-### Desenvolvimento em IOT
-
-Utilizando o nosso Frame Work ganhamos agilidade ao registrar/gerencia um dispositivo IOT e coletar dados ou executar ações.
-
-#### Sergiços
-
-* Automação industrial para monitoramento e telemetria do processo de fabricação.
-
-Utilizamos as tecnologias AWS IOT, Esp8266, MQTT Protocol, Blockchain, Next.js
-
 ### Marketing digital
 
 #### Criação de Sites institucionais e Hot Sites
@@ -120,10 +105,39 @@ Utilizamos as tecnologias AWS IOT, Esp8266, MQTT Protocol, Blockchain, Next.js
 * Gerenciamento de campanhas de tráfego pago no Google Ads, Facebook Ads e outras plataformas.
 * Otimização de campanhas para aumentar o tráfego e conversão de vendas.
 
-#### Gestão de produtos
+### Gestão de tráfego
+* Gerenciamento de campanhas de tráfego pago no Google Ads, Facebook Ads e outras plataformas.
+* Otimização de campanhas para aumentar o tráfego e conversão de vendas.
+
+### Gestão de produtos
 * Análise de boas práticas para produtos online.
 * Análise de portfólio de produtos.
 * Criação de novos produtos e serviços.
+
+## Prato do dia !
+
+### E-Commerce - Marketplace
+
+* Montagem de lojas virtuais completas e personalizadas.
+* Cadastro de produtos e segmentação por categoria.
+* Implementação de sistema de pagamento.
+* Configuração do workflow de faturamento.
+* Controle de estoque e avaliação de produtos.
+* Implementação de sistema de SAC (atendimento ao cliente).
+* Dashboard BI para monitoramento das vendas e estoque.
+* Integração com SEO para melhorar o posicionamento nos mecanismos de busca.
+* Suporte acessível e online.
+* Escalabilidade para atender o crescimento do negócio.
+
+### Automação e Telemetria com IOT
+
+Utilizando o nosso Frame Work ganhamos agilidade ao registrar/gerencia um dispositivo IOT e coletar dados ou executar ações.
+
+#### Sergiços
+
+* Automação industrial para monitoramento e telemetria do processo de fabricação.
+
+Utilizamos as tecnologias AWS IOT, Esp8266, MQTT Protocol, Blockchain, Next.js
 
 ### Jurídico
 * Criação de smart contracts para automação de contratos e garantias.
@@ -139,34 +153,6 @@ Utilizamos as tecnologias AWS IOT, Esp8266, MQTT Protocol, Blockchain, Next.js
 * Treinamentos técnicos em desenvolvimento de produtos Web3
 * Treinamentos em gestão de risco e governança
 * Treinamentos em marketing e comunicação para empresas Web3
-
-## Pilar Marketing / Marketing digital
-
-### Criação de Sites institucionais e Hot Sites
-* Desenvolvimento de sites institucionais e hot sites para promover produtos e serviços online.
-* Criação de layouts personalizados e responsivos para diferentes dispositivos.
-* Desenvolvimento de landing pages para campanhas de marketing.
-
-### Gestão de mídias sociais
-* Análise de boas práticas de redes sociais.
-* Criação de posts para as redes sociais.
-* Criação de loja virtual no Instagram / Google Shopping / etc.
-* Criação de campanhas de anúncios pagos nas redes sociais.
-* Análise de métricas para otimização de campanhas.
-
-### Gestão de tráfego
-* Gerenciamento de campanhas de tráfego pago no Google Ads, Facebook Ads e outras plataformas.
-* Otimização de campanhas para aumentar o tráfego e conversão de vendas.
-
-### Gestão de produtos
-* Análise de boas práticas para produtos online.
-* Análise de portfólio de produtos.
-* Criação de novos produtos e serviços.
-
-### Sistemas financeiros
-
-* Desenvolvimento e implantação de sistemas financeiros.
-* Utilização de Derivativos e DeFi para investimentos em criptomoedas e outras moedas digitais.
 
 ### CRM
 
