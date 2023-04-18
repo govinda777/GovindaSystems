@@ -20,13 +20,14 @@ Processo de cash back.
 sequenceDiagram
 actor Client
 Client->>Govinda_Systems: Realiza o pagamento (PIX)
-Govinda_Systems->> Jornada_Pagamento : Cadastro de usuário / Promoção / Cashback
+Govinda_Systems->> Tela_Checkout : Cadastro de usuário / Promoção / Cashback
 loop Validacao
-    Jornada_Pagamento->>Jornada_Pagamento: Verifica se o pagamento foi creditado.
+    Tela_Checkout->>Tela_Checkout: Verifica se o pagamento foi creditado.
 end
-Note right of Jornada_Pagamento: Integração Chainlink Oracles
-Jornada_Pagamento->> Tela_Confirmacao_Pagamento : Credita os tokens na carteira do cliente
+Note right of Tela_Checkout: Integração Chainlink Oracles
+Tela_Checkout->> Tela_Confirmacao_Pagamento : Credita os tokens na carteira do cliente
 Tela_Confirmacao_Pagamento-->> Client: Envio de comprovante de pagamento
+Tela_Confirmacao_Pagamento-->> Dework: Cria um CARD com a demanda no kanban
 ```
 
 
