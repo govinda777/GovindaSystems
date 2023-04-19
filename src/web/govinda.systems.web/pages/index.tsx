@@ -17,19 +17,19 @@ export default function Home() {
 
         <h3 className="mt-4">Nossos serviços</h3>
         <ul>
-          <li>Desenvolvimento de software personalizado</li>
-          <li>Aplicações móveis e web</li>
-          <li>Soluções em blockchain e criptomoedas</li>
-          <li>Consultoria e treinamento em tecnologia</li>
+          <li>* Desenvolvimento de software personalizado</li>
+          <li>* Aplicações móveis e web</li>
+          <li>* Soluções em blockchain e criptomoedas</li>
+          <li>* Consultoria e treinamento em tecnologia</li>
         </ul>
 
         <h3 className="mt-4">Por que escolher a Govinda Systems DAO?</h3>
         <p>Nós nos orgulhamos de oferecer:</p>
         <ul>
-          <li>Atendimento personalizado e adaptado às suas necessidades</li>
-          <li>Soluções inovadoras e de alta qualidade</li>
-          <li>Transparência e comunicação eficiente</li>
-          <li>Uso de tecnologias emergentes, como blockchain e criptomoedas</li>
+          <li>* Atendimento personalizado e adaptado às suas necessidades</li>
+          <li>* Soluções inovadoras e de alta qualidade</li>
+          <li>* Transparência e comunicação eficiente</li>
+          <li>* Uso de tecnologias emergentes, como blockchain e criptomoedas</li>
         </ul>
 
         <h3 className="mt-4">Pagamentos em GOV_COINS</h3>
