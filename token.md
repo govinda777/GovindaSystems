@@ -14,6 +14,28 @@ Aprenda como nossos tokens funcionam.
 Processo de cash back.
 <p>
 
+## GOV Coins
+
+### Definição
+As GOV Coins são tokens de serviço da Govinda Systems DAO, utilizadas para a contratação e execução de serviços oferecidos pela organização. Com a aquisição das GOV Coins, os clientes podem ter acesso a diversos produtos e serviços, como desenvolvimento de sistemas Web3, consultoria em marketing digital, gestão de mídias sociais e campanhas de anúncios pagos. Além disso, ao adquirir GOV Coins, o cliente ganha 30% de cashback, o que aumenta o incentivo para utilizar os tokens na plataforma.
+
+### Como adquirir GOV Coins
+Para adquirir GOV Coins, siga os passos abaixo:
+
+**Crie uma carteira compatível com tokens ERC-20**: Primeiramente, é necessário ter uma carteira digital que suporte tokens baseados no padrão ERC-20. Algumas opções populares incluem MetaMask, Trust Wallet e MyEtherWallet.
+
+**Compre Ethereum (ETH)**: Como as GOV Coins são tokens ERC-20, você precisará adquirir Ethereum (ETH) para realizar a troca. Compre ETH em uma corretora de criptomoedas de sua preferência e transfira os fundos para a sua carteira.
+
+**Acesse uma plataforma de troca descentralizada**: Conecte sua carteira à uma plataforma de troca descentralizada, como o Uniswap. Verifique se a plataforma suporta a negociação de GOV Coins.
+
+**Troque ETH por GOV Coins**: No Uniswap, selecione a opção de trocar Ethereum (ETH) por GOV Coins. Certifique-se de inserir o endereço do contrato inteligente das GOV Coins para evitar a perda de fundos. Defina a quantidade de ETH que deseja trocar e confirme a transação.
+
+**Confirme a transação**: Sua carteira solicitará a confirmação da transação. Verifique os detalhes da troca e confirme a operação. Aguarde a conclusão da transação, que pode levar alguns minutos, dependendo da congestão da rede Ethereum.
+
+**Verifique o saldo de GOV Coins**: Após a conclusão da transação, verifique o saldo de GOV Coins em sua carteira. Agora você está pronto para utilizar seus tokens na contratação de serviços da Govinda Systems DAO.
+
+Lembre-se de sempre armazenar seus tokens de maneira segura e manter a chave privada de sua carteira em local seguro e confidencial.
+
 ## Token 
 
 ```mermaid
