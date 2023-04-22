@@ -37,7 +37,7 @@ A Govinda Systems DAO aceita pagamentos em GOV_COINS, uma criptomoeda inovadora 
 
 Estamos ansiosos para ouvir suas necessidades e trabalhar juntos para criar soluções tecnológicas que impulsionem seu sucesso. Entre em contato conosco hoje para saber mais sobre nossos serviços e como podemos ajudá-lo a alcançar seus objetivos.
 
-**Email:** contato@govindasystems.dao
+**Email:** contato@govindasystems.com
 
 ## 📜 Licença
 
