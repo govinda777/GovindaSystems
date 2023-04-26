@@ -1,1 +1,0 @@
-# README.compliance.smart-contract.py

@@ -1,1 +1,0 @@
-# README.payment.smart-contract.py
