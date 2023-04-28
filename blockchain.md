@@ -1,3 +1,6 @@
+# Blockchain
+
+A blockchain é uma tecnologia de registro distribuído que permite armazenar e gerenciar informações de forma descentralizada, transparente e segura. Os dados são armazenados em blocos interligados criptograficamente, garantindo a imutabilidade e a rastreabilidade das informações. A blockchain é mais conhecida por seu uso em criptomoedas como o Bitcoin, mas seu potencial se estende a outras áreas, como sistemas de votação, gerenciamento de identidades e registro de propriedade. Essa tecnologia promove confiança entre os participantes, eliminando a necessidade de intermediários, aumentando a eficiência e reduzindo custos.
 
 
 ## Endereço ou chave pública
