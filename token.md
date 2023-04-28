@@ -16,7 +16,6 @@ Processo de cash back.
 
 ## GOV Coins
 
-### Definição
 As **GOV Coins** podem ser utilizadas para a contratação de uma variedade de produtos e serviços oferecidos pela Govinda Systems DAO. Esses serviços incluem:
 
 1. **Desenvolvimento de software personalizado**: A equipe da Govinda Systems pode criar soluções de software sob medida para atender às necessidades específicas dos clientes, seja para uma startup ou uma empresa estabelecida.
