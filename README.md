@@ -15,8 +15,9 @@ A Govinda Systems DAO é uma organização descentralizada autônoma que oferece
 
 - Desenvolvimento de software personalizado
 - Aplicações móveis e web
-- Soluções em blockchain e criptomoedas
+- Soluções em blockchain e criptomoedas (Dapp, Web3, Defi)
 - Consultoria e treinamento em tecnologia
+- Soluções e Consultoria em marketing digital
 
 ## 🏆 Por que escolher a Govinda Systems DAO?
 
