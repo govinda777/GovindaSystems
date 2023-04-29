@@ -47,6 +47,30 @@ Contrato inteligente das GOV Coins : http://govindasystems
 
 **Verifique o saldo de GOV Coins**: Após a conclusão da transação, verifique o saldo de GOV Coins em sua carteira. Agora você está pronto para utilizar seus tokens na contratação de serviços da Govinda Systems DAO.
 
+
+> Veja no diagrama abaixo como funciona o processo de compra de GOV COINS.
+
+```mermaid
+sequenceDiagram
+    participant Cliente
+    participant Corretora
+    participant Carteira
+    participant Plataforma_Troca
+    participant Govinda_Systems
+
+    Cliente->>Corretora: Comprar Ethereum (ETH)
+    Corretora->>Cliente: Enviar ETH para a carteira do cliente
+    Cliente->>Carteira: Conectar a carteira à plataforma de troca
+    Carteira->>Plataforma_Troca: Acessar a plataforma de troca (ex: Uniswap)
+    Plataforma_Troca->>Cliente: Selecionar troca de ETH por GOV_COINS
+    Cliente->>Plataforma_Troca: Inserir endereço do contrato inteligente das GOV_COINS
+    Cliente->>Plataforma_Troca: Definir quantidade de ETH e confirmar transação
+    Plataforma_Troca->>Govinda_Systems: Enviar ETH
+    Govinda_Systems->>Plataforma_Troca: Enviar GOV_COINS
+    Plataforma_Troca->>Carteira: Creditar GOV_COINS na carteira do cliente
+    Carteira->>Cliente: Confirmar saldo das GOV_COINS
+```
+
 Lembre-se de sempre armazenar seus tokens de maneira segura e manter a chave privada de sua carteira em local seguro e confidencial.
 
 ## Token 
