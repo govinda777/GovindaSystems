@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
 import { ThirdwebWeb3Provider } from '@3rdweb/hooks'
 

@@ -24,7 +24,7 @@ const Header = () => {
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={logo} height={40} width={40} />
-          <div className={style.logoText}>Boulder</div>
+          <div className={style.logoText}>Govinda Systems DAO</div>
         </div>
       </Link>
       <div className={style.searchBar}>
@@ -38,7 +38,7 @@ const Header = () => {
       </div>
       <div className={style.headerItems}>
         <Link href="/collections/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
-          <div className={style.headerItem}> Collections </div>
+          <div className={style.headerItem}> Loja </div>
         </Link>
         <div className={style.headerItem}> Stats </div>
         <div className={style.headerItem}> Resources </div>
