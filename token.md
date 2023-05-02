@@ -14,6 +14,26 @@ Aprenda como nossos tokens funcionam.
 Processo de cash back.
 <p>
 
+## Nossos Tokens
+
+* Token de Governança : GSTG
+
+Govinda SysTems Governance:
+
+O token Govinda Systems (GSTG) é usado para acessar os serviços e os detentores de GST têm direitos de voto dentro da DAO. A organização valoriza soluções inovadoras, abordagem personalizada, transparência, segurança e colaboração da comunidade. Entre os produtos oferecidos estão a criação de sites institucionais, gestão de mídias sociais e campanhas de anúncios pagos nas redes sociais.
+
+* Token de Pagamento : GOV_PAG
+
+A Govinda Pagamento Coin funciona como um Token de pagamento.
+
+Você pode trocar por outras cripto moedas pelo site:
+
+https://uniswap.org/
+
+* Token de Serviço : GOV
+
+GOVs são adquiridos para execução de serviços. Ao adquirir GOV Coins o cliente ganha 30% de cash back.
+
 ## GOV Coins
 
 As **GOV Coins** podem ser utilizadas para a contratação de uma variedade de produtos e serviços oferecidos pela Govinda Systems DAO. Esses serviços incluem:

@@ -1,3 +1,6 @@
+# DAO (Organização Autônoma Descentralizada)
+
+Uma DAO (Organização Autônoma Descentralizada) é um tipo de organização que opera e toma decisões por meio de regras programadas em um código de computador, em vez de ser controlada por uma estrutura hierárquica tradicional. Essas regras são executadas em uma rede descentralizada chamada blockchain, que permite maior transparência, autonomia e segurança. Em uma DAO, os membros podem votar em decisões importantes e contribuir para o funcionamento da organização sem a necessidade de um líder central.
 
 ## Entendendo uma organização desentralizada. DAO
 

@@ -95,7 +95,8 @@ const Collection = () => {
       createdBy,
       contractAddress,
       "creator": createdBy->userName,
-      title, floorPrice,
+      title, 
+      floorPrice,
       "allOwners": owners[]->,
       description
     }`

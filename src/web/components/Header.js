@@ -21,6 +21,11 @@ const style = {
 const Header = () => {
   return (
     <div className={style.wrapper}>
+      Nossos serviços
+      Por que escolher a Govinda Systems DAO?
+      Pagamentos em GOV_COINS
+      Área Logada
+      Gov Coin /
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={logo} height={40} width={40} />
@@ -42,7 +47,9 @@ const Header = () => {
         </Link>
         <div className={style.headerItem}> Stats </div>
         <div className={style.headerItem}> Resources </div>
-        <div className={style.headerItem}> Create </div>
+        <Link href="/tokens/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
+          <div className={style.headerItem}> Gov Coins </div>
+        </Link>
         <div className={style.headerIcon}>
           <CgProfile />
         </div>
