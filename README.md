@@ -4,7 +4,7 @@
 
 Simplificando a Tecnologia para Todos
 
-Site : https://govinda-systems-web-GovindaSystems.vercel.app
+Site : https://govinda-systems-web.vercel.app/
 
 
 ## 🌟 Bem-vindo à Govinda Systems DAO
