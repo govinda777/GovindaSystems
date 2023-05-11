@@ -13,13 +13,13 @@ Escrever um whitepaper que descreva a visão, missão, objetivos e funcionamento
 
 Identificar a necessidade que a DAO irá atender, como resolver problemas específicos em um setor, criar um novo modelo de negócio ou promover a descentralização em uma indústria.
 
-## Escolher o tipo de DAO
+## Escolher o tipo de DAO - [x]
 
 * DAO autônoma
 * DAO de propósito específico
 * DAO de governança
 
-## Escolher o tipo de blockchain
+## Escolher o tipo de blockchain - [x]
 
 * Ethereum
 * Binance Smart Chain
@@ -42,7 +42,7 @@ Desenvolver smart contracts para implementar as regras da DAO, incluindo a distr
 * Identificar o papel e responsabilidades dos membros
 * Identificar a estrutura de tomada de decisão
 
-## Criar a governança da DAO
+## Criar a governança da DAO - [x]
 
 * Estabelecer processos para tomada de decisão
 * Estabelecer um sistema de votação

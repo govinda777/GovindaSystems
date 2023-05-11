@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/logo.png'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
@@ -21,11 +21,6 @@ const style = {
 const Header = () => {
   return (
     <div className={style.wrapper}>
-      Nossos serviços
-      Por que escolher a Govinda Systems DAO?
-      Pagamentos em GOV_COINS
-      Área Logada
-      Gov Coin /
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={logo} height={40} width={40} />
@@ -42,6 +37,8 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
+        <div className={style.headerItem}> Nossos serviços </div>
+        <div className={style.headerItem}> Token </div>
         <Link href="/collections/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
           <div className={style.headerItem}> Loja </div>
         </Link>

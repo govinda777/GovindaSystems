@@ -1,4 +1,5 @@
 import React from 'react'
+import hero from '../assets/hero.png'
 
 const style = {
   wrapper: `relative`,
@@ -20,6 +21,8 @@ const style = {
 const Hero = () => {
   return (
     <div className={style.wrapper}>
+
+      <Image src={hero} height={40} width={40} />
 
     <div>
       <header className="bg-primary text-white text-center py-5">
