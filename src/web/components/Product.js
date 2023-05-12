@@ -1,5 +1,3 @@
-
-import Bubble from './Bubble'
 import desenvolvimento from '../assets/desenvolvimento.png'
 import mobileWeb from '../assets/mobile_web.png'
 import consultoria from '../assets/consultoria.png'
