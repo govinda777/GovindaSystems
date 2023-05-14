@@ -1,12 +1,6 @@
 # Community
 
-html : 12 people working to untangle a thread, using a consistent color palette, typography and art
-
-css : by Pablo Picasso and Takashi Murakami, Blur Effect, Tetrachromacy, Curve
-
-url : https://cdn.midjourney.com/90eeee11-7f83-43a2-a55b-dba9b4a81153/0_2.png
-
-/imagine prompt: https://cdn.midjourney.com/90eeee11-7f83-43a2-a55b-dba9b4a81153/0_2.png 12 people working to untangle a thread, using a consistent color palette, typography and art, by Pablo Picasso and Takashi Murakami, Blur Effect, Tetrachromacy, Curve
+<img src="./imgs/community.png" height="50%" width="50%" alt="Unform" />
 
 ---
 
@@ -64,3 +58,14 @@ Então, o que você está esperando, marinheiro? Junte-se a nós na Govinda Syst
 ---
 
 Ahoy, e bem-vindo à bordo! ⚓
+
+
+---
+
+html : 12 people working to untangle a thread, using a consistent color palette, typography and art
+
+css : by Pablo Picasso and Takashi Murakami, Blur Effect, Tetrachromacy, Curve
+
+url : https://cdn.midjourney.com/90eeee11-7f83-43a2-a55b-dba9b4a81153/0_2.png
+
+/imagine prompt: https://cdn.midjourney.com/90eeee11-7f83-43a2-a55b-dba9b4a81153/0_2.png 12 people working to untangle a thread, using a consistent color palette, typography and art, by Pablo Picasso and Takashi Murakami, Blur Effect, Tetrachromacy, Curve
