@@ -1,6 +1,6 @@
 # Community
 
-<img src="./imgs/community.png" height="50%" width="50%" alt="Unform" />
+<img src="./imgs/community.png" height="20%" width="20%" alt="Unform" />
 
 ---
 
