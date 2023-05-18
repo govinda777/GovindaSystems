@@ -31,6 +31,15 @@ section {
   padding-top: 50px;
 }
 
+.differential .card-title {
+  font-size: 2.00rem;
+}
+
+.differential h2 {
+  font-size: 2.50rem;
+  padding-bottom: 100px;
+}
+
 .bubble {
   text-align: center!important;
 }
