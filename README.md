@@ -36,7 +36,7 @@ Nós nos orgulhamos de oferecer:
 
 A Govinda Systems DAO aceita pagamentos em GOV_COINS, uma criptomoeda inovadora que facilita transações rápidas e seguras. Isso permite maior flexibilidade e conveniência para nossos clientes.
 
-[veja+](veja+)
+[veja+](token.md)
 
 ## 📧 Entre em contato conosco
 

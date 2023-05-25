@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Product from '../components/Product'
 import Differential from '../components/Differential'
+import Token from '../components/Token'
 import { useWeb3 } from '@3rdweb/hooks'
 import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
@@ -55,6 +56,7 @@ export default function Home() {
         <Hero />
         <Product />
         <Differential />
+        <Token />
       </>
     ) : (
       <div className={style.walletConnectWrapper}>
