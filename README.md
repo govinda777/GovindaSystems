@@ -84,15 +84,19 @@ A Govinda Systems DAO é uma organização descentralizada autônoma que oferece
     - Criado a nossa Home page com o ChatGPT
     - Fazendo o ChatGPT criar um script de testes E2E do nosso Dapp
 
-
-
 * Consulting : https://govindasystems.com/consulting
 
-* **Consultoria e treinamento em tecnologia**: A Govinda Systems oferece serviços de consultoria e treinamento em várias áreas de tecnologia, ajudando as empresas a se manterem atualizadas com as tendências e práticas mais recentes do setor.
+### **Consultoria e treinamento em tecnologia**: 
 
-* **Soluções e Consultoria em marketing digital**: A Govinda Systems também possui experiência em marketing digital, oferecendo estratégias e soluções que ajudam as empresas a melhorar sua presença online, aumentar o engajamento dos clientes e gerar mais vendas.
+A Govinda Systems oferece serviços de consultoria e treinamento em várias áreas de tecnologia, ajudando as empresas a se manterem atualizadas com as tendências e práticas mais recentes do setor.
 
-* **Consultoria em AI para Desenvolvimento de Novos Serviços e Produtos**: Você está procurando impulsionar a inovação em sua empresa? Deseja criar novos serviços e produtos que se destaquem no mercado? Nós temos a solução perfeita para você!
+### **Soluções e Consultoria em marketing digital**: 
+
+A Govinda Systems também possui experiência em marketing digital, oferecendo estratégias e soluções que ajudam as empresas a melhorar sua presença online, aumentar o engajamento dos clientes e gerar mais vendas.
+
+### **Consultoria em AI para Desenvolvimento de Novos Serviços e Produtos**: 
+
+Você está procurando impulsionar a inovação em sua empresa? Deseja criar novos serviços e produtos que se destaquem no mercado? Nós temos a solução perfeita para você!
 
 
 Nossa consultoria se baseia no uso de tecnologias de ponta, incluindo ChatGPT e Midjourney, duas das principais ferramentas de AI disponíveis atualmente. Com essas poderosas ferramentas, podemos ajudar sua empresa a criar conteúdo envolvente, analisar custos, identificar oportunidades de mercado e muito mais. Através da aplicação inteligente da AI, você poderá impulsionar a inovação, aumentar a eficiência e melhorar a experiência do cliente.
