@@ -37,15 +37,17 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <div className={style.headerItem}> Nossos serviços </div>
-        <div className={style.headerItem}> Token </div>
+        <div className={style.headerItem}>
+          <a href="#servicos">Serviços</a>
+        </div>
+        <div className={style.headerItem}>
+          <a href="#footer">Contato</a>
+        </div>
         <Link href="/collections/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
           <div className={style.headerItem}> Loja </div>
         </Link>
-        <div className={style.headerItem}> Stats </div>
-        <div className={style.headerItem}> Resources </div>
         <Link href="/tokens/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
-          <div className={style.headerItem}> Gov Coins </div>
+          <div className={style.headerItem}> Tokens </div>
         </Link>
         <div className={style.headerIcon}>
           <CgProfile />

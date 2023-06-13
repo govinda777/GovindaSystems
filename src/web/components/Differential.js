@@ -5,7 +5,7 @@ const Differential = () => {
   return (
     <section className="differential">
       <Container>
-        <Row className="justify-content-md-center">
+        <Row>
           <Col md="auto">
             <h2>Por que escolher a Govinda Systems DAO?</h2>
           </Col>

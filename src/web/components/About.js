@@ -8,7 +8,7 @@ const About = () => {
       <Container>
         <Row>
           <Col>
-            <h2>About Us</h2>
+            <h2>Sobre nós</h2>
             <p>
             A Govinda Systems DAO é uma organização descentralizada autônoma (DAO) especializada em fornecer soluções tecnológicas e consultorias para empresas. Nossa missão é impulsionar a inovação e transformar negócios por meio da aplicação de tecnologias emergentes e metodologias ágeis. Nosso propósito é ajudar nossos clientes a se adaptarem às rápidas mudanças do mercado, otimizando seus processos e alcançando melhores resultados.
             </p>

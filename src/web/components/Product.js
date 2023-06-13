@@ -45,11 +45,11 @@ const Product = () => {
   };
 
   return (
-    <section className="token">
+    <section id="servicos">
       <Container>
-        <Row className="justify-content-md-center">
+        <Row>
           <Col md="auto">
-            <h2>Produtos & Serviços</h2>
+            <h2>Serviços</h2>
           </Col>
         </Row>
         <Row>

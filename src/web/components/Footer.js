@@ -4,7 +4,7 @@ import { FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <Container>
         <Row>
           <Col md={6}>

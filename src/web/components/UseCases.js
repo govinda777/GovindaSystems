@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Carousel from 'react-bootstrap/Carousel';
 
 const useCases = [
   {
@@ -38,15 +40,33 @@ const UseCases = () => {
           <Col>
             <h2>Casos de Uso</h2>
             <p>
-              A Govinda Systems DAO oferece soluções inovadoras que podem ser aplicadas em diversos cenários para ajudar empresas a impulsionar seu crescimento e alcançar o sucesso. Veja alguns exemplos de como nossos serviços podem ser aplicados:
+              A Govinda Systems DAO oferece soluções inovadoras que podem ser aplicadas em diversos cenários para ajudar empresas a impulsionar seu crescimento e alcançar o sucesso.
             </p>
-            <ul>
-              {useCases.map((useCase, index) => (
-                <li key={index}>
-                  <strong>{useCase.title}:</strong> {useCase.description}
-                </li>
+            <Carousel>
+              {useCases.reduce((chunks, item, index) => {
+                const chunkIndex = Math.floor(index / 3);
+                if (!chunks[chunkIndex]) {
+                  chunks[chunkIndex] = [];
+                }
+                chunks[chunkIndex].push(item);
+                return chunks;
+              }, []).map((chunk, chunkIndex) => (
+                <Carousel.Item key={chunkIndex}>
+                  <Row>
+                    {chunk.map((useCase, index) => (
+                      <Col key={index} sm={4}>
+                        <Card>
+                          <Card.Body>
+                            <Card.Title>{useCase.title}</Card.Title>
+                            <Card.Text>{useCase.description}</Card.Text>
+                          </Card.Body>
+                        </Card>
+                      </Col>
+                    ))}
+                  </Row>
+                </Carousel.Item>
               ))}
-            </ul>
+            </Carousel>
             <p>
               Esses são apenas alguns exemplos de como a Govinda Systems DAO pode ajudar sua empresa a aproveitar todo o potencial da tecnologia blockchain. Entre em contato conosco para discutir suas necessidades específicas e descobrir como podemos impulsionar sua transformação digital.
             </p>
@@ -57,4 +77,4 @@ const UseCases = () => {
   );
 };
 
-export default UseCases;
+export default UseCases

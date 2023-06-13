@@ -48,6 +48,10 @@ h2 {
   text-align: center!important;
 }
 
+.use-cases .card {
+  padding: 20px;
+}
+
 footer {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -58,17 +62,20 @@ footer {
   border-top: 1px solid #ccc;
   margin-top: 20px;
 }
+
 .social-media {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
+
 .social-media a {
   margin-right: 10px;
   color: #333;
   font-size: 20px;
   transition: color 0.3s ease;
 }
+
 .social-media a:hover {
   color: #007bff;
 }
