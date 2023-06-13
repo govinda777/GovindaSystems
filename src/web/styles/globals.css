@@ -37,7 +37,7 @@ section {
 
 h2 {
   font-size: 2.50rem;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .bubble {
@@ -46,4 +46,29 @@ h2 {
 
 .bubble img{
   text-align: center!important;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.social-media a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+.social-media a:hover {
+  color: #007bff;
 }
