@@ -24,7 +24,6 @@ const Footer = () => {
           <Col md={6}>
             <h5>Links Úteis</h5>
             <ul>
-              <li><a href="/">Página Inicial</a></li>
               <li><a href="/about">Sobre Nós</a></li>
               <li><a href="/services">Serviços</a></li>
               <li><a href="/contact">Contato</a></li>

@@ -13,23 +13,18 @@ import solucoes from '../assets/solucoes.png'
 const services = [
   {
     title: "Desenvolvimento de software personalizado",
-    description: "Soluções de software sob medida para atender às necessidades específicas dos clientes, seja para uma startup ou uma empresa estabelecida.",
+    description: "Soluções de software sob medida, aplicações móveis e web, e soluções em blockchain e criptomoedas (Dapp, Web3, Defi).",
     imageUrl: desenvolvimento,
-  },
-  {
-    title: "Aplicações móveis e web",
-    description: "Desenvolvimento de aplicativos móveis e web eficientes e atraentes, que podem ajudar as empresas a expandir sua presença online e atrair novos clientes.",
-    imageUrl: mobileWeb,
-  },
-  {
-    title: "Soluções em blockchain e criptomoedas (Dapp, Web3, Defi)",
-    description: "Conhecimentos avançados no desenvolvimento de soluções baseadas em blockchain, como aplicativos descentralizados (Dapps), projetos Web3 e finanças descentralizadas (DeFi).",
-    imageUrl: solucoes,
   },
   {
     title: "Consultoria e treinamento em tecnologia",
     description: "Serviços de consultoria e treinamento em várias áreas de tecnologia, ajudando as empresas a se manterem atualizadas com as tendências e práticas mais recentes do setor.",
     imageUrl: consultoria,
+  },
+  {
+    title: "Automação de processos",
+    description: "Ajudamos as empresas a otimizar suas operações, melhorar a eficiência e reduzir custos.",
+    imageUrl: solucoes,
   },
   {
     title: "Soluções e Consultoria em marketing digital",
