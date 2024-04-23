@@ -1,4 +1,4 @@
-# Govinda Systems DAO | Web UI Documentation
+# Govinda Systems DAO | Web UI Documentation 
 
 Welcome to the Govinda Systems DAO Web UI, a user interface built with [Next.js](https://nextjs.org/) for interacting with the Govinda Systems DAO platform.
 
