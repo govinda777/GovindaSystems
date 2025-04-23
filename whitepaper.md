@@ -1,5 +1,3 @@
-
-
 # Govinda Systems DAO (whitepaper)
 
 A Govinda Systems DAO é uma comunidade descentralizada e autônoma formada por inovadores, desenvolvedores e especialistas unidos por propósitos comuns. Nossa comunidade colabora para criar soluções tecnológicas que transformam o ecossistema Web3, aplicando tecnologias emergentes e metodologias ágeis. Juntos, trabalhamos para adaptar projetos às rápidas mudanças do mercado, otimizando processos e alcançando resultados inovadores através da inteligência coletiva.

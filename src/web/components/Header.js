@@ -37,18 +37,26 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <div className={style.headerItem}>
-          <a href="#servicos">Serviços</a>
-        </div>
-        <div className={style.headerItem}>
-          <a href="#footer">Contato</a>
-        </div>
-        <Link href="/collections/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
-          <div className={style.headerItem}> Loja </div>
+        <Link href="/services">
+          <div className={style.headerItem}>Soluções</div>
         </Link>
-        <Link href="/tokens/0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070">
-          <div className={style.headerItem}> Tokens </div>
+        <Link href="/token-ecosystem">
+          <div className={style.headerItem}>Tokens</div>
         </Link>
+        <Link href="/governance">
+          <div className={style.headerItem}>Governança</div>
+        </Link>
+        <Link href="/join">
+          <div className={style.headerItem}>Comunidade</div>
+        </Link>
+        <a 
+          href="https://stackoverflowteams.com/c/govinda-systems-dao"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={style.headerItem}
+        >
+          Fórum
+        </a>
         <div className={style.headerIcon}>
           <CgProfile />
         </div>
