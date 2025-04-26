@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useWeb3 } from '@3rdweb/hooks'
+import { useAddress, useMetamask } from "@thirdweb-dev/react"
 
 const style = {
   container: 'bg-gray-800 p-6 rounded-lg shadow-lg mb-12',
@@ -16,7 +16,8 @@ const style = {
 }
 
 const ProposalSubmission = () => {
-  const { address, connectWallet } = useWeb3()
+  const address = useAddress()
+  const connectWithMetamask = useMetamask()
   const [formData, setFormData] = useState({
     title: '',
     category: 'desenvolvimento',
@@ -111,7 +112,7 @@ const ProposalSubmission = () => {
           <p className="mb-4">Conecte sua carteira MetaMask para enviar uma proposta.</p>
           <button 
             className={style.connectButton}
-            onClick={() => connectWallet('injected')}
+            onClick={() => connectWithMetamask()}
           >
             Conectar Carteira
           </button>

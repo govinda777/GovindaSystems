@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useWeb3 } from '@3rdweb/hooks'
+import { useAddress, useMetamask } from '@thirdweb-dev/react'
 
 const style = {
   container: 'bg-gray-800 p-6 rounded-lg shadow-lg mb-12',
@@ -105,7 +105,8 @@ const mockProposals = [
 ]
 
 const VotingSystem = () => {
-  const { address, connectWallet } = useWeb3()
+  const address = useAddress()
+  const connectWallet = useMetamask()
   const [proposals, setProposals] = useState(mockProposals)
   const [userVotes, setUserVotes] = useState({})
   const [filter, setFilter] = useState('all')
@@ -167,7 +168,7 @@ const VotingSystem = () => {
           <p className="mb-4">Conecte sua carteira MetaMask para participar das votações da comunidade.</p>
           <button 
             className={style.connectButton}
-            onClick={() => connectWallet('injected')}
+            onClick={connectWallet}
           >
             Conectar Carteira
           </button>

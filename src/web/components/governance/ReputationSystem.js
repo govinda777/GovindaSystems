@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useWeb3 } from '@3rdweb/hooks'
+import { useAddress, useConnectionStatus, useConnect } from '@thirdweb-dev/react'
 
 const style = {
   container: 'bg-gray-800 p-6 rounded-lg shadow-lg mb-12',
@@ -133,7 +133,9 @@ const mockLeaderboard = [
 ]
 
 const ReputationSystem = () => {
-  const { address, connectWallet } = useWeb3()
+  const address = useAddress()
+  const connectionStatus = useConnectionStatus()
+  const connect = useConnect()
   const [activeTab, setActiveTab] = useState('profile')
   const [userProfile, setUserProfile] = useState(mockUserProfile)
   const [leaderboard, setLeaderboard] = useState(mockLeaderboard)
@@ -165,7 +167,7 @@ const ReputationSystem = () => {
           </p>
           <button 
             className={style.connectButton}
-            onClick={() => connectWallet('injected')}
+            onClick={() => connect()}
           >
             Conectar Carteira
           </button>
