@@ -1,3 +1,5 @@
+// src/web/components/Governance.js
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -111,42 +113,83 @@ const Governance = () => {
 
         <Row className="mt-5">
           <Col className="text-center">
-            <div className="cta-box bg-light p-5 rounded shadow-sm">
-              <h3 className="h4 fw-bold mb-3">Quais as vantagens de participar de uma DAO?</h3>
-              <div className="row g-4 mt-2">
+            <div className="cta-box bg-gradient p-5 rounded-lg shadow" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)' }}>
+              <h3 className="h3 fw-bold mb-4 text-white">Quais as vantagens de participar de uma DAO?</h3>
+              <div className="row g-4 mt-3">
                 <div className="col-md-4">
-                  <div className="advantage-card p-3 bg-dark text-white rounded shadow-sm h-100">
-                    <div className="text-primary mb-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-graph-up" viewBox="0 0 16 16">
+                  <div className="advantage-card p-4 bg-dark text-white rounded-lg h-100 position-relative overflow-hidden transition-all hover-lift" 
+                       style={{ 
+                         boxShadow: '0 10px 30px rgba(0,0,0,0.15)', 
+                         transition: 'all 0.3s ease',
+                         border: '1px solid rgba(99, 102, 241, 0.1)',
+                         background: 'linear-gradient(160deg, #1e1e2d 0%, #2d2d3a 100%)'
+                       }}>
+                    <div className="position-absolute opacity-10" style={{ top: '-20px', right: '-20px', zIndex: '0' }}>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="currentColor" className="bi bi-graph-up text-primary opacity-10" viewBox="0 0 16 16">
                         <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
                       </svg>
                     </div>
-                    <h4 className="h6 fw-bold mb-2">Governança democrática</h4>
-                    <p className="small mb-0">Todos os membros têm a oportunidade de contribuir e votar em decisões importantes.</p>
+                    <div className="text-primary mb-3 position-relative" style={{ zIndex: '1' }}>
+                      <div className="icon-circle d-inline-flex align-items-center justify-content-center rounded-circle" style={{ width: '56px', height: '56px', background: 'rgba(99, 102, 241, 0.1)' }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-graph-up" viewBox="0 0 16 16">
+                          <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <h4 className="h5 fw-bold mb-3 position-relative" style={{ zIndex: '1' }}>Governança democrática</h4>
+                    <p className="mb-0 position-relative" style={{ zIndex: '1' }}>Todos os membros têm a oportunidade de contribuir e votar em decisões importantes.</p>
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="advantage-card p-3 bg-dark text-white rounded shadow-sm h-100">
-                    <div className="text-primary mb-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-shield-lock" viewBox="0 0 16 16">
+                  <div className="advantage-card p-4 bg-dark text-white rounded-lg h-100 position-relative overflow-hidden transition-all hover-lift" 
+                       style={{ 
+                         boxShadow: '0 10px 30px rgba(0,0,0,0.15)', 
+                         transition: 'all 0.3s ease',
+                         border: '1px solid rgba(99, 102, 241, 0.1)',
+                         background: 'linear-gradient(160deg, #1e1e2d 0%, #2d2d3a 100%)'
+                       }}>
+                    <div className="position-absolute opacity-10" style={{ top: '-20px', right: '-20px', zIndex: '0' }}>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="currentColor" className="bi bi-shield-lock text-primary opacity-10" viewBox="0 0 16 16">
                         <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
                         <path d="M8 5.5a2.5 2.5 0 0 1 2.5 2.5v.764c.311.085.647.145 1 .145V8a3.5 3.5 0 0 0-7 0v.764a3.55 3.55 0 0 0 1-.145V8a2.5 2.5 0 0 1 2.5-2.5z"/>
                         <path d="M7 9.25a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 .75.75v.75h-2v-.75z"/>
                       </svg>
                     </div>
-                    <h4 className="h6 fw-bold mb-2">Maior segurança</h4>
-                    <p className="small mb-0">As DAOs são construídas em blockchain, tornando-as altamente seguras e resistentes a fraudes.</p>
+                    <div className="text-primary mb-3 position-relative" style={{ zIndex: '1' }}>
+                      <div className="icon-circle d-inline-flex align-items-center justify-content-center rounded-circle" style={{ width: '56px', height: '56px', background: 'rgba(99, 102, 241, 0.1)' }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-shield-lock" viewBox="0 0 16 16">
+                          <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                          <path d="M8 5.5a2.5 2.5 0 0 1 2.5 2.5v.764c.311.085.647.145 1 .145V8a3.5 3.5 0 0 0-7 0v.764a3.55 3.55 0 0 0 1-.145V8a2.5 2.5 0 0 1 2.5-2.5z"/>
+                          <path d="M7 9.25a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 .75.75v.75h-2v-.75z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <h4 className="h5 fw-bold mb-3 position-relative" style={{ zIndex: '1' }}>Maior segurança</h4>
+                    <p className="mb-0 position-relative" style={{ zIndex: '1' }}>As DAOs são construídas em blockchain, tornando-as altamente seguras e resistentes a fraudes.</p>
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="advantage-card p-3 bg-dark text-white rounded shadow-sm h-100">
-                    <div className="text-primary mb-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-currency-dollar" viewBox="0 0 16 16">
+                  <div className="advantage-card p-4 bg-dark text-white rounded-lg h-100 position-relative overflow-hidden transition-all hover-lift" 
+                       style={{ 
+                         boxShadow: '0 10px 30px rgba(0,0,0,0.15)', 
+                         transition: 'all 0.3s ease',
+                         border: '1px solid rgba(99, 102, 241, 0.1)',
+                         background: 'linear-gradient(160deg, #1e1e2d 0%, #2d2d3a 100%)'
+                       }}>
+                    <div className="position-absolute opacity-10" style={{ top: '-20px', right: '-20px', zIndex: '0' }}>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="currentColor" className="bi bi-currency-dollar text-primary opacity-10" viewBox="0 0 16 16">
                         <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
                       </svg>
                     </div>
-                    <h4 className="h6 fw-bold mb-2">Benefícios financeiros</h4>
-                    <p className="small mb-0">Membros podem receber recompensas financeiras por contribuir e pela valorização do token.</p>
+                    <div className="text-primary mb-3 position-relative" style={{ zIndex: '1' }}>
+                      <div className="icon-circle d-inline-flex align-items-center justify-content-center rounded-circle" style={{ width: '56px', height: '56px', background: 'rgba(99, 102, 241, 0.1)' }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-currency-dollar" viewBox="0 0 16 16">
+                          <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <h4 className="h5 fw-bold mb-3 position-relative" style={{ zIndex: '1' }}>Benefícios financeiros</h4>
+                    <p className="mb-0 position-relative" style={{ zIndex: '1' }}>Membros podem receber recompensas financeiras por contribuir e pela valorização do token.</p>
                   </div>
                 </div>
               </div>

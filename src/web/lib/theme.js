@@ -55,11 +55,13 @@ export const transitions = {
 };
 
 // Exporta um objeto padrão com todas as variáveis de tema
-export default {
+const theme = {
   colors,
   gradients,
   spacing,
   breakpoints,
   shadows,
   transitions,
-}; 
+};
+
+export default theme; 

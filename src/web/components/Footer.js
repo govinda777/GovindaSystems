@@ -65,7 +65,7 @@ const Footer = () => {
                 <a href="https://github.com/govinda777/GovindaSystems" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">GitHub</a>
               </li>
               <li className="mb-2">
-                <a href="https://govinda-systems-web-govinda777.vercel.app" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">Site Oficial</a>
+                <a href="https://www.govindasystems.com/" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">Site Oficial</a>
               </li>
               <li className="mb-2">
                 <a href="https://stackoverflowteams.com/c/govindasystems" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">Fórum Comunitário</a>
