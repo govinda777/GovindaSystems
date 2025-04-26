@@ -104,7 +104,7 @@ export default function JoinPage() {
                 Soluções
               </Link>
               <a 
-                href="https://stackoverflowteams.com/c/govinda-systems-dao" 
+                href="https://stackoverflowteams.com/c/govindasystems" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 underline"

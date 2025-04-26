@@ -180,7 +180,7 @@ As DAOs têm o potencial de revolucionar organizações tradicionais, tornando-a
 
 ## Tire suas dúvidas no nosso fórum comunitário
 
-https://stackoverflowteams.com/c/govinda-systems-dao
+https://stackoverflowteams.com/c/govindasystems
 
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/61929226/d1c6844d-095d-47ec-9b1c-831145feed05/paste.txt

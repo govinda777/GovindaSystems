@@ -30,7 +30,7 @@ const Token = () => {
                   </div>
                   <h3 className="h4 fw-bold mb-0">GSTG</h3>
                 </div>
-                <h4 className="h6 fw-bold text-muted mb-3">Govinda SysTems Governance</h4>
+                <h4 className="h6 fw-bold text-muted mb-3">Token Governance</h4>
                 <p className="mb-4">
                   Representa participação na comunidade e direitos de voto. Membros com GSTG decidem coletivamente 
                   sobre desenvolvimento, alocação de recursos e futuro da DAO.

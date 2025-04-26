@@ -68,7 +68,7 @@ const Footer = () => {
                 <a href="https://govinda-systems-web-govinda777.vercel.app" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">Site Oficial</a>
               </li>
               <li className="mb-2">
-                <a href="https://stackoverflowteams.com/c/govinda-systems-dao" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">Fórum Comunitário</a>
+                <a href="https://stackoverflowteams.com/c/govindasystems" className="text-white text-decoration-none hover-accent" target="_blank" rel="noopener noreferrer">Fórum Comunitário</a>
               </li>
             </ul>
           </Col>

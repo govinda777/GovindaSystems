@@ -24,7 +24,7 @@ const TokenEcosystem = () => {
         {/* GSTG Token */}
         <div className={style.tokenCard}>
           <h2 className={style.tokenTitle}>GSTG</h2>
-          <h3 className="text-center text-gray-400 mb-4">Govinda SysTems Governance</h3>
+          <h3 className="text-center text-gray-400 mb-4">Token Governance</h3>
           <p className={style.tokenDescription}>
             Representa participação na comunidade e direitos de voto. Membros com GSTG decidem coletivamente sobre desenvolvimento, alocação de recursos e futuro da DAO.
           </p>

@@ -6,57 +6,53 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
 
-const style = {
-  wrapper: `bg-[#1E3D59] w-screen px-[1.2rem] py-[0.8rem] flex`,
-  logoContainer: `flex items-center cursor-pointer`,
-  logoText: ` ml-[0.8rem] text-white font-semibold text-2xl`,
-  searchBar: `flex flex-1 mx-[0.8rem] w-max-[520px] items-center bg-[#2A4F6E] rounded-[0.8rem] hover:bg-[#3A6080]`,
-  searchIcon: `text-[#8a939b] mx-3 font-bold text-lg`,
-  searchInput: `h-[2.6rem] w-full border-0 bg-transparent outline-0 ring-0 px-2 pl-0 text-[#e6e8eb] placeholder:text-[#8a939b]`,
-  headerItems: ` flex items-center justify-end`,
-  headerItem: `text-white px-4 font-bold text-[#e6e8eb] hover:text-[#2ECAD5] cursor-pointer transition-colors duration-200`,
-  headerIcon: `text-[#e6e8eb] text-3xl font-black px-4 hover:text-[#FF6B6B] cursor-pointer transition-colors duration-200`,
-}
-
 const Header = () => {
   return (
-    <div className={style.wrapper}>
+    <header className="bg-dark w-screen px-5 py-3 flex">
       <Link href="/">
-        <div className={style.logoContainer}>
+        <div className="flex items-center cursor-pointer">
           <Image src={logo} height={40} width={40} alt="Govinda Systems Logo" />
-          <div className={style.logoText}>Govinda Systems DAO</div>
+          <div className="ml-3 text-white font-semibold text-2xl">Govinda Systems DAO</div>
         </div>
       </Link>
-      <div className={style.searchBar}>
-        <div className={style.searchIcon}>
+      <div className="flex flex-1 mx-3 w-max-[520px] items-center bg-dark-bg-lighter rounded-lg hover:bg-dark/80 transition-colors duration-200">
+        <div className="text-gray mx-3 font-bold text-lg">
           <AiOutlineSearch />
         </div>
         <input
-          className={style.searchInput}
+          className="h-10 w-full border-0 bg-transparent outline-0 ring-0 px-2 pl-0 text-white placeholder:text-gray"
           placeholder="Search items, collections, and accounts"
         />
       </div>
-      <div className={style.headerItems}>
-        <Link href="/services" className={style.headerItem}>Soluções</Link>
-        <Link href="/token-ecosystem" className={style.headerItem}>Tokens</Link>
-        <Link href="/governance" className={style.headerItem}>Governança</Link>
-        <Link href="/join" className={style.headerItem}>Comunidade</Link>
+      <div className="flex items-center justify-end">
+        <Link href="/services" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Soluções
+        </Link>
+        <Link href="/token-ecosystem" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Tokens
+        </Link>
+        <Link href="/governance" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Governança
+        </Link>
+        <Link href="/join" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Comunidade
+        </Link>
         <a 
-          href="https://stackoverflowteams.com/c/govinda-systems-dao"
+          href="https://stackoverflowteams.com/c/govindasystems"
           target="_blank"
           rel="noopener noreferrer"
-          className={style.headerItem}
+          className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200"
         >
           Fórum
         </a>
-        <div className={style.headerIcon}>
+        <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
           <CgProfile />
         </div>
-        <div className={style.headerIcon}>
+        <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
           <MdOutlineAccountBalanceWallet />
         </div>
       </div>
-    </div>
+    </header>
   )
 }
 
