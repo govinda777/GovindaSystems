@@ -7,15 +7,15 @@ import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
 
 const style = {
-  wrapper: `bg-[#04111d] w-screen px-[1.2rem] py-[0.8rem] flex `,
+  wrapper: `bg-[#1E3D59] w-screen px-[1.2rem] py-[0.8rem] flex`,
   logoContainer: `flex items-center cursor-pointer`,
   logoText: ` ml-[0.8rem] text-white font-semibold text-2xl`,
-  searchBar: `flex flex-1 mx-[0.8rem] w-max-[520px] items-center bg-[#363840] rounded-[0.8rem] hover:bg-[#4c505c]`,
+  searchBar: `flex flex-1 mx-[0.8rem] w-max-[520px] items-center bg-[#2A4F6E] rounded-[0.8rem] hover:bg-[#3A6080]`,
   searchIcon: `text-[#8a939b] mx-3 font-bold text-lg`,
   searchInput: `h-[2.6rem] w-full border-0 bg-transparent outline-0 ring-0 px-2 pl-0 text-[#e6e8eb] placeholder:text-[#8a939b]`,
   headerItems: ` flex items-center justify-end`,
-  headerItem: `text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer`,
-  headerIcon: `text-[#8a939b] text-3xl font-black px-4 hover:text-white cursor-pointer`,
+  headerItem: `text-white px-4 font-bold text-[#e6e8eb] hover:text-[#2ECAD5] cursor-pointer transition-colors duration-200`,
+  headerIcon: `text-[#e6e8eb] text-3xl font-black px-4 hover:text-[#FF6B6B] cursor-pointer transition-colors duration-200`,
 }
 
 const Header = () => {

@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd src/web && npm run build",
+  "outputDirectory": "src/web/.next",
+  "installCommand": "cd src/web && npm install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/src/web/$1" }
+  ]
+} 

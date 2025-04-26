@@ -3,28 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --primary-color: #2ECAD5;
+  --secondary-color: #FF6B6B;
+  --accent-color: #F25F94;
+  --dark-color: #1E3D59;
+  --darker-color: #15293E;
+  --dark-bg: #111827;
+  --dark-bg-lighter: #1F2937;
+  --light-color: #fff;
+  --gray-color: #9CA3AF;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 10, 15, 25;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--light-color);
   overflow-x: hidden;
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--dark-bg);
 }
 
 section {
@@ -33,6 +29,10 @@ section {
 
 .differential .card-title {
   font-size: 2.00rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--light-color);
 }
 
 h2 {
@@ -48,14 +48,21 @@ h2 {
   text-align: center!important;
 }
 
+.card {
+  background-color: var(--dark-bg-lighter);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 footer {
   padding-top: 100px;
   padding-bottom: 50px;
+  background-color: var(--darker-color);
+  color: var(--light-color);
 }
 
 .footer-bottom {
   padding-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 20px;
 }
 
@@ -67,11 +74,65 @@ footer {
 
 .social-media a {
   margin-right: 10px;
-  color: #333;
+  color: var(--light-color);
   font-size: 20px;
   transition: color 0.3s ease;
 }
 
 .social-media a:hover {
-  color: #007bff;
+  color: var(--secondary-color);
+}
+
+/* Botões com a nova paleta de cores */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--dark-color);
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--dark-color);
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* Classe para hover nos links */
+.hover-accent {
+  transition: color 0.3s ease-in-out;
+}
+
+.hover-accent:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* Form controls para modo escuro */
+.form-control {
+  background-color: var(--dark-bg-lighter);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--light-color);
+}
+
+.form-control:focus {
+  background-color: var(--dark-bg-lighter);
+  border-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: 0 0 0 0.25rem rgba(46, 202, 213, 0.25);
+}
+
+.form-control::placeholder {
+  color: var(--gray-color);
 }
