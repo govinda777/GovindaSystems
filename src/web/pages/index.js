@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import Product from '../components/Product'
-import Differential from '../components/Differential'
-import Token from '../components/Token'
 import About from '../components/About'
-import UseCases from '../components/UseCases'
+import Token from '../components/Token'
+import Governance from '../components/Governance'
+import Services from '../components/services/Services'
 import Footer from '../components/Footer'
 import { useWeb3 } from '@3rdweb/hooks'
 import { useEffect } from 'react'
@@ -52,31 +51,37 @@ export default function Home() {
 
   return (
     <div className={style.wrapper}>
-    <Toaster position="top-center" reverseOrder={false} />
-    {true ? (
-      <>
-        <Header />
-        <Hero />
-        <About />
-        <Product />
-        <Differential />
-        <UseCases />
-        <Footer />
-      </>
-    ) : (
-      <div className={style.walletConnectWrapper}>
-        <button
-          className={style.button}
-          onClick={() => connectWallet('injected')}
-        >
-          Connect Wallet
-        </button>
-        <div className={style.details}>
-          You need Chrome to be
-          <br /> able to run this app.
+      <Head>
+        <title>Govinda Systems DAO - Simplificando a Tecnologia para Todos</title>
+        <meta name="description" content="A Govinda Systems DAO é uma organização descentralizada autônoma que oferece soluções tecnológicas inovadoras e acessíveis. Conheça nossa comunidade descentralizada!" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
+      <Toaster position="top-center" reverseOrder={false} />
+      {true ? (
+        <>
+          <Header />
+          <Hero />
+          <About />
+          <Governance />
+          <Token />
+          <Services />
+          <Footer />
+        </>
+      ) : (
+        <div className={style.walletConnectWrapper}>
+          <button
+            className={style.button}
+            onClick={() => connectWallet('injected')}
+          >
+            Connect Wallet
+          </button>
+          <div className={style.details}>
+            You need Chrome to be
+            <br /> able to run this app.
+          </div>
         </div>
-      </div>
-    )}
-  </div>
+      )}
+    </div>
   );
 }
