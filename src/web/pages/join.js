@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Link from 'next/link'
-import { useWeb3 } from '@3rdweb/hooks'
+import { useAddress, useMetamask } from "@thirdweb-dev/react"
 import Image from 'next/image'
 
 const style = {
@@ -22,7 +22,8 @@ const style = {
 }
 
 export default function JoinPage() {
-  const { address, connectWallet } = useWeb3()
+  const address = useAddress()
+  const connectWithMetamask = useMetamask()
   
   return (
     <div className={style.wrapper}>
@@ -73,7 +74,7 @@ export default function JoinPage() {
             ) : (
               <button
                 className={style.metaMaskButton}
-                onClick={() => connectWallet('injected')}
+                onClick={() => connectWithMetamask()}
               >
                 <Image src="/metamask-fox.svg" alt="MetaMask" width={24} height={24} className="mr-2" />
                 Conectar MetaMask
