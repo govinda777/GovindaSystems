@@ -83,7 +83,7 @@ vercel
 vercel --prod
 ```
 
-Isso criará uma implantação de produção e fornecerá um link de produção, como `https://govinda-systems-dao.vercel.app/`.
+Isso criará uma implantação de produção e fornecerá um link de produção, como `https://govinda-systems-web.vercel.app/`.
 
 8. Sempre que você fizer alterações no seu projeto e quiser atualizar a versão de produção, basta executar o comando `vercel --prod` novamente.
 

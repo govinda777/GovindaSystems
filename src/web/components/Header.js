@@ -23,7 +23,7 @@ const Header = () => {
     <div className={style.wrapper}>
       <Link href="/">
         <div className={style.logoContainer}>
-          <Image src={logo} height={40} width={40} />
+          <Image src={logo} height={40} width={40} alt="Govinda Systems Logo" />
           <div className={style.logoText}>Govinda Systems DAO</div>
         </div>
       </Link>
@@ -37,18 +37,10 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <Link href="/services">
-          <div className={style.headerItem}>Soluções</div>
-        </Link>
-        <Link href="/token-ecosystem">
-          <div className={style.headerItem}>Tokens</div>
-        </Link>
-        <Link href="/governance">
-          <div className={style.headerItem}>Governança</div>
-        </Link>
-        <Link href="/join">
-          <div className={style.headerItem}>Comunidade</div>
-        </Link>
+        <Link href="/services" className={style.headerItem}>Soluções</Link>
+        <Link href="/token-ecosystem" className={style.headerItem}>Tokens</Link>
+        <Link href="/governance" className={style.headerItem}>Governança</Link>
+        <Link href="/join" className={style.headerItem}>Comunidade</Link>
         <a 
           href="https://stackoverflowteams.com/c/govinda-systems-dao"
           target="_blank"

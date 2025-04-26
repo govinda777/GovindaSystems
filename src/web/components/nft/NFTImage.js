@@ -1,5 +1,6 @@
 import { IoMdSnow } from 'react-icons/io'
 import { AiOutlineHeart } from 'react-icons/ai'
+import Image from 'next/image'
 
 const style = {
   topBar: `bg-[#303339] p-2 rounded-t-lg border-[#151c22] border`,
@@ -21,7 +22,13 @@ const NFTImage = ({ selectedNft }) => {
       </div>
       <div>
         {console.log(selectedNft, '🎆')}
-        <img src={selectedNft?.image} />
+        <Image 
+          src={selectedNft?.image || 'https://via.placeholder.com/400'} 
+          alt={`NFT ${selectedNft?.name || 'Image'}`}
+          width={400}
+          height={400}
+          layout="responsive"
+        />
       </div>
     </div>
   )

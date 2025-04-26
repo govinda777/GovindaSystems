@@ -11,6 +11,7 @@ import { CgWebsite } from 'react-icons/cg'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
 import { HiDotsVertical } from 'react-icons/hi'
 import NFTCard from '../../components/NFTCard'
+import Image from 'next/image'
 
 const style = {
   bannerImageContainer: `h-[20vh] w-screen overflow-hidden flex justify-center items-center`,
@@ -49,7 +50,7 @@ const Collection = () => {
       provider.getSigner()
     )
     return sdk.getNFTModule(collectionId)
-  }, [provider])
+  }, [provider, collectionId])
 
   // get all NFTs in the collection
   useEffect(() => {
@@ -87,29 +88,28 @@ const Collection = () => {
     })()
   }, [marketPlaceModule])
 
-  const fetchCollectionData = async (sanityClient = client) => {
-    const query = `*[_type == "marketItems" && contractAddress == "${collectionId}" ] {
-      "imageUrl": profileImage.asset->url,
-      "bannerImageUrl": bannerImage.asset->url,
-      volumeTraded,
-      createdBy,
-      contractAddress,
-      "creator": createdBy->userName,
-      title, 
-      floorPrice,
-      "allOwners": owners[]->,
-      description
-    }`
+  useEffect(() => {
+    const fetchCollectionData = async (sanityClient = client) => {
+      const query = `*[_type == "marketItems" && contractAddress == "${collectionId}" ] {
+        "imageUrl": profileImage.asset->url,
+        "bannerImageUrl": bannerImage.asset->url,
+        volumeTraded,
+        createdBy,
+        contractAddress,
+        "creator": createdBy->userName,
+        title, 
+        floorPrice,
+        "allOwners": owners[]->,
+        description
+      }`
 
-    const collectionData = await sanityClient.fetch(query)
+      const collectionData = await sanityClient.fetch(query)
 
-    if(collectionData && collectionData.length > 0) {        
-        await setCollection(collectionData[0])
+      if(collectionData && collectionData.length > 0) {        
+          await setCollection(collectionData[0])
+      }
     }
 
-  }
-
-  useEffect(() => {
     fetchCollectionData()
   }, [collectionId])
 
@@ -117,26 +117,31 @@ const Collection = () => {
     <div className="overflow-hidden">
       <Header />
       <div className={style.bannerImageContainer}>
-        <img
+        <Image
           className={style.bannerImage}
           src={
             collection?.bannerImageUrl
               ? collection.bannerImageUrl
-              : 'https://via.placeholder.com/200'
+              : 'https://via.placeholder.com/1500x500'
           }
-          alt="banner"
+          alt="Banner da coleção"
+          width={1500}
+          height={300}
+          layout="responsive"
         />
       </div>
       <div className={style.infoContainer}>
         <div className={style.midRow}>
-          <img
+          <Image
             className={style.profileImg}
             src={
               collection?.imageUrl
                 ? collection.imageUrl
                 : 'https://via.placeholder.com/200'
             }
-            alt="profile image"
+            alt="Imagem de perfil da coleção"
+            width={160}
+            height={160}
           />
         </div>
         <div className={style.endRow}>
@@ -185,9 +190,11 @@ const Collection = () => {
             </div>
             <div className={style.collectionStat}>
               <div className={style.statValue}>
-                <img
+                <Image
                   src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
                   alt="eth"
+                  width={24}
+                  height={24}
                   className={style.ethLogo}
                 />
                 {collection?.floorPrice}
@@ -196,9 +203,11 @@ const Collection = () => {
             </div>
             <div className={style.collectionStat}>
               <div className={style.statValue}>
-                <img
+                <Image
                   src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
                   alt="eth"
+                  width={24}
+                  height={24}
                   className={style.ethLogo}
                 />
                 {collection?.volumeTraded}.5K

@@ -1,4 +1,5 @@
 import { BsFillCartFill } from 'react-icons/bs'
+import Image from 'next/image'
 
 const style = {
   eventItem: `flex px-4 py-5 font-medium`,
@@ -21,9 +22,11 @@ const EventItem = ({ event }) => {
         <div className={style.eventName}>Sale</div>
       </div>
       <div className={`${style.eventPrice} flex-[2]`}>
-        <img
+        <Image
           src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
           alt="eth"
+          width={20}
+          height={20}
           className={style.ethLogo}
         />
         <div className={style.eventPriceValue}>{event.price}</div>

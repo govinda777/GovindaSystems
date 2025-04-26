@@ -57,23 +57,19 @@ export default function Hero() {
                             mudanças do mercado e alcançando resultados inovadores através da inteligência coletiva.
                         </p>
                         <div className="d-flex flex-wrap gap-3">
-                            <Link href="#about">
-                                <button className="btn btn-lg fw-bold px-4 me-3 mb-3 mb-md-0" style={{ 
-                                    backgroundColor: '#2ECAD5',
-                                    color: '#111827',
-                                    border: 'none'
-                                }}>
-                                    Conheça a DAO
-                                </button>
+                            <Link href="#about" className="btn btn-lg fw-bold px-4 me-3 mb-3 mb-md-0" style={{ 
+                                backgroundColor: '#2ECAD5',
+                                color: '#111827',
+                                border: 'none'
+                            }}>
+                                Conheça a DAO
                             </Link>
-                            <Link href="#services">
-                                <button className="btn btn-lg px-4" style={{ 
-                                    backgroundColor: 'transparent',
-                                    color: 'white',
-                                    border: '2px solid #FF6B6B'
-                                }}>
-                                    Nossas Soluções
-                                </button>
+                            <Link href="#services" className="btn btn-lg px-4" style={{ 
+                                backgroundColor: 'transparent',
+                                color: 'white',
+                                border: '2px solid #FF6B6B'
+                            }}>
+                                Nossas Soluções
                             </Link>
                         </div>
                     </Col>

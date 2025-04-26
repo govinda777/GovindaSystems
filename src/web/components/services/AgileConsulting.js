@@ -12,26 +12,33 @@ const style = {
 const AgileConsulting = () => {
   return (
     <div className={style.section}>
-      <h2 className={style.title}>Consultoria Colaborativa em Agilidade</h2>
+      <h2 className={style.title}>Consultoria Descomplicada para Criação de DAOs</h2>
       
       <div className={style.servicesGrid}>
         <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Transformação Ágil</h3>
+          <h3 className={style.serviceTitle}>Serviços Completos de Consultoria</h3>
           <ul className={style.serviceList}>
-            <li>Facilitação de transformação ágil em organizações</li>
-            <li>Diagnóstico participativo de maturidade ágil</li>
-            <li>Co-criação de métricas ágeis e quadros de gestão visual</li>
+            <li>Criação e gestão de canais de comunicação no Telegram ou Discord</li>
+            <li>Desenvolvimento de tokens de participação, votação e pagamento</li>
+            <li>Definição do tipo de DAO mais adequado (Serviço, Membership, Insurance, entre outros)</li>
+            <li>Elaboração de planejamento financeiro detalhado</li>
+            <li>Preparação de pitch para apresentação a investidores</li>
           </ul>
         </div>
         
         <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Análise e Otimização de Processos</h3>
+          <h3 className={style.serviceTitle}>Tipos de DAOs Suportados</h3>
           <ul className={style.serviceList}>
-            <li>Mapeamento coletivo e diagramação de processos</li>
-            <li>Identificação comunitária de gargalos e desperdícios</li>
-            <li>Análise colaborativa para redução de custos</li>
-            <li>Desenvolvimento de estratégias para automação de processos</li>
-            <li>Avaliação participativa de desempenho e qualidade</li>
+            <li>DAOs de Leilão (Auction DAOs)</li>
+            <li>DAOs de Seguro (Insurance DAOs)</li>
+            <li>DAOs de Filiação/Associação (Membership DAOs)</li>
+            <li>DAOs de Pagamentos Recorrentes</li>
+            <li>DAOs de Automação de Aluguéis e Seguros</li>
+            <li>DAOs de IoT e Vending Machines</li>
+            <li>DAOs de Staking</li>
+            <li>DAOs de Beats e Música</li>
+            <li>DAOs de Crowdfunding e Grants</li>
+            <li>DAOs de Serviços Profissionais</li>
           </ul>
         </div>
       </div>

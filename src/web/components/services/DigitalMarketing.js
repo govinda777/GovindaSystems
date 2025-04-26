@@ -12,43 +12,26 @@ const style = {
 const DigitalMarketing = () => {
   return (
     <div className={style.section}>
-      <h2 className={style.title}>Estratégias Coletivas de Marketing Digital</h2>
+      <h2 className={style.title}>Publicidade e Propaganda</h2>
       
       <div className={style.servicesGrid}>
         <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Co-criação de Sites e Plataformas Web3</h3>
+          <h3 className={style.serviceTitle}>Marketing Digital para Web3</h3>
           <ul className={style.serviceList}>
-            <li>Desenvolvimento participativo de sites institucionais com integração blockchain</li>
-            <li>Criação coletiva de layouts responsivos para diversos dispositivos</li>
-            <li>Desenvolvimento conjunto de landing pages para campanhas</li>
+            <li>Criação, customização e gestão de redes sociais</li>
+            <li>Desenvolvimento de sites e plataformas web</li>
+            <li>Rebranding de marcas, serviços e produtos</li>
+            <li>Estratégias de marketing adaptadas às particularidades do ecossistema Web3</li>
           </ul>
         </div>
         
         <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Gestão Comunitária de Mídias Sociais</h3>
+          <h3 className={style.serviceTitle}>Serviços Financeiros DeFi</h3>
           <ul className={style.serviceList}>
-            <li>Compartilhamento de boas práticas para redes sociais</li>
-            <li>Colaboração na criação de conteúdo para diferentes plataformas</li>
-            <li>Desenvolvimento conjunto de lojas virtuais em Instagram / Google Shopping</li>
-            <li>Estratégias coletivas para campanhas de anúncios</li>
-            <li>Análise participativa de métricas para otimização</li>
-          </ul>
-        </div>
-        
-        <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Gestão Colaborativa de Tráfego</h3>
-          <ul className={style.serviceList}>
-            <li>Gerenciamento conjunto de campanhas em Google Ads, Facebook Ads e outras plataformas</li>
-            <li>Otimização comunitária para aumentar tráfego e conversões</li>
-          </ul>
-        </div>
-        
-        <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Desenvolvimento Coletivo de Produtos</h3>
-          <ul className={style.serviceList}>
-            <li>Análise participativa de boas práticas para produtos online</li>
-            <li>Avaliação comunitária de portfólio de produtos</li>
-            <li>Co-criação de novos produtos e serviços</li>
+            <li>Sistema de pagamentos recorrentes para aluguéis, seguros e assinaturas</li>
+            <li>Serviços de staking para participação em validação de redes Proof-of-Stake</li>
+            <li>Plataformas de empréstimos peer-to-peer sem intermediários</li>
+            <li>Tokenização de ativos financeiros</li>
           </ul>
         </div>
       </div>

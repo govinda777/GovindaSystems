@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Link from 'next/link'
 import { useWeb3 } from '@3rdweb/hooks'
+import Image from 'next/image'
 
 const style = {
   wrapper: 'min-h-screen',
@@ -74,7 +75,7 @@ export default function JoinPage() {
                 className={style.metaMaskButton}
                 onClick={() => connectWallet('injected')}
               >
-                <img src="/metamask-fox.svg" alt="MetaMask" className="w-6 h-6 mr-2" />
+                <Image src="/metamask-fox.svg" alt="MetaMask" width={24} height={24} className="mr-2" />
                 Conectar MetaMask
               </button>
             )}
@@ -96,11 +97,11 @@ export default function JoinPage() {
               Agora você pode explorar todas as áreas da nossa comunidade, participar das discussões no fórum e contribuir para nossos projetos.
             </p>
             <div className="flex space-x-4 mt-4">
-              <Link href="/governance">
-                <a className="text-blue-400 hover:text-blue-300 underline">Governança</a>
+              <Link href="/governance" className="text-blue-400 hover:text-blue-300 underline">
+                Governança
               </Link>
-              <Link href="/services">
-                <a className="text-blue-400 hover:text-blue-300 underline">Soluções</a>
+              <Link href="/services" className="text-blue-400 hover:text-blue-300 underline">
+                Soluções
               </Link>
               <a 
                 href="https://stackoverflowteams.com/c/govinda-systems-dao" 

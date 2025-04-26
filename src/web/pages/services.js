@@ -18,18 +18,18 @@ export default function ServicesPage() {
   return (
     <div className={style.wrapper}>
       <Head>
-        <title>Soluções e Serviços | Govinda Systems DAO</title>
-        <meta name="description" content="Conheça as soluções e serviços desenvolvidos pela nossa comunidade Govinda Systems DAO." />
+        <title>Produtos e Serviços | Govinda Systems DAO</title>
+        <meta name="description" content="Conheça os produtos e serviços desenvolvidos pela Govinda Systems DAO, especializada em tecnologias blockchain e Web3." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
       <Header />
       
       <div className={style.container}>
-        <h1 className={style.title}>Soluções Desenvolvidas Pela Nossa Comunidade</h1>
+        <h1 className={style.title}>Produtos e Serviços da Govinda Systems DAO</h1>
         <p className={style.description}>
-          Nossa força vem da inteligência coletiva que utiliza técnicas inovadoras de processos e tecnologias emergentes 
-          para obter o melhor resultado custo e benefício para o ecossistema.
+          A Govinda Systems DAO é uma organização descentralizada autônoma especializada em fornecer soluções tecnológicas 
+          e consultorias para empresas, com foco em tecnologias blockchain e Web3.
         </p>
         
         <AgileConsulting />

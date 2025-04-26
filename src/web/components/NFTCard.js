@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { BiHeart } from 'react-icons/bi'
 import Router from 'next/router'
+import Image from 'next/image'
 
 const style = {
   wrapper: `bg-[#303339] flex-auto w-[14rem] h-[22rem] my-10 mx-5 rounded-2xl overflow-hidden cursor-pointer`,
@@ -49,7 +50,13 @@ const NFTCard = ({ nftItem, title, listings }) => {
       }}
     >
       <div className={style.imgContainer}>
-        <img src={nftItem.image} alt={nftItem.name} className={style.nftImg} />
+        <Image 
+          src={nftItem.image} 
+          alt={nftItem.name} 
+          width={400}
+          height={400}
+          className={style.nftImg} 
+        />
       </div>
       <div className={style.details}>
         <div className={style.info}>
@@ -61,9 +68,11 @@ const NFTCard = ({ nftItem, title, listings }) => {
             <div className={style.infoRight}>
               <div className={style.priceTag}>Price</div>
               <div className={style.priceValue}>
-                <img
+                <Image
                   src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
                   alt="eth"
+                  width={20}
+                  height={20}
                   className={style.ethLogo}
                 />
                 {price}

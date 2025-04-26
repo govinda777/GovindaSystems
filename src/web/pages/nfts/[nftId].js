@@ -42,7 +42,7 @@ const Nft = () => {
 
       setSelectedNft(selectedNftItem)
     })()
-  }, [nftModule])
+  }, [nftModule, router.query.nftId])
 
   const marketPlaceModule = useMemo(() => {
     if (!provider) return

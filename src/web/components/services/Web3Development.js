@@ -12,27 +12,26 @@ const style = {
 const Web3Development = () => {
   return (
     <div className={style.section}>
-      <h2 className={style.title}>Desenvolvimento Web3 Comunitário</h2>
+      <h2 className={style.title}>Produtos e Serviços Web3</h2>
       
       <div className={style.servicesGrid}>
         <div className={style.serviceCard}>
           <h3 className={style.serviceTitle}>Desenvolvimento Blockchain</h3>
           <ul className={style.serviceList}>
-            <li>Construção colaborativa de aplicativos descentralizados (dApps)</li>
-            <li>Desenvolvimento conjunto de contratos inteligentes</li>
-            <li>Integração de soluções DeFi (Finanças Descentralizadas)</li>
-            <li>Revisão comunitária de segurança e auditoria de contratos inteligentes</li>
-            <li>Co-criação de interfaces de usuário com foco em experiência (UI/UX)</li>
+            <li>Contratos inteligentes personalizados que automatizam transações e acordos</li>
+            <li>DApps (aplicações descentralizadas) para transações seguras e eficientes</li>
+            <li>Soluções de integração de blockchain para empresas</li>
+            <li>Tokenização de ativos reais, como imóveis e obras de arte</li>
           </ul>
         </div>
         
         <div className={style.serviceCard}>
-          <h3 className={style.serviceTitle}>Soluções Blockchain Enterprise</h3>
+          <h3 className={style.serviceTitle}>Vending Machines Descentralizadas</h3>
           <ul className={style.serviceList}>
-            <li>Desenvolvimento colaborativo de contratos inteligentes personalizados</li>
-            <li>Construção coletiva de aplicativos descentralizados (dApps)</li>
-            <li>Integração participativa de blockchain em processos existentes</li>
-            <li>Segurança blockchain comunitária para operações seguras</li>
+            <li>Infraestrutura de &quot;vending as a service&quot; em pontos de venda físicos</li>
+            <li>Integração de dispositivos IoT para coleta de dados de uso e faturamento automático</li>
+            <li>Gestão comunitária de rede de dispositivos e distribuição de receitas</li>
+            <li>Opções de aluguel com taxas competitivas</li>
           </ul>
         </div>
       </div>
