@@ -20,6 +20,8 @@
 
   body {
     @apply text-white overflow-x-hidden bg-dark-bg;
+    font-size: 16px;
+    line-height: 1.6;
   }
 
   section {
@@ -28,6 +30,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     @apply text-white;
+    margin-bottom: 1rem;
   }
 
   h1 {
@@ -40,6 +43,10 @@
 
   h3 {
     @apply text-heading-3 font-semibold;
+  }
+  
+  p {
+    margin-bottom: 1rem;
   }
 }
 
@@ -56,6 +63,7 @@
   /* Buttons */
   .btn {
     @apply py-2 px-4 rounded-button transition-colors duration-200 font-medium;
+    font-size: 1rem;
   }
 
   .btn-primary {
@@ -109,6 +117,21 @@
   .glass-card {
     @apply bg-dark-bg-lighter/50 backdrop-blur-md border border-white/10 rounded-card;
   }
+  
+  /* Service cards */
+  .service-card p, .service-card li {
+    font-size: 1rem !important;
+    color: rgba(255, 255, 255, 1) !important;
+  }
+  
+  .service-card h3, .service-card h4 {
+    margin-bottom: 0.75rem;
+  }
+  
+  .service-card .btn {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1rem;
+  }
 }
 
 @layer utilities {
@@ -148,5 +171,24 @@
   
   .bg-blur-circle-accent {
     background-color: rgba(242, 95, 148, 0.1);
+  }
+  
+  /* Improved readability */
+  .text-readable {
+    color: rgba(255, 255, 255, 1) !important;
+  }
+  
+  .text-normal {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  .text-spaced {
+    letter-spacing: 0.01em;
+  }
+  
+  /* Background contrast enhancement */
+  .bg-better-contrast {
+    background: rgba(31, 41, 55, 0.8) !important;
   }
 }

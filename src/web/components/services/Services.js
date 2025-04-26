@@ -18,7 +18,7 @@ const Services = () => {
               backgroundClip: 'text'
             }}>Nossas Soluções</h2>
             <div className="mx-auto" style={{ maxWidth: '80px', height: '4px', background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)', marginBottom: '1rem', borderRadius: '2px' }}></div>
-            <p className="lead mb-3">
+            <p className="lead mb-3 text-readable">
               Nossa comunidade colabora para criar soluções tecnológicas que transformam o ecossistema Web3, 
               aplicando tecnologias emergentes e metodologias ágeis.
             </p>
@@ -27,8 +27,7 @@ const Services = () => {
 
         <Row className="gx-4">
           <Col md={4} className="mb-3">
-            <div className="service-card p-3 rounded h-100" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="service-card p-3 rounded h-100 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.04)'
@@ -42,7 +41,7 @@ const Services = () => {
               <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Consultoria para Criação de DAOs</h3>
               <div className="mb-2">
                 <h4 className="h6 fw-bold mb-1" style={{ color: '#2ECAD5' }}>Serviços Completos de Consultoria</h4>
-                <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+                <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
                     <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                     <span>Criação e gestão de canais de comunicação no Telegram ou Discord</span>
@@ -63,7 +62,7 @@ const Services = () => {
               </div>
               <div className="mb-2">
                 <h4 className="h6 fw-bold mb-1" style={{ color: '#2ECAD5' }}>Tipos de DAOs Suportados</h4>
-                <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+                <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
                     <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                     <span>DAOs de Leilão, Seguro, Filiação/Associação</span>
@@ -79,13 +78,12 @@ const Services = () => {
                 </ul>
               </div>
               <div className="d-flex justify-content-between mt-2">
-                <Link href="/services#consultoria-dao" className="btn btn-outline-info btn-sm py-1 px-2" style={{ fontSize: '0.75rem' }}>
+                <Link href="/services#consultoria-dao" className="btn btn-outline-info py-1 px-2">
                   Ver Detalhes
                 </Link>
-                <Link href="/join?service=dao-consultoria" className="btn btn-primary btn-sm py-1 px-2" style={{ 
+                <Link href="/join?service=dao-consultoria" className="btn btn-primary py-1 px-2" style={{ 
                   background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-                  border: 'none',
-                  fontSize: '0.75rem'
+                  border: 'none'
                 }}>
                   Solicitar Orçamento
                 </Link>
@@ -93,8 +91,7 @@ const Services = () => {
             </div>
           </Col>
           <Col md={4} className="mb-3">
-            <div className="service-card p-3 rounded h-100" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="service-card p-3 rounded h-100 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.04)'
@@ -107,7 +104,7 @@ const Services = () => {
               <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Produtos e Serviços Web3</h3>
               <div className="mb-2">
                 <h4 className="h6 fw-bold mb-1" style={{ color: '#2ECAD5' }}>Desenvolvimento Blockchain</h4>
-                <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+                <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
                     <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                     <span>Contratos inteligentes personalizados</span>
@@ -128,7 +125,7 @@ const Services = () => {
               </div>
               <div className="mb-2">
                 <h4 className="h6 fw-bold mb-1" style={{ color: '#2ECAD5' }}>Vending Machines Descentralizadas</h4>
-                <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+                <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
                     <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                     <span>Infraestrutura de &quot;vending as a service&quot;</span>
@@ -144,13 +141,12 @@ const Services = () => {
                 </ul>
               </div>
               <div className="d-flex justify-content-between mt-2">
-                <Link href="/services#web3-development" className="btn btn-outline-info btn-sm py-1 px-2" style={{ fontSize: '0.75rem' }}>
+                <Link href="/services#web3-development" className="btn btn-outline-info py-1 px-2">
                   Ver Detalhes
                 </Link>
-                <Link href="/join?service=web3-development" className="btn btn-primary btn-sm py-1 px-2" style={{ 
+                <Link href="/join?service=web3-development" className="btn btn-primary py-1 px-2" style={{ 
                   background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-                  border: 'none',
-                  fontSize: '0.75rem'
+                  border: 'none'
                 }}>
                   Solicitar Orçamento
                 </Link>
@@ -158,8 +154,7 @@ const Services = () => {
             </div>
           </Col>
           <Col md={4} className="mb-3">
-            <div className="service-card p-3 rounded h-100" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="service-card p-3 rounded h-100 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.04)'
@@ -171,7 +166,7 @@ const Services = () => {
                 </svg>
               </div>
               <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Publicidade e Propaganda</h3>
-              <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+              <ul className="list-unstyled mb-0">
                 <li className="mb-1 d-flex align-items-start">
                   <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                   <span>Criação, customização e gestão de redes sociais</span>
@@ -190,13 +185,12 @@ const Services = () => {
                 </li>
               </ul>
               <div className="d-flex justify-content-between mt-3">
-                <Link href="/services#marketing" className="btn btn-outline-info btn-sm py-1 px-2" style={{ fontSize: '0.75rem' }}>
+                <Link href="/services#marketing" className="btn btn-outline-info py-1 px-2">
                   Ver Detalhes
                 </Link>
-                <Link href="/join?service=marketing" className="btn btn-primary btn-sm py-1 px-2" style={{ 
+                <Link href="/join?service=marketing" className="btn btn-primary py-1 px-2" style={{ 
                   background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-                  border: 'none',
-                  fontSize: '0.75rem'
+                  border: 'none'
                 }}>
                   Solicitar Orçamento
                 </Link>
@@ -207,8 +201,7 @@ const Services = () => {
         
         <Row>
           <Col md={4} className="mb-3">
-            <div className="service-card p-3 rounded h-100" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="service-card p-3 rounded h-100 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.04)'
@@ -219,7 +212,7 @@ const Services = () => {
                 </svg>
               </div>
               <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Serviços Financeiros DeFi</h3>
-              <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+              <ul className="list-unstyled mb-0">
                 <li className="mb-1 d-flex align-items-start">
                   <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                   <span>Sistema de pagamentos recorrentes</span>
@@ -238,13 +231,12 @@ const Services = () => {
                 </li>
               </ul>
               <div className="d-flex justify-content-between mt-3">
-                <Link href="/services#defi" className="btn btn-outline-info btn-sm py-1 px-2" style={{ fontSize: '0.75rem' }}>
+                <Link href="/services#defi" className="btn btn-outline-info py-1 px-2">
                   Ver Detalhes
                 </Link>
-                <Link href="/join?service=defi" className="btn btn-primary btn-sm py-1 px-2" style={{ 
+                <Link href="/join?service=defi" className="btn btn-primary py-1 px-2" style={{ 
                   background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-                  border: 'none',
-                  fontSize: '0.75rem'
+                  border: 'none'
                 }}>
                   Solicitar Orçamento
                 </Link>
@@ -252,8 +244,7 @@ const Services = () => {
             </div>
           </Col>
           <Col md={4} className="mb-3">
-            <div className="service-card p-3 rounded h-100" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="service-card p-3 rounded h-100 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.04)'
@@ -265,7 +256,7 @@ const Services = () => {
                 </svg>
               </div>
               <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Incubadora de Projetos</h3>
-              <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+              <ul className="list-unstyled mb-0">
                 <li className="mb-1 d-flex align-items-start">
                   <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                   <span>Mentoria e suporte técnico para startups</span>
@@ -284,13 +275,12 @@ const Services = () => {
                 </li>
               </ul>
               <div className="d-flex justify-content-between mt-3">
-                <Link href="/services#incubadora" className="btn btn-outline-info btn-sm py-1 px-2" style={{ fontSize: '0.75rem' }}>
+                <Link href="/services#incubadora" className="btn btn-outline-info py-1 px-2">
                   Ver Detalhes
                 </Link>
-                <Link href="/join?service=incubadora" className="btn btn-primary btn-sm py-1 px-2" style={{ 
+                <Link href="/join?service=incubadora" className="btn btn-primary py-1 px-2" style={{ 
                   background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-                  border: 'none',
-                  fontSize: '0.75rem'
+                  border: 'none'
                 }}>
                   Solicitar Orçamento
                 </Link>
@@ -298,8 +288,7 @@ const Services = () => {
             </div>
           </Col>
           <Col md={4} className="mb-3">
-            <div className="service-card p-3 rounded h-100" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="service-card p-3 rounded h-100 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 5px 5px -5px rgba(0, 0, 0, 0.04)'
@@ -311,7 +300,7 @@ const Services = () => {
                 </svg>
               </div>
               <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Desenvolvimento de Software</h3>
-              <ul className="list-unstyled mb-0" style={{ fontSize: '0.85rem' }}>
+              <ul className="list-unstyled mb-0">
                 <li className="mb-1 d-flex align-items-start">
                   <span className="me-1" style={{ color: '#2ECAD5' }}>•</span>
                   <span>Aplicativos web e mobile personalizados</span>
@@ -330,13 +319,12 @@ const Services = () => {
                 </li>
               </ul>
               <div className="d-flex justify-content-between mt-3">
-                <Link href="/services#software" className="btn btn-outline-info btn-sm py-1 px-2" style={{ fontSize: '0.75rem' }}>
+                <Link href="/services#software" className="btn btn-outline-info py-1 px-2">
                   Ver Detalhes
                 </Link>
-                <Link href="/join?service=software" className="btn btn-primary btn-sm py-1 px-2" style={{ 
+                <Link href="/join?service=software" className="btn btn-primary py-1 px-2" style={{ 
                   background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-                  border: 'none',
-                  fontSize: '0.75rem'
+                  border: 'none'
                 }}>
                   Solicitar Orçamento
                 </Link>

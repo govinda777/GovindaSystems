@@ -1,20 +1,14 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
-import { ThirdwebWeb3Provider } from '@3rdweb/hooks'
+import { ThirdwebProvider } from "@thirdweb-dev/react";
 
-const supportedChainIds = [5]
-const connectors = {
-  injected: {},
-}
+const activeChain = "goerli";
 
 export default function App({ Component, pageProps }) {
   return (
-    <ThirdwebWeb3Provider
-      supportedChainIds={supportedChainIds}
-      connectors={connectors}
-    >
+    <ThirdwebProvider activeChain={activeChain}>
       <Component {...pageProps} />
-    </ThirdwebWeb3Provider>
+    </ThirdwebProvider>
   )
 }

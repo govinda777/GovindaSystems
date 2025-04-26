@@ -5,8 +5,13 @@ import logo from '../assets/logo.png'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
+import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 
 const Header = () => {
+  const address = useAddress();
+  const connectWithMetamask = useMetamask();
+  const disconnectWallet = useDisconnect();
+
   return (
     <header className="bg-dark w-screen px-5 py-3 flex">
       <Link href="/">
@@ -45,12 +50,26 @@ const Header = () => {
         >
           Fórum
         </a>
-        <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
-          <CgProfile />
-        </div>
-        <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
-          <MdOutlineAccountBalanceWallet />
-        </div>
+        {address ? (
+          <>
+            <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
+              <CgProfile />
+            </div>
+            <div 
+              onClick={disconnectWallet}
+              className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200"
+            >
+              <MdOutlineAccountBalanceWallet />
+            </div>
+          </>
+        ) : (
+          <button
+            onClick={connectWithMetamask}
+            className="ml-4 bg-primary text-white px-4 py-2 rounded-lg font-bold hover:bg-primary-dark transition-colors duration-200"
+          >
+            Connect Wallet
+          </button>
+        )}
       </div>
     </header>
   )

@@ -24,18 +24,17 @@ const About = () => {
         <Row className="align-items-center mb-5">
           <Col md={6} className="mb-4 mb-md-0">
             <h3 className="h4 fw-bold mb-3" style={{ color: '#2ECAD5' }}>Uma Organização Autônoma Descentralizada</h3>
-            <p className="lead mb-4">
+            <p className="lead mb-4 text-readable text-spaced">
               A Govinda Systems DAO é uma comunidade descentralizada e autônoma formada por inovadores, desenvolvedores e 
               especialistas unidos por propósitos comuns.
             </p>
-            <p style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+            <p className="text-readable text-normal">
               Nossa estrutura é completamente horizontalizada, sem hierarquias tradicionais, onde todos os membros podem 
               contribuir e participar das decisões através de um sistema de votação baseado em tokens.
             </p>
           </Col>
           <Col md={6}>
-            <div className="p-4 rounded shadow-sm" style={{ 
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="p-4 rounded shadow-sm bg-better-contrast" style={{ 
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
@@ -50,7 +49,7 @@ const About = () => {
                     color: '#111827',
                     fontWeight: 'bold'
                   }}>1</div>
-                  <div>Não depende de indivíduos, empresas ou governos</div>
+                  <div className="text-readable text-normal">Não depende de indivíduos, empresas ou governos</div>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -60,7 +59,7 @@ const About = () => {
                     color: '#111827',
                     fontWeight: 'bold'
                   }}>2</div>
-                  <div>Possui seu próprio sistema de tokens para governança</div>
+                  <div className="text-readable text-normal">Possui seu próprio sistema de tokens para governança</div>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -70,7 +69,7 @@ const About = () => {
                     color: '#111827',
                     fontWeight: 'bold'
                   }}>3</div>
-                  <div>Opera através de contratos inteligentes na blockchain</div>
+                  <div className="text-readable text-normal">Opera através de contratos inteligentes na blockchain</div>
                 </li>
                 <li className="d-flex align-items-center">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -80,7 +79,7 @@ const About = () => {
                     color: '#111827',
                     fontWeight: 'bold'
                   }}>4</div>
-                  <div>Possui códigos abertos e transparentes</div>
+                  <div className="text-readable text-normal">Possui códigos abertos e transparentes</div>
                 </li>
               </ul>
             </div>
@@ -89,8 +88,7 @@ const About = () => {
         
         <Row className="mt-5">
           <Col md={4} className="mb-4 mb-md-0">
-            <div className="card h-100 border-0" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="card h-100 border-0 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
@@ -107,13 +105,12 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Missão</h4>
-                <p className="mb-0" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>Impulsionar a inovação e transformar o ecossistema digital através da aplicação colaborativa de tecnologias emergentes e metodologias ágeis.</p>
+                <p className="mb-0 text-readable text-normal">Impulsionar a inovação e transformar o ecossistema digital através da aplicação colaborativa de tecnologias emergentes e metodologias ágeis.</p>
               </div>
             </div>
           </Col>
           <Col md={4} className="mb-4 mb-md-0">
-            <div className="card h-100 border-0" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="card h-100 border-0 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
@@ -130,13 +127,12 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Visão</h4>
-                <p className="mb-0" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>Criar um modelo autosustentável e autônomo, onde o desenvolvimento de sistemas Web3 e estratégias de crescimento beneficiem toda a comunidade.</p>
+                <p className="mb-0 text-readable text-normal">Criar um modelo autosustentável e autônomo, onde o desenvolvimento de sistemas Web3 e estratégias de crescimento beneficiem toda a comunidade.</p>
               </div>
             </div>
           </Col>
           <Col md={4}>
-            <div className="card h-100 border-0" style={{
-              background: 'rgba(31, 41, 55, 0.5)',
+            <div className="card h-100 border-0 bg-better-contrast" style={{
               backdropFilter: 'blur(10px)',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
@@ -153,7 +149,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Propósito</h4>
-                <p className="mb-0" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>Desenvolver soluções financeiras baseadas em tecnologia blockchain, acessíveis para indivíduos e organizações, compartilhando conhecimento sobre agilidade e otimização de processos.</p>
+                <p className="mb-0 text-readable text-normal">Desenvolver soluções financeiras baseadas em tecnologia blockchain, acessíveis para indivíduos e organizações, compartilhando conhecimento sobre agilidade e otimização de processos.</p>
               </div>
             </div>
           </Col>
