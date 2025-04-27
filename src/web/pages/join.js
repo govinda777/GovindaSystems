@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Link from 'next/link'
 import { useAddress, useMetamask } from "@thirdweb-dev/react"
 import Image from 'next/image'
+import { useState } from 'react'
 
 const style = {
   wrapper: 'min-h-screen',
@@ -18,12 +19,25 @@ const style = {
   tutorialLink: 'text-blue-400 hover:text-blue-300 underline mt-2 inline-block',
   connectWalletButton: 'bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition duration-300 mt-8 inline-block',
   metaMaskButton: 'bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition duration-300 inline-block flex items-center',
+  gmailButton: 'bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition duration-300 inline-block flex items-center mt-4',
+  divider: 'my-4 text-center text-gray-400',
   callout: 'mt-12 bg-gray-800 p-6 border border-gray-700 rounded-lg text-center',
 }
 
 export default function JoinPage() {
   const address = useAddress()
   const connectWithMetamask = useMetamask()
+  const [isLoggingIn, setIsLoggingIn] = useState(false)
+  
+  const handleGmailLogin = () => {
+    // This would be replaced with actual Gmail login implementation
+    // For now, just show a placeholder message
+    setIsLoggingIn(true)
+    setTimeout(() => {
+      alert("Gmail login integration will be available soon!")
+      setIsLoggingIn(false)
+    }, 1000)
+  }
   
   return (
     <div className={style.wrapper}>
@@ -64,21 +78,37 @@ export default function JoinPage() {
           
           <div className={style.stepCard}>
             <div className={style.stepNumber}>3</div>
-            <h3 className={style.stepTitle}>Configure sua carteira MetaMask</h3>
+            <h3 className={style.stepTitle}>Escolha como deseja se conectar</h3>
             <p className={style.stepDescription}>
-              A MetaMask é sua identidade digital na blockchain. Você precisará dela para interagir com nosso ecossistema.
+              Você pode se conectar usando sua carteira MetaMask ou sua conta do Gmail.
             </p>
             
             {address ? (
               <p className="text-green-400 mb-4">✅ Carteira conectada: {address.slice(0, 6)}...{address.slice(-4)}</p>
             ) : (
-              <button
-                className={style.metaMaskButton}
-                onClick={() => connectWithMetamask()}
-              >
-                <Image src="/metamask-fox.svg" alt="MetaMask" width={24} height={24} className="mr-2" />
-                Conectar MetaMask
-              </button>
+              <div>
+                <button
+                  className={style.metaMaskButton}
+                  onClick={() => connectWithMetamask()}
+                  disabled={isLoggingIn}
+                >
+                  <Image src="/metamask-fox.svg" alt="MetaMask" width={24} height={24} className="mr-2" />
+                  Conectar com MetaMask
+                </button>
+                
+                <div className={style.divider}>ou</div>
+                
+                <button
+                  className={style.gmailButton}
+                  onClick={handleGmailLogin}
+                  disabled={isLoggingIn}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" className="mr-2">
+                    <path d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"></path>
+                  </svg>
+                  Conectar com Gmail
+                </button>
+              </div>
             )}
             
             <a 

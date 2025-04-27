@@ -41,6 +41,14 @@ yarn dev
 
 Open http://localhost:3000 with your browser to see the result.
 
+5. Clean cache dependencies
+
+```base
+rm -rf node_modules/.cache
+npm cache clean --force
+rm -rf node_modules
+```
+
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
 API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in `pages/api/hello.ts`.
