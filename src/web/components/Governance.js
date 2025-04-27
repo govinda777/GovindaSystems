@@ -54,8 +54,8 @@ const Governance = () => {
           </Col>
           <Col lg={6}>
             <div className="card h-100 border-0 shadow-sm">
-              <div className="card-body p-4">
-                <h3 className="h4 fw-bold mb-4">Princípios de Governança</h3>
+              <div className="card-body p-4" style={{ background: 'linear-gradient(160deg, #1e1e2d 0%, #2d2d3a 100%)', color: '#ffffff' }}>
+                <h3 className="h4 fw-bold mb-4 text-white">Princípios de Governança</h3>
                 <div className="governance-principles">
                   <div className="d-flex align-items-start mb-4">
                     <div className="principle-icon text-primary me-3">
@@ -65,8 +65,8 @@ const Governance = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="h5 fw-bold mb-2">Transparência</h4>
-                      <p>Todas as decisões, transações e atividades da DAO são registradas na blockchain, garantindo transparência total.</p>
+                      <h4 className="h5 fw-bold mb-2 text-white">Transparência</h4>
+                      <p className="text-white">Todas as decisões, transações e atividades da DAO são registradas na blockchain, garantindo transparência total.</p>
                     </div>
                   </div>
                   <div className="d-flex align-items-start mb-4">
@@ -76,8 +76,8 @@ const Governance = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="h5 fw-bold mb-2">Inclusão</h4>
-                      <p>Todos os membros têm voz na comunidade, independentemente do tamanho de sua participação.</p>
+                      <h4 className="h5 fw-bold mb-2 text-white">Inclusão</h4>
+                      <p className="text-white">Todos os membros têm voz na comunidade, independentemente do tamanho de sua participação.</p>
                     </div>
                   </div>
                   <div className="d-flex align-items-start mb-4">
@@ -88,8 +88,8 @@ const Governance = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="h5 fw-bold mb-2">Adaptabilidade</h4>
-                      <p>O sistema de governança evolui continuamente, adaptando-se às necessidades da comunidade.</p>
+                      <h4 className="h5 fw-bold mb-2 text-white">Adaptabilidade</h4>
+                      <p className="text-white">O sistema de governança evolui continuamente, adaptando-se às necessidades da comunidade.</p>
                     </div>
                   </div>
                   <div className="d-flex align-items-start">
@@ -99,8 +99,8 @@ const Governance = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="h5 fw-bold mb-2">Descentralização</h4>
-                      <p>Nenhuma entidade central controla a DAO. O poder está distribuído entre todos os membros.</p>
+                      <h4 className="h5 fw-bold mb-2 text-white">Descentralização</h4>
+                      <p className="text-white">Nenhuma entidade central controla a DAO. O poder está distribuído entre todos os membros.</p>
                     </div>
                   </div>
                 </div>

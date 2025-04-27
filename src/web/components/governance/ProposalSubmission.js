@@ -2,16 +2,16 @@ import React, { useState } from 'react'
 import { useAddress, useMetamask } from "@thirdweb-dev/react"
 
 const style = {
-  container: 'bg-gray-800 p-6 rounded-lg shadow-lg mb-12',
-  title: 'text-2xl font-bold mb-6',
+  container: 'bg-gray-800 p-6 rounded-lg shadow-lg mb-12 text-white',
+  title: 'text-2xl font-bold mb-6 text-white',
   formGroup: 'mb-4',
   label: 'block text-gray-300 mb-2',
-  input: 'w-full bg-gray-700 p-3 rounded-lg border border-gray-600 focus:border-blue-500 focus:outline-none',
-  textarea: 'w-full bg-gray-700 p-3 rounded-lg border border-gray-600 focus:border-blue-500 focus:outline-none min-h-[120px]',
-  select: 'w-full bg-gray-700 p-3 rounded-lg border border-gray-600 focus:border-blue-500 focus:outline-none',
+  input: 'w-full bg-gray-700 p-3 rounded-lg border border-gray-600 focus:border-blue-500 focus:outline-none text-white',
+  textarea: 'w-full bg-gray-700 p-3 rounded-lg border border-gray-600 focus:border-blue-500 focus:outline-none min-h-[120px] text-white',
+  select: 'w-full bg-gray-700 p-3 rounded-lg border border-gray-600 focus:border-blue-500 focus:outline-none text-white',
   button: 'bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 mt-4',
   errorText: 'text-red-500 mt-2',
-  walletPrompt: 'text-center py-8',
+  walletPrompt: 'text-center py-8 text-white',
   connectButton: 'bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300',
 }
 

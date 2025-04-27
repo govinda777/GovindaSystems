@@ -12,11 +12,11 @@ const style = {
   title: 'text-4xl font-bold text-center mb-12',
   subtitle: 'text-2xl font-semibold mb-6 mt-12',
   paragraph: 'mb-6 text-lg',
-  processList: 'bg-gray-800 p-6 rounded-lg mt-8 mb-12',
+  processList: 'bg-gray-800 p-6 rounded-lg mt-8 mb-12 text-white',
   processItem: 'mb-4 flex items-start',
   processNumber: 'bg-gray-700 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0',
-  processText: 'mt-1',
-  infoBox: 'bg-gray-800 p-6 rounded-lg mb-8',
+  processText: 'mt-1 text-white',
+  infoBox: 'bg-gray-800 p-6 rounded-lg mb-8 text-white',
   tabs: 'flex flex-wrap border-b border-gray-700 mb-12',
   tab: 'px-6 py-3 font-medium cursor-pointer transition duration-200',
   activeTab: 'border-b-2 border-blue-500 text-blue-400',
@@ -122,9 +122,9 @@ export default function GovernancePage() {
               determinado pela comunidade através de votação.
             </p>
             
-            <div className="mt-12 bg-gray-800 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Formas de Contribuição</h3>
-              <ul className="space-y-2 list-disc pl-5">
+            <div className="mt-12 bg-gray-800 p-6 rounded-lg text-white">
+              <h3 className="text-xl font-semibold mb-4 text-white">Formas de Contribuição</h3>
+              <ul className="space-y-2 list-disc pl-5 text-white">
                 <li><span className="font-semibold">Desenvolvimento:</span> Contribua com código para nossas soluções Web3</li>
                 <li><span className="font-semibold">Educação:</span> Crie tutoriais ou workshops para nossa comunidade</li>
                 <li><span className="font-semibold">Governança:</span> Participe ativamente de discussões e votações</li>

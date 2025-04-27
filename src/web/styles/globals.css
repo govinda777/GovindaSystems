@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  /* Base theme (dark theme) */
   :root {
     --primary-color: #30E3F0;
     --secondary-color: #FF7A7A;
@@ -16,12 +17,74 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 11, 16, 24;
     --background-end-rgb: 7, 10, 15;
+    --text-color: 255, 255, 255;
+    --border-color: rgba(255, 255, 255, 0.15);
+    --card-bg: #1F2937;
+  }
+
+  /* Light theme */
+  .light {
+    --primary-color: #0095ff;
+    --secondary-color: #ff6b6b;
+    --accent-color: #ff4db8;
+    --dark-color: #333333;
+    --darker-color: #222222;
+    --dark-bg: #ffffff;
+    --dark-bg-lighter: #f5f5f5;
+    --light-color: #222;
+    --gray-color: #555555;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 240, 240, 245;
+    --text-color: 0, 0, 0;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --card-bg: #ffffff;
+  }
+
+  /* Custom theme 1 - Blue theme */
+  .custom1 {
+    --primary-color: #42b0ff;
+    --secondary-color: #ff8a5c;
+    --accent-color: #9d4edd;
+    --dark-color: #0a2342;
+    --darker-color: #051937;
+    --dark-bg: #0c2c54;
+    --dark-bg-lighter: #1b3a5a;
+    --light-color: #fff;
+    --gray-color: #a0b4c7;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 12, 44, 84;
+    --background-end-rgb: 5, 25, 55;
+    --text-color: 255, 255, 255;
+    --border-color: rgba(255, 255, 255, 0.2);
+    --card-bg: #1b3a5a;
+  }
+
+  /* Custom theme 2 - High Contrast */
+  .custom2 {
+    --primary-color: #ffff00;
+    --secondary-color: #00ff00;
+    --accent-color: #ff00ff;
+    --dark-color: #000000;
+    --darker-color: #000000;
+    --dark-bg: #000000;
+    --dark-bg-lighter: #181818;
+    --light-color: #ffffff;
+    --gray-color: #dddddd;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    --text-color: 255, 255, 255;
+    --border-color: rgba(255, 255, 255, 0.5);
+    --card-bg: #181818;
   }
 
   body {
-    @apply text-white overflow-x-hidden bg-dark-bg;
+    @apply overflow-x-hidden;
     font-size: 16px;
     line-height: 1.6;
+    color: rgb(var(--text-color));
+    background-color: var(--dark-bg);
   }
 
   section {
@@ -29,7 +92,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-white;
+    color: var(--light-color);
     margin-bottom: 1rem;
     text-shadow: 0 1px 3px rgba(0,0,0,0.3);
   }
@@ -48,18 +111,21 @@
   
   p {
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.95);
+    color: rgba(var(--text-color), 0.95);
   }
 }
 
 @layer components {
   /* Cards */
   .card {
-    @apply bg-dark-bg-lighter border border-[rgba(255,255,255,0.15)] rounded-card shadow-card p-6;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    @apply rounded-card shadow-card p-6;
   }
 
   .card-title {
-    @apply text-heading-3 font-bold mb-3 text-white;
+    @apply text-heading-3 font-bold mb-3;
+    color: var(--light-color);
   }
 
   /* Buttons */
@@ -69,19 +135,29 @@
   }
 
   .btn-primary {
-    @apply bg-primary text-dark font-bold border-primary;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    @apply font-bold;
+    border-color: var(--primary-color);
   }
 
   .btn-secondary {
-    @apply bg-secondary text-dark font-bold border-secondary;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    @apply font-bold;
+    border-color: var(--secondary-color);
   }
 
   .btn-outline-primary {
-    @apply bg-transparent border-2 border-primary text-primary;
+    @apply bg-transparent border-2;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
   }
 
   .btn-outline-secondary {
-    @apply bg-transparent border-2 border-secondary text-secondary;
+    @apply bg-transparent border-2;
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
   }
 
   .btn-lg {
@@ -90,25 +166,34 @@
 
   /* Links */
   .link {
-    @apply text-white hover:text-secondary transition-colors duration-200;
+    color: var(--light-color);
+    @apply hover:text-secondary transition-colors duration-200;
     text-decoration: underline;
   }
 
   .hover-accent {
-    @apply transition-colors duration-200 hover:text-secondary;
+    @apply transition-colors duration-200;
+    &:hover {
+      color: var(--secondary-color);
+    }
   }
 
   /* Form controls */
   .form-control {
-    @apply bg-dark-bg-lighter border border-[rgba(255,255,255,0.2)] text-white rounded-md px-3 py-2 w-full;
+    background-color: var(--dark-bg-lighter);
+    border: 1px solid var(--border-color);
+    color: var(--light-color);
+    @apply rounded-md px-3 py-2 w-full;
   }
 
   .form-control:focus {
-    @apply border-primary outline-none ring-2 ring-primary/50;
+    border-color: var(--primary-color);
+    @apply outline-none ring-2;
+    ring-color: rgba(var(--primary-color), 0.5);
   }
 
   .form-control::placeholder {
-    @apply text-gray;
+    color: var(--gray-color);
   }
 
   /* Text gradient */

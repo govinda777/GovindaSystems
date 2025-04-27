@@ -46,7 +46,7 @@ const About = () => {
                     width: '40px', 
                     height: '40px', 
                     background: '#2ECAD5',
-                    color: '#111827',
+                    color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>1</div>
                   <div className="text-readable text-normal">Não depende de indivíduos, empresas ou governos</div>
@@ -56,7 +56,7 @@ const About = () => {
                     width: '40px', 
                     height: '40px', 
                     background: '#2ECAD5',
-                    color: '#111827',
+                    color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>2</div>
                   <div className="text-readable text-normal">Possui seu próprio sistema de tokens para governança</div>
@@ -66,7 +66,7 @@ const About = () => {
                     width: '40px', 
                     height: '40px', 
                     background: '#2ECAD5',
-                    color: '#111827',
+                    color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>3</div>
                   <div className="text-readable text-normal">Opera através de contratos inteligentes na blockchain</div>
@@ -76,7 +76,7 @@ const About = () => {
                     width: '40px', 
                     height: '40px', 
                     background: '#2ECAD5',
-                    color: '#111827',
+                    color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>4</div>
                   <div className="text-readable text-normal">Possui códigos abertos e transparentes</div>

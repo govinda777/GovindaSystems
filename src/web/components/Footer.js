@@ -98,7 +98,7 @@ const Footer = () => {
                   <input type="email" className="form-control" placeholder="Seu e-mail" aria-label="Seu e-mail" />
                   <button className="btn" style={{ 
                     backgroundColor: '#FF6B6B', 
-                    color: '#0F172A', 
+                    color: '#FFFFFF',
                     border: 'none',
                     fontWeight: 'bold'
                   }} type="button">Enviar</button>

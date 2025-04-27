@@ -6,6 +6,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
 import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
+import ThemeSwitcher from './ThemeSwitcher.js'
 
 const Header = () => {
   const address = useAddress();
@@ -50,6 +51,12 @@ const Header = () => {
         >
           Fórum
         </a>
+        
+        {/* Theme Switcher */}
+        <div className="ml-2 mr-4">
+          <ThemeSwitcher />
+        </div>
+        
         {address ? (
           <>
             <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
