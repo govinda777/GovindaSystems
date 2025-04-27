@@ -2,7 +2,7 @@
 
 ## 1. Preparação e Configuração
 
-- [ ] Atualizar bibliotecas thirdweb para as versões mais recentes compatíveis com ERC-4337
+- [x] Atualizar bibliotecas thirdweb para as versões mais recentes compatíveis com ERC-4337
 - [ ] Configurar e registrar uma conta de desenvolvedor na thirdweb (se ainda não tiver)
 - [ ] Configurar variáveis de ambiente para chaves de API e outros segredos necessários
 - [ ] Definir as redes blockchain que serão suportadas na implementação (Sepolia, Mumbai, etc.)
