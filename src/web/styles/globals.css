@@ -292,3 +292,15 @@
     background-color: rgba(7, 10, 15, 0.85) !important;
   }
 }
+
+/* Custom dark mode title colors */
+html[data-theme="dark"] .token-card .h4, /* Main titles */
+html[data-theme="dark"] .token-card h4.h6, /* Subtitles (h4 tag with h6 class) */
+html[data-theme="dark"] .card .h5 { /* "Como funciona..." title */
+  color: white;
+}
+
+/* Style list item text in dark mode token cards */
+html[data-theme="dark"] .token-card .token-features > div > div:last-child {
+  color: rgba(255, 255, 255, 0.95);
+}

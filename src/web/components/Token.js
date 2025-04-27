@@ -30,7 +30,7 @@ const Token = () => {
                   </div>
                   <h3 className="h4 fw-bold mb-0">GSTG</h3>
                 </div>
-                <h4 className="h6 fw-bold text-muted mb-3">Token Governance</h4>
+                <h4 className="h6 fw-bold mb-3">Token Governance</h4>
                 <p className="mb-4">
                   Representa participação na comunidade e direitos de voto. Membros com GSTG decidem coletivamente 
                   sobre desenvolvimento, alocação de recursos e futuro da DAO.
@@ -76,7 +76,7 @@ const Token = () => {
                   </div>
                   <h3 className="h4 fw-bold mb-0">GOV</h3>
                 </div>
-                <h4 className="h6 fw-bold text-muted mb-3">Token de Serviço</h4>
+                <h4 className="h6 fw-bold mb-3">Token de Serviço</h4>
                 <p className="mb-4">
                   Utilizado para acessar as soluções desenvolvidas pela comunidade. Os membros ganham 
                   30% de cashback em GOV, retornando valor ao ecossistema.
@@ -122,7 +122,7 @@ const Token = () => {
                   </div>
                   <h3 className="h4 fw-bold mb-0">GOV_PAG</h3>
                 </div>
-                <h4 className="h6 fw-bold text-muted mb-3">Token de Pagamento</h4>
+                <h4 className="h6 fw-bold mb-3">Token de Pagamento</h4>
                 <p className="mb-4">
                   Facilita transações dentro do ecossistema e pode ser trocado por outras criptomoedas via Uniswap,
                   sendo utilizado para pagar os serviços prestados pelos membros da comunidade.
