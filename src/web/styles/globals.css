@@ -304,3 +304,16 @@ html[data-theme="dark"] .card .h5 { /* "Como funciona..." title */
 html[data-theme="dark"] .token-card .token-features > div > div:last-child {
   color: rgba(255, 255, 255, 0.95);
 }
+
+/* Custom dark mode title colors */
+html[data-theme="custom1"] .token-card .h4, /* Main titles */
+html[data-theme="custom1"] .token-card h4.h6, /* Subtitles (h4 tag with h6 class) */
+html[data-theme="custom1"] .card .h5 { /* "Como funciona..." title */
+  color: white;
+}
+
+
+/* Style list item text in Blue Theme token cards */
+.custom1 .token-card .token-features > div > div:last-child {
+  color: rgba(255, 255, 255, 0.95);
+}
