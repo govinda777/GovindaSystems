@@ -1,17 +1,31 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
-import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { ThirdwebProvider, smartWallet, metamaskWallet, coinbaseWallet } from "@thirdweb-dev/react";
+import { Polygon, Mumbai } from "@thirdweb-dev/chains";
 import { ThemeProvider } from '../context/ThemeContext';
 
-const activeChain = "sepolia";
+// Define the chains we want to support
+const supportedChains = [Polygon, Mumbai];
+
+// Set the active chain to Polygon Mainnet
+const activeChain = Polygon;
 
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
       <ThirdwebProvider 
         activeChain={activeChain}
-        clientId="your-client-id-here" // Substitua por sua chave API real do thirdweb.com/create-api-key
+        supportedChains={supportedChains}
+        clientId={process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID}
+        supportedWallets={[
+          smartWallet({
+            factoryAddress: "YOUR_FACTORY_ADDRESS",
+            gasless: true,
+          }),
+          metamaskWallet(),
+          coinbaseWallet(),
+        ]}
       >
         <Component {...pageProps} />
       </ThirdwebProvider>

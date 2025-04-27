@@ -3,9 +3,10 @@
 ## 1. Preparação e Configuração
 
 - [x] Atualizar bibliotecas thirdweb para as versões mais recentes compatíveis com ERC-4337
-- [ ] Configurar e registrar uma conta de desenvolvedor na thirdweb (se ainda não tiver)
-- [ ] Configurar variáveis de ambiente para chaves de API e outros segredos necessários
-- [ ] Definir as redes blockchain que serão suportadas na implementação (Sepolia, Mumbai, etc.)
+- [x] Configurar e registrar uma conta de desenvolvedor na thirdweb (se ainda não tiver)
+https://thirdweb.com/team/govinda-systems-team
+- [x] Configurar variáveis de ambiente para chaves de API e outros segredos necessários
+- [x] Definir as redes blockchain que serão suportadas na implementação (Polygon Mainnet, Mumbai)
 
 ## 2. Implementação da Infraestrutura de Smart Accounts
 
