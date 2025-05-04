@@ -40,6 +40,9 @@ const Header = () => {
         <Link href="/governance" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
           Governança
         </Link>
+        <Link href="/projects" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Projetos
+        </Link>
         <Link href="/join" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
           Comunidade
         </Link>
