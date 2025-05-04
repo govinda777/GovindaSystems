@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: "Event Hub Connect",
+    description: "Platform for creating and managing events and communities.",
+    siteUrl: "https://event-hub-dao.replit.app",
+    repoUrl: "https://github.com/govinda777/EventHubConnect"
+  },
+  {
     title: "Crowd Fund Connect",
     description: "A decentralized platform for connecting investors and projects through blockchain technology.",
     siteUrl: "https://crowd-fund-connect.replit.app/",
