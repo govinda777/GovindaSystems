@@ -30,7 +30,9 @@ cd govinda-systems-dao
 3. Install dependencies:
 
 ```bash
-yarn install
+# Public registry
+npm install --repository=https://npm.pkg.github.com --verbose
+yarn install --registry=https://npm.pkg.github.com --verbose
 ```
 
 4. Run the development server:
