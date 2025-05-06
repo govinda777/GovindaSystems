@@ -33,6 +33,8 @@ cd govinda-systems-dao
 # Public registry
 npm install --repository=https://npm.pkg.github.com --verbose
 yarn install --registry=https://npm.pkg.github.com --verbose
+
+npm audit --registry=https://npm.pkg.github.com
 ```
 
 4. Run the development server:
