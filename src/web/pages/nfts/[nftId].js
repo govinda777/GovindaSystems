@@ -1,7 +1,7 @@
 import Header from '../../components/Header'
 import { useEffect, useMemo, useState } from 'react'
-import { useWeb3 } from '@3rdweb/hooks'
-import { ThirdwebSDK } from '@3rdweb/sdk'
+import { useAddress, useSDK } from '@thirdweb-dev/react'
+import { ThirdwebSDK } from '@thirdweb-dev/sdk'
 import { useRouter } from 'next/router'
 import NFTImage from '../../components/nft/NFTImage'
 import GeneralDetails from '../../components/nft/GeneralDetails'
@@ -17,20 +17,17 @@ const style = {
 }
 
 const Nft = () => {
-  const { provider } = useWeb3()
+  const address = useAddress()
+  const sdk = useSDK()
   const [selectedNft, setSelectedNft] = useState()
   const [listings, setListings] = useState([])
   const router = useRouter()
 
   const nftModule = useMemo(() => {
-    if (!provider) return
-
-    const sdk = new ThirdwebSDK(
-      provider.getSigner()
-    )
+    if (!sdk) return
 
     return sdk.getNFTModule('0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070')
-  }, [provider])
+  }, [sdk])
 
   // get all NFTs in the collection
   useEffect(() => {
@@ -45,16 +42,12 @@ const Nft = () => {
   }, [nftModule, router.query.nftId])
 
   const marketPlaceModule = useMemo(() => {
-    if (!provider) return
-
-    const sdk = new ThirdwebSDK(
-      provider.getSigner()
-    )
+    if (!sdk) return
 
     return sdk.getMarketplaceModule(
       '0x43a77C79dE0c6481D63FA2803287432C9EA86cb5'
     )
-  }, [provider])
+  }, [sdk])
 
   useEffect(() => {
     if (!marketPlaceModule) return

@@ -14,7 +14,7 @@ export const projects = [
   {
     title: "TourChain Connect",
     description: "A decentralized platform for connecting travelers and local guides through blockchain technology.",
-    siteUrl: "https://tour-chain-connect-govinda777.replit.app/",
+    siteUrl: "https://tour-chain-connect.replit.app/",
     repoUrl: "https://github.com/govinda777/TourChainConnect"
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Web3 POC",
     description: "A proof of concept demonstrating Web3 integration and blockchain functionality.",
-    siteUrl: "https://pocweb-3-govinda777.replit.app/",
+    siteUrl: "https://pocweb-3.replit.app/",
     repoUrl: "https://github.com/govinda777/poc_web3"
   }
 ]; 
