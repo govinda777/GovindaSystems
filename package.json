@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "@babel/preset-typescript": "^7.27.0"
-  },
-  "dependencies": {
-    "@thirdweb-dev/chains": "^0.1.120"
-  }
-}
