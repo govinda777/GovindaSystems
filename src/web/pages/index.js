@@ -3,17 +3,12 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Map from '../components/Map'
-import Token from '../components/Token'
-import Governance from '../components/Governance'
 import Services from '../components/services/Services'
 import Footer from '../components/Footer'
 import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
-
-import Dework from '../components/Dework'
 
 const style = {
   wrapper: ``,
@@ -58,37 +53,30 @@ export default function Home() {
   return (
     <div className={style.wrapper}>
       <Head>
-        <title>Govinda Systems DAO - Simplificando a Tecnologia para Todos</title>
-        <meta name="description" content="A Govinda Systems DAO é uma organização descentralizada autônoma que oferece soluções tecnológicas inovadoras e acessíveis. Conheça nossa comunidade descentralizada!" />
+        <title>GovindaSystems - Soluções em Inteligência Artificial</title>
+        <meta name="description" content="Transformamos empresas através da Inteligência Artificial. Atendimento automatizado, automação de redes sociais, processos inteligentes e muito mais." />
+        <meta name="keywords" content="inteligência artificial, IA, automação, chatbot, AI, machine learning, automação de processos" />
         <link rel="icon" href="/favicon.ico" />
+        
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="GovindaSystems - Soluções em Inteligência Artificial" />
+        <meta property="og:description" content="Transformamos empresas através da Inteligência Artificial" />
+        <meta property="og:url" content="https://govindasystems.com" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GovindaSystems - Soluções em IA" />
+        <meta name="twitter:description" content="Transformamos empresas através da Inteligência Artificial" />
       </Head>
       <Toaster position="top-center" reverseOrder={false} />
-      {true ? (
-        <>
-          <Header />
-          <Hero />
-          <Map />
-          <About />
-          <Services />
-          <Governance />
-          <Dework />
-          <Token />
-          <Footer />
-        </>
-      ) : (
-        <div className={style.walletConnectWrapper}>
-          <button
-            className={style.button}
-            onClick={connectWithMetamask}
-          >
-            Connect Wallet
-          </button>
-          <div className={style.details}>
-            You need Chrome to be
-            <br /> able to run this app.
-          </div>
-        </div>
-      )}
+      <>
+        <Header />
+        <Hero />
+        <About />
+        <Services />
+        <Footer />
+      </>
     </div>
   );
 }

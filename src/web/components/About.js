@@ -16,21 +16,22 @@ const About = () => {
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
-            }}>O que é a Govinda Systems DAO?</h2>
+            }}>Quem Somos</h2>
             <div className="mx-auto" style={{ maxWidth: '80px', height: '4px', background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)', marginBottom: '2rem', borderRadius: '2px' }}></div>
           </Col>
         </Row>
         
         <Row className="align-items-center mb-5">
           <Col md={6} className="mb-4 mb-md-0">
-            <h3 className="h4 fw-bold mb-3" style={{ color: '#2ECAD5' }}>Uma Organização Autônoma Descentralizada</h3>
+            <h3 className="h4 fw-bold mb-3" style={{ color: '#2ECAD5' }}>Especialistas em Inteligência Artificial</h3>
             <p className="lead mb-4 text-readable text-spaced">
-              A Govinda Systems DAO é uma comunidade descentralizada e autônoma formada por inovadores, desenvolvedores e 
-              especialistas unidos por propósitos comuns.
+              A GovindaSystems é uma empresa de tecnologia especializada em soluções de Inteligência Artificial 
+              e automação inteligente para empresas de todos os portes.
             </p>
             <p className="text-readable text-normal">
-              Nossa estrutura é completamente horizontalizada, sem hierarquias tradicionais, onde todos os membros podem 
-              contribuir e participar das decisões através de um sistema de votação baseado em tokens.
+              Nossa equipe é formada por desenvolvedores, cientistas de dados e especialistas em IA que trabalham 
+              para criar soluções personalizadas que resolvem problemas reais do seu negócio, aumentando eficiência, 
+              reduzindo custos e impulsionando resultados.
             </p>
           </Col>
           <Col md={6}>
@@ -39,7 +40,7 @@ const About = () => {
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
             }}>
-              <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Características de uma DAO:</h4>
+              <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Por que escolher IA?</h4>
               <ul className="list-unstyled">
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -49,7 +50,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>1</div>
-                  <div className="text-readable text-normal">Não depende de indivíduos, empresas ou governos</div>
+                  <div className="text-readable text-normal">Reduza custos operacionais em até 70%</div>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -59,7 +60,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>2</div>
-                  <div className="text-readable text-normal">Possui seu próprio sistema de tokens para governança</div>
+                  <div className="text-readable text-normal">Atendimento e processos 24/7 automatizados</div>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -69,7 +70,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>3</div>
-                  <div className="text-readable text-normal">Opera através de contratos inteligentes na blockchain</div>
+                  <div className="text-readable text-normal">Insights baseados em dados para decisões inteligentes</div>
                 </li>
                 <li className="d-flex align-items-center">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -79,7 +80,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>4</div>
-                  <div className="text-readable text-normal">Possui códigos abertos e transparentes</div>
+                  <div className="text-readable text-normal">Escalabilidade sem aumentar equipe</div>
                 </li>
               </ul>
             </div>
@@ -105,7 +106,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Missão</h4>
-                <p className="mb-0 text-readable text-normal">Impulsionar a inovação e transformar o ecossistema digital através da aplicação colaborativa de tecnologias emergentes e metodologias ágeis.</p>
+                <p className="mb-0 text-readable text-normal">Democratizar o acesso à Inteligência Artificial, tornando soluções de IA acessíveis e práticas para empresas de todos os tamanhos.</p>
               </div>
             </div>
           </Col>
@@ -127,7 +128,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Visão</h4>
-                <p className="mb-0 text-readable text-normal">Criar um modelo autosustentável e autônomo, onde o desenvolvimento de sistemas Web3 e estratégias de crescimento beneficiem toda a comunidade.</p>
+                <p className="mb-0 text-readable text-normal">Ser referência em soluções de IA na América Latina, transformando empresas através da automação inteligente e inovação contínua.</p>
               </div>
             </div>
           </Col>
@@ -149,7 +150,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Propósito</h4>
-                <p className="mb-0 text-readable text-normal">Desenvolver soluções financeiras baseadas em tecnologia blockchain, acessíveis para indivíduos e organizações, compartilhando conhecimento sobre agilidade e otimização de processos.</p>
+                <p className="mb-0 text-readable text-normal">Empoderar empresas com tecnologia de IA de ponta, criando soluções personalizadas que resolvem problemas reais e geram resultados mensuráveis.</p>
               </div>
             </div>
           </Col>

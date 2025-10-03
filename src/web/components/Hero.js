@@ -17,22 +17,22 @@ export default function Hero() {
             <Container className="relative z-10">
                 <Row className="align-items-center">
                     <Col lg={7} className="mb-5 mb-lg-0">
-                        <h1 className="text-gradient display-3 fw-bold mb-4">Govinda Systems DAO</h1>
+                        <h1 className="text-gradient display-3 fw-bold mb-4">GovindaSystems</h1>
                         <p className="lead fs-4 mb-4">
-                            Uma organização descentralizada autônoma que simplifica a tecnologia para todos
+                            Soluções em Inteligência Artificial para o seu negócio
                         </p>
                         <p className="mb-5 text-body-lg text-white/80">
-                            A Govinda Systems DAO é uma comunidade descentralizada e autônoma formada por inovadores, 
-                            desenvolvedores e especialistas unidos por propósitos comuns. Juntos, trabalhamos para criar 
-                            soluções tecnológicas que transformam o ecossistema Web3, adaptando projetos às rápidas 
-                            mudanças do mercado e alcançando resultados inovadores através da inteligência coletiva.
+                            Transformamos empresas através da Inteligência Artificial e Automação Inteligente. 
+                            Desenvolvemos soluções de IA personalizadas que otimizam processos, reduzem custos 
+                            e aumentam a produtividade do seu negócio. Do atendimento automatizado à automação 
+                            de redes sociais, oferecemos tecnologia de ponta para impulsionar seus resultados.
                         </p>
                         <div className="flex flex-wrap gap-3">
-                            <Link href="#about" className="btn btn-primary btn-lg me-3 mb-3 mb-md-0">
-                                Conheça a DAO
+                            <Link href="/join" className="btn btn-primary btn-lg me-3 mb-3 mb-md-0">
+                                Solicitar Orçamento
                             </Link>
                             <Link href="#services" className="btn btn-outline-secondary btn-lg">
-                                Nossas Soluções
+                                Nossas Soluções AI
                             </Link>
                         </div>
                     </Col>

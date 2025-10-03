@@ -6,6 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="cryptomus" content="78912fe4" />
+        <meta name="facebook-domain-verification" content="zrpeks7kvutacsqfyue53ed23d0oi0" />
       </Head>
       <body>
         <Main />

@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  experimental: {
-    esmExternals: false,
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'preact/compat': 'react',
+      'preact/hooks': 'react',
+      'preact': 'react',
+    };
+    return config;
   },
 }
 
