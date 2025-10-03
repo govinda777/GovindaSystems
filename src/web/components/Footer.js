@@ -110,7 +110,7 @@ const Footer = () => {
         <hr className="my-4" style={{ borderColor: 'rgba(255, 255, 255, 0.1)' }} />
         <Row>
           <Col className="text-center">
-            <p className="small mb-0" style={{ color: 'rgba(255, 255, 255, 0.5)' }}>&copy; {new Date().getFullYear()} Govinda Systems DAO. Todos os direitos reservados.</p>
+            <p className="small mb-0" style={{ color: 'rgba(255, 255, 255, 0.5)' }}>{new Date().getFullYear()} Govinda Systems DAO</p>
           </Col>
         </Row>
       </Container>

@@ -6,6 +6,7 @@ Simplificando a Tecnologia para Todos
 
 Site : https://govinda-systems-web-govinda777.vercel.app
 
+NEXT_PUBLIC_PRIVY_APP_ID = cmaqqs10k00onl20md0g7c7bg
 
 ## 🌟 Bem-vindo à Govinda Systems DAO
 
@@ -141,7 +142,3 @@ A Govinda Systems DAO aceita pagamentos em GOV_COINS, uma criptomoeda inovadora 
 Estamos ansiosos para ouvir suas necessidades e trabalhar juntos para criar soluções tecnológicas que impulsionem seu sucesso. Entre em contato conosco hoje para saber mais sobre nossos serviços e como podemos ajudá-lo a alcançar seus objetivos.
 
 **Email:** contato@govindasystems.com
-
-## 📜 Licença
-
-&copy; Govinda Systems DAO. Todos os direitos reservados.
