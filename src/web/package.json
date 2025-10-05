@@ -41,16 +41,10 @@
     "zod": "^4.1.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
-    "@babel/eslint-parser": "^7.23.10",
-    "@babel/preset-env": "^7.27.2",
-    "@babel/preset-react": "^7.27.1",
-    "@babel/preset-typescript": "^7.23.3",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.1.0",
     "identity-obj-proxy": "^3.0.0",
