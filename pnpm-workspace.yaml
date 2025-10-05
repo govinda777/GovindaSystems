@@ -1,0 +1,17 @@
+# ⚡ PNPM Workspace Configuration
+# Para usar pnpm (gerenciador de pacotes 2-3x mais rápido que npm)
+# 
+# Instalação: npm install -g pnpm
+# Uso: pnpm install
+#
+# Benefícios:
+# - Instalação 2-3x mais rápida
+# - Economiza espaço em disco (hard links)
+# - Cache compartilhado entre projetos
+# - Compatível com npm/yarn
+
+packages:
+  - 'src/web'
+  - 'src/blockchain'
+
+
