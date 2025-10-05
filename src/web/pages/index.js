@@ -9,6 +9,7 @@ import AgileConsulting from '../components/services/AgileConsulting'
 import Web3Development from '../components/services/Web3Development'
 import DigitalMarketing from '../components/services/DigitalMarketing'
 import SpecialSolutions from '../components/services/SpecialSolutions'
+import Dework from '../components/Dework'
 import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
@@ -83,6 +84,7 @@ export default function Home() {
           <DigitalMarketing />
           <SpecialSolutions />
         </div>
+        <Dework />
         <Footer />
       </>
     </div>
