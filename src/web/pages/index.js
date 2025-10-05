@@ -10,6 +10,9 @@ import Web3Development from '../components/services/Web3Development'
 import DigitalMarketing from '../components/services/DigitalMarketing'
 import SpecialSolutions from '../components/services/SpecialSolutions'
 import Dework from '../components/Dework'
+import UseCases from '../components/UseCases'
+import Governance from '../components/Governance'
+import TokenEcosystem from '../components/TokenEcosystem'
 import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
@@ -85,6 +88,9 @@ export default function Home() {
           <SpecialSolutions />
         </div>
         <Dework />
+        <UseCases />
+        <TokenEcosystem />
+        <Governance />
         <Footer />
       </>
     </div>
