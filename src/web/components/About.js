@@ -23,15 +23,12 @@ const About = () => {
         
         <Row className="align-items-center mb-5">
           <Col md={6} className="mb-4 mb-md-0">
-            <h3 className="h4 fw-bold mb-3" style={{ color: '#2ECAD5' }}>Especialistas em Inteligência Artificial</h3>
+            <h3 className="h4 fw-bold mb-3" style={{ color: '#2ECAD5' }}>Uma Organização Autônoma e Descentralizada</h3>
             <p className="lead mb-4 text-readable text-spaced">
-              A GovindaSystems é uma empresa de tecnologia especializada em soluções de Inteligência Artificial 
-              e automação inteligente para empresas de todos os portes.
+              Govinda Systems DAO é uma comunidade global de desenvolvedores, pesquisadores e entusiastas de IA, unidos por uma paixão por inovação aberta e descentralizada.
             </p>
             <p className="text-readable text-normal">
-              Nossa equipe é formada por desenvolvedores, cientistas de dados e especialistas em IA que trabalham 
-              para criar soluções personalizadas que resolvem problemas reais do seu negócio, aumentando eficiência, 
-              reduzindo custos e impulsionando resultados.
+              Não somos uma empresa tradicional. Somos um coletivo que colabora em projetos de código aberto, impulsionando o avanço da inteligência artificial de forma transparente e acessível a todos.
             </p>
           </Col>
           <Col md={6}>
@@ -40,7 +37,7 @@ const About = () => {
               border: '1px solid rgba(255, 255, 255, 0.1)',
               boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
             }}>
-              <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Por que escolher IA?</h4>
+              <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Por que uma DAO?</h4>
               <ul className="list-unstyled">
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -50,7 +47,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>1</div>
-                  <div className="text-readable text-normal">Reduza custos operacionais em até 70%</div>
+                  <div className="text-readable text-normal">Governança comunitária e transparente</div>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -60,7 +57,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>2</div>
-                  <div className="text-readable text-normal">Atendimento e processos 24/7 automatizados</div>
+                  <div className="text-readable text-normal">Inovação aberta e código-fonte acessível</div>
                 </li>
                 <li className="d-flex align-items-center mb-3">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -70,7 +67,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>3</div>
-                  <div className="text-readable text-normal">Insights baseados em dados para decisões inteligentes</div>
+                  <div className="text-readable text-normal">Propriedade e recompensas para contribuidores</div>
                 </li>
                 <li className="d-flex align-items-center">
                   <div className="rounded-circle d-flex align-items-center justify-content-center me-3" style={{ 
@@ -80,7 +77,7 @@ const About = () => {
                     color: '#FFFFFF',
                     fontWeight: 'bold'
                   }}>4</div>
-                  <div className="text-readable text-normal">Escalabilidade sem aumentar equipe</div>
+                  <div className="text-readable text-normal">Desenvolvimento colaborativo e global</div>
                 </li>
               </ul>
             </div>
@@ -106,7 +103,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Missão</h4>
-                <p className="mb-0 text-readable text-normal">Democratizar o acesso à Inteligência Artificial, tornando soluções de IA acessíveis e práticas para empresas de todos os tamanhos.</p>
+                <p className="mb-0 text-readable text-normal">Construir um ecossistema de IA descentralizado e de código aberto, onde qualquer pessoa pode contribuir e se beneficiar da inovação.</p>
               </div>
             </div>
           </Col>
@@ -128,7 +125,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Visão</h4>
-                <p className="mb-0 text-readable text-normal">Ser referência em soluções de IA na América Latina, transformando empresas através da automação inteligente e inovação contínua.</p>
+                <p className="mb-0 text-readable text-normal">Ser a principal DAO para o desenvolvimento de tecnologias de IA, fomentando a colaboração global e a distribuição justa de valor.</p>
               </div>
             </div>
           </Col>
@@ -150,7 +147,7 @@ const About = () => {
                   </svg>
                 </div>
                 <h4 className="h5 fw-bold mb-3" style={{ color: '#FF6B6B' }}>Propósito</h4>
-                <p className="mb-0 text-readable text-normal">Empoderar empresas com tecnologia de IA de ponta, criando soluções personalizadas que resolvem problemas reais e geram resultados mensuráveis.</p>
+                <p className="mb-0 text-readable text-normal">Empoderar indivíduos para colaborar na criação de tecnologias de IA, garantindo que o futuro da inteligência artificial seja aberto, justo e descentralizado.</p>
               </div>
             </div>
           </Col>
