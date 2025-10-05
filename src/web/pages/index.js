@@ -3,9 +3,12 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Services from '../components/services/Services'
 import Footer from '../components/Footer'
 import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
+import AgileConsulting from '../components/services/AgileConsulting'
+import Web3Development from '../components/services/Web3Development'
+import DigitalMarketing from '../components/services/DigitalMarketing'
+import SpecialSolutions from '../components/services/SpecialSolutions'
 import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
@@ -74,7 +77,12 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
-        <Services />
+        <div className="container">
+          <AgileConsulting />
+          <Web3Development />
+          <DigitalMarketing />
+          <SpecialSolutions />
+        </div>
         <Footer />
       </>
     </div>
