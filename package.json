@@ -1,0 +1,42 @@
+{
+  "name": "govinda-systems-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GovindaSystems - Transformando Negócios com Inteligência Artificial",
+  "scripts": {
+    "dev": "cd src/web && npm run dev",
+    "build": "cd src/web && npm run build",
+    "start": "cd src/web && npm run start",
+    "lint": "cd src/web && npm run lint",
+    "test": "cd src/web && npm run test",
+    "install:fast": "./install-fast.sh",
+    "install:web": "cd src/web && npm install",
+    "clean": "rm -rf src/web/node_modules src/web/.next src/web/.turbo",
+    "clean:all": "rm -rf src/web/node_modules src/web/.next src/web/.turbo && npm cache clean --force"
+  },
+  "workspaces": [
+    "src/web"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/govinda777/GovindaSystems.git"
+  },
+  "keywords": [
+    "ai",
+    "blockchain",
+    "web3",
+    "dao",
+    "nextjs",
+    "react",
+    "automation"
+  ],
+  "author": "GovindaSystems Team",
+  "license": "MIT"
+}
+
+

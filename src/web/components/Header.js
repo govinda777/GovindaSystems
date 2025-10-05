@@ -1,86 +1,84 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../assets/logo.png'
-import { AiOutlineSearch } from 'react-icons/ai'
-import { CgProfile } from 'react-icons/cg'
-import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
-import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 import ThemeSwitcher from './ThemeSwitcher.js'
 
 const Header = () => {
-  const address = useAddress();
-  const connectWithMetamask = useMetamask();
-  const disconnectWallet = useDisconnect();
+  const [servicesOpen, setServicesOpen] = useState(false);
 
   return (
-    <header className="bg-dark w-screen px-5 py-3 flex">
+    <header className="bg-dark w-screen px-5 py-3 flex items-center justify-between">
       <Link href="/">
         <div className="flex items-center cursor-pointer">
-          <Image src={logo} height={40} width={40} alt="Govinda Systems Logo" />
-          <div className="ml-3 text-white font-semibold text-2xl">Govinda Systems DAO</div>
+          <Image src={logo} height={40} width={40} alt="GovindaSystems Logo" />
+          <div className="ml-3 text-white font-semibold text-2xl">GovindaSystems</div>
         </div>
       </Link>
-      <div className="flex flex-1 mx-3 w-max-[520px] items-center bg-dark-bg-lighter rounded-lg hover:bg-dark/80 transition-colors duration-200">
-        <div className="text-gray mx-3 font-bold text-lg">
-          <AiOutlineSearch />
+      
+      <nav className="flex items-center justify-end gap-6">
+        <Link href="/" className="text-white font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Início
+        </Link>
+        
+        {/* Dropdown de Soluções */}
+        <div 
+          className="relative"
+          onMouseEnter={() => setServicesOpen(true)}
+          onMouseLeave={() => setServicesOpen(false)}
+        >
+          <button className="text-white font-bold hover:text-primary cursor-pointer transition-colors duration-200 flex items-center gap-1">
+            Soluções AI
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </button>
+          
+          {servicesOpen && (
+            <div className="absolute top-full left-0 mt-2 w-64 bg-dark-bg-lighter rounded-lg shadow-xl border border-white/10 py-2 z-50">
+              <Link href="/services" className="block px-4 py-2 text-white hover:bg-primary/20 hover:text-primary transition-colors">
+                🤖 Atendimento Automatizado
+              </Link>
+              <Link href="/services" className="block px-4 py-2 text-white hover:bg-primary/20 hover:text-primary transition-colors">
+                📱 Automação Social Media
+              </Link>
+              <Link href="/services" className="block px-4 py-2 text-white hover:bg-primary/20 hover:text-primary transition-colors">
+                ⚙️ Automação de Processos
+              </Link>
+              <Link href="/services" className="block px-4 py-2 text-white hover:bg-primary/20 hover:text-primary transition-colors">
+                📊 Agente SEO
+              </Link>
+              <Link href="/services" className="block px-4 py-2 text-white hover:bg-primary/20 hover:text-primary transition-colors">
+                🏛️ DAO Builder
+              </Link>
+              <div className="border-t border-white/10 my-2"></div>
+              <Link href="/services" className="block px-4 py-2 text-primary font-bold hover:bg-primary/20 transition-colors">
+                Ver Todas as Soluções →
+              </Link>
+            </div>
+          )}
         </div>
-        <input
-          className="h-10 w-full border-0 bg-transparent outline-0 ring-0 px-2 pl-0 text-white placeholder:text-gray"
-          placeholder="Search items, collections, and accounts"
-        />
-      </div>
-      <div className="flex items-center justify-end">
-        <Link href="/services" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
-          Soluções
-        </Link>
-        <Link href="/token-ecosystem" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
-          Tokens
-        </Link>
-        <Link href="/governance" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
-          Governança
-        </Link>
-        <Link href="/projects" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+        
+        <Link href="/projects" className="text-white font-bold hover:text-primary cursor-pointer transition-colors duration-200">
           Projetos
         </Link>
-        <Link href="/join" className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200">
-          Comunidade
+        
+        <Link href="#contact" className="text-white font-bold hover:text-primary cursor-pointer transition-colors duration-200">
+          Contato
         </Link>
-        <a 
-          href="https://stackoverflowteams.com/c/govindasystems"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-white px-4 font-bold hover:text-primary cursor-pointer transition-colors duration-200"
-        >
-          Fórum
-        </a>
         
         {/* Theme Switcher */}
-        <div className="ml-2 mr-4">
+        <div className="ml-2">
           <ThemeSwitcher />
         </div>
         
-        {address ? (
-          <>
-            <div className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200">
-              <CgProfile />
-            </div>
-            <div 
-              onClick={disconnectWallet}
-              className="text-white text-3xl font-black px-4 hover:text-secondary cursor-pointer transition-colors duration-200"
-            >
-              <MdOutlineAccountBalanceWallet />
-            </div>
-          </>
-        ) : (
-          <button
-            onClick={connectWithMetamask}
-            className="ml-4 bg-primary text-white px-4 py-2 rounded-lg font-bold hover:bg-primary-dark transition-colors duration-200"
-          >
-            Connect Wallet
+        {/* CTA Button */}
+        <Link href="/join">
+          <button className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-2 rounded-lg font-bold hover:opacity-90 transition-opacity duration-200">
+            Solicitar Orçamento
           </button>
-        )}
-      </div>
+        </Link>
+      </nav>
     </header>
   )
 }
