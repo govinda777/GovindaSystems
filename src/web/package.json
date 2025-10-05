@@ -46,6 +46,7 @@
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.23.3",
+    "@testing-library/dom": "^10.0.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@types/react": "^18.2.55",
@@ -65,5 +66,9 @@
     "@coinbase/wallet-sdk": {
       "preact": "npm:react@18.3.1"
     }
-  }
+  },
+  "resolutions": {
+    "@babel/traverse": "7.28.0"
+  },
+  "//": "The 'resolutions' field above is a temporary workaround for a transient dependency issue. A dependency in the project requires a version of '@babel/traverse' (^7.28.3) that does not exist. This resolution forces Yarn to use a valid, stable version, allowing the project to install and build correctly. This should be re-evaluated when dependencies are next updated."
 }
