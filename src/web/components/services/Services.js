@@ -12,15 +12,8 @@ const Services = () => {
         <Row className="mb-3">
           <Col className="text-center">
             <h2 className="display-5 fw-bold mb-2" style={{ 
-              background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text'
-            }}>Nossos Projetos e Iniciativas</h2>
-            <div className="mx-auto" style={{ maxWidth: '80px', height: '4px', background: 'linear-gradient(90deg, #2ECAD5, #FF6B6B)', marginBottom: '1rem', borderRadius: '2px' }}></div>
-            <p className="lead mb-3 text-readable">
-              Projetos de código aberto desenvolvidos pela comunidade Govinda Systems DAO para impulsionar a inovação em Inteligência Artificial.
-            </p>
+              color: '#FF6B6B'
+            }}>Soluções AI</h2>
           </Col>
         </Row>
 
@@ -38,7 +31,7 @@ const Services = () => {
                   <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"/>
                 </svg>
               </div>
-              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>🤖 Chatbot Inteligente (Open Source)</h3>
+              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Atendimento Automatizado</h3>
               <div className="mb-2">
                 <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
@@ -85,7 +78,7 @@ const Services = () => {
                   <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
                 </svg>
               </div>
-              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>📱 Gerador de Conteúdo Social</h3>
+              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Automação Social Media</h3>
               <div className="mb-2">
                 <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
@@ -133,7 +126,7 @@ const Services = () => {
                   <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319z"/>
                 </svg>
               </div>
-              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>⚙️ Ferramentas de Automação (RPA + IA)</h3>
+              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Automação de Processos</h3>
               <div className="mb-2">
                 <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
@@ -182,7 +175,7 @@ const Services = () => {
                   <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
                 </svg>
               </div>
-              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>📊 Agente SEO Inteligente</h3>
+              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>Agente SEO</h3>
               <div className="mb-2">
                 <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
@@ -229,7 +222,7 @@ const Services = () => {
                   <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
                 </svg>
               </div>
-              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>🏛️ Framework para DAOs</h3>
+              <h3 className="h5 fw-bold mb-2" style={{ color: '#FF6B6B' }}>DAO Builder</h3>
               <div className="mb-2">
                 <ul className="list-unstyled mb-0">
                   <li className="mb-1 d-flex align-items-start">
