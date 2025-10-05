@@ -8,6 +8,19 @@ Site: https://govinda-systems-web-govinda777.vercel.app
 
 ---
 
+## ⚡ Instalação Rápida - Escolha seu Guia
+
+| Guia | Quando Usar | Tempo | Link |
+|------|------------|-------|------|
+| **🚀 COMO_INSTALAR.md** | **Guia definitivo completo** | 5 min leitura | **[Abrir →](COMO_INSTALAR.md)** |
+| ⚡ QUICK_START.md | Instalação ultra rápida | 1 min leitura | [Abrir →](QUICK_START.md) |
+| 📊 INSTALL_RAPIDO.md | Benchmarks e comparações | 10 min leitura | [Abrir →](INSTALL_RAPIDO.md) |
+| 🐛 TROUBLESHOOTING.md | Problemas e soluções | Quando precisar | [Abrir →](TROUBLESHOOTING.md) |
+
+**💡 Novo no projeto?** Use **[COMO_INSTALAR.md](COMO_INSTALAR.md)** - Guia completo passo a passo!
+
+---
+
 ## 🌟 Sobre Nós
 
 A **GovindaSystems** é uma empresa especializada em criar **soluções personalizadas de Inteligência Artificial** que resolvem problemas reais de negócios. Nossa equipe combina expertise técnica com profundo entendimento das necessidades empresariais.
@@ -264,6 +277,77 @@ Colocamos em produção e oferecemos suporte contínuo
 - 20% taxa de conversão
 - R$ 360-600K receita anual
 - ROI: 2.400% - 4.000%
+
+---
+
+## ⚡ Como Instalar o Projeto
+
+### 🚀 Instalação Automática (RECOMENDADO)
+
+**Instale tudo em menos de 1 minuto!**
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/govinda777/GovindaSystems.git
+cd GovindaSystems
+
+# 2. Execute o script de instalação
+./install-fast.sh
+
+# 3. Siga o assistente interativo:
+#    - Escolha pnpm (opção 1) - 2-3x mais rápido
+#    - Mantenha cache (n) para instalações subsequentes
+```
+
+**⏱️ Tempo de instalação:**
+- ⚡ **pnpm (primeira vez):** 30-60 segundos
+- ⚡ **pnpm (com cache):** 10-20 segundos  
+- 🐌 **npm:** 2-4 minutos
+
+### 🔧 Instalação Manual
+
+#### Com pnpm (Recomendado - Mais Rápido)
+
+```bash
+# Instalar pnpm globalmente (apenas primeira vez)
+npm install -g pnpm
+
+# Instalar dependências
+cd src/web
+pnpm install
+```
+
+#### Com npm (Padrão)
+
+```bash
+cd src/web
+npm install --prefer-offline
+```
+
+### 📋 Próximos Passos
+
+Após a instalação:
+
+```bash
+# 1. Configurar variáveis de ambiente
+cd src/web
+cp .env.example .env.local
+# Edite .env.local com suas chaves
+
+# 2. Iniciar servidor de desenvolvimento
+npm run dev
+# ou
+pnpm dev
+
+# 3. Acessar aplicação
+# Abra http://localhost:3000 no navegador
+```
+
+📖 **Guias de Instalação:**
+- **[COMO_INSTALAR.md](COMO_INSTALAR.md)** - Guia definitivo (RECOMENDADO)
+- **[INSTALL_RAPIDO.md](INSTALL_RAPIDO.md)** - Guia detalhado com benchmarks
+- **[QUICK_START.md](QUICK_START.md)** - Quick start em 60 segundos
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solução de problemas
 
 ---
 

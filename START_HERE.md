@@ -6,6 +6,42 @@ Este é o seu ponto de partida para transformar o site da GovindaSystems de foco
 
 ---
 
+## ⚡ Instalação Rápida do Projeto
+
+**Antes de começar com a documentação, instale o projeto!**
+
+### 🚀 Método Rápido (Recomendado)
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/govinda777/GovindaSystems.git
+cd GovindaSystems
+
+# 2. Execute o script de instalação rápida
+./install-fast.sh
+
+# 3. Escolha pnpm (opção 1) - 2-3x mais rápido
+# Tempo: 30-60 segundos (vs 2-4 minutos com npm)
+```
+
+### 📋 Configuração Após Instalação
+
+```bash
+# Configure variáveis de ambiente
+cd src/web
+cp .env.example .env.local
+# Edite .env.local com suas chaves
+
+# Inicie o servidor
+npm run dev  # ou: pnpm dev
+
+# Acesse: http://localhost:3000
+```
+
+📖 **[Ver guia completo de instalação](INSTALL_RAPIDO.md)** | **[Quick Start em 60s](QUICK_START.md)**
+
+---
+
 ## 📚 Documentação Disponível
 
 Foram criados **15+ documentos completos** com mais de **500 páginas** de conteúdo técnico e estratégico:
