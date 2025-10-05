@@ -17,22 +17,21 @@ export default function Hero() {
             <Container className="relative z-10">
                 <Row className="align-items-center">
                     <Col lg={7} className="mb-5 mb-lg-0">
-                        <h1 className="text-gradient display-3 fw-bold mb-4">GovindaSystems</h1>
+                        <h1 className="text-gradient display-3 fw-bold mb-4">Govinda Systems DAO</h1>
                         <p className="lead fs-4 mb-4">
-                            Soluções em Inteligência Artificial para o seu negócio
+                            Uma comunidade de inovadores construindo o futuro da Inteligência Artificial.
                         </p>
                         <p className="mb-5 text-body-lg text-white/80">
-                            Transformamos empresas através da Inteligência Artificial e Automação Inteligente. 
-                            Desenvolvemos soluções de IA personalizadas que otimizam processos, reduzem custos 
-                            e aumentam a produtividade do seu negócio. Do atendimento automatizado à automação 
-                            de redes sociais, oferecemos tecnologia de ponta para impulsionar seus resultados.
+                            Somos uma Organização Autônoma Descentralizada (DAO) focada em criar soluções de IA de código aberto.
+                            Nossa comunidade colabora em projetos que vão desde automação inteligente até novas fronteiras em machine learning.
+                            Junte-se a nós para construir, aprender e inovar no ecossistema de IA.
                         </p>
                         <div className="flex flex-wrap gap-3">
                             <Link href="/join" className="btn btn-primary btn-lg me-3 mb-3 mb-md-0">
-                                Solicitar Orçamento
+                                Junte-se à Comunidade
                             </Link>
-                            <Link href="#services" className="btn btn-outline-secondary btn-lg">
-                                Nossas Soluções AI
+                            <Link href="#projects" className="btn btn-outline-secondary btn-lg">
+                                Conheça Nossos Projetos
                             </Link>
                         </div>
                     </Col>

@@ -57,21 +57,21 @@ export default function Home() {
   return (
     <div className={style.wrapper}>
       <Head>
-        <title>GovindaSystems - Soluções em Inteligência Artificial</title>
-        <meta name="description" content="Transformamos empresas através da Inteligência Artificial. Atendimento automatizado, automação de redes sociais, processos inteligentes e muito mais." />
-        <meta name="keywords" content="inteligência artificial, IA, automação, chatbot, AI, machine learning, automação de processos" />
+        <title>Govinda Systems DAO - Comunidade de Inovação em IA</title>
+        <meta name="description" content="Junte-se à Govinda Systems DAO, uma comunidade de inovadores construindo o futuro da Inteligência Artificial de forma descentralizada e colaborativa. Participe de projetos open source." />
+        <meta name="keywords" content="DAO, inteligência artificial, IA, comunidade, open source, blockchain, inovação, automação, machine learning, web3" />
         <link rel="icon" href="/favicon.ico" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="GovindaSystems - Soluções em Inteligência Artificial" />
-        <meta property="og:description" content="Transformamos empresas através da Inteligência Artificial" />
+        <meta property="og:title" content="Govinda Systems DAO - Comunidade de Inovação em IA" />
+        <meta property="og:description" content="Construindo o futuro da Inteligência Artificial de forma descentralizada e colaborativa." />
         <meta property="og:url" content="https://govindasystems.com" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="GovindaSystems - Soluções em IA" />
-        <meta name="twitter:description" content="Transformamos empresas através da Inteligência Artificial" />
+        <meta name="twitter:title" content="Govinda Systems DAO - Inovação em IA" />
+        <meta name="twitter:description" content="Junte-se à comunidade que está construindo o futuro da IA de forma descentralizada e open source." />
       </Head>
       <Toaster position="top-center" reverseOrder={false} />
       <>
