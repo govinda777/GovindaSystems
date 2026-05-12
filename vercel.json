@@ -1,9 +1,9 @@
 {
-  "buildCommand": "cd src/web && npm run build",
+  "buildCommand": "cd src/web && yarn build",
   "outputDirectory": "src/web/.next",
-  "installCommand": "cd src/web && npm install",
+  "installCommand": "cd src/web && yarn install",
   "framework": "nextjs",
   "rewrites": [
     { "source": "/(.*)", "destination": "/src/web/$1" }
   ]
-} 
+}
