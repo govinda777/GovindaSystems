@@ -41,6 +41,7 @@
     "react-icons": "^4.8.0",
     "tailwindcss": "^3.3.1",
     "typescript": "^5.3.3",
+    "unstorage": "^1.17.5",
     "zksync-ethers": "^5.0.0",
     "zod": "^4.1.11"
   },
@@ -64,7 +65,7 @@
     "postcss-import": "^16.1.1"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": "18.x"
   },
   "overrides": {
     "@coinbase/wallet-sdk": {
