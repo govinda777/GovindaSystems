@@ -1,22 +1,24 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React, { useState } from 'react'
-import logo from '../assets/logo.png'
-import ThemeSwitcher from './ThemeSwitcher.js'
+"use client";
 
-const Header = () => {
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useState } from 'react';
+import logo from '../assets/logo.png';
+import ThemeSwitcher from './ThemeSwitcher';
+
+const Header: React.FC = () => {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   return (
-    <header className="bg-dark w-screen px-5 py-3 flex items-center justify-between">
+    <header className="bg-dark w-screen px-5 py-3 flex items-center justify-between shadow-md sticky top-0 z-50">
       <Link href="/">
         <div className="flex items-center cursor-pointer">
           <Image src={logo} height={40} width={40} alt="GovindaSystems Logo" />
-          <div className="ml-3 text-white font-semibold text-2xl">GovindaSystems</div>
+          <div className="ml-3 text-white font-semibold text-2xl hidden md:block">GovindaSystems</div>
         </div>
       </Link>
       
-      <nav className="flex items-center justify-end gap-6">
+      <nav className="flex items-center justify-end gap-4 md:gap-6">
         <Link href="/" className="text-white font-bold hover:text-primary cursor-pointer transition-colors duration-200">
           Início
         </Link>
@@ -35,7 +37,7 @@ const Header = () => {
           </button>
           
           {servicesOpen && (
-            <div className="absolute top-full left-0 mt-2 w-64 bg-dark-bg-lighter rounded-lg shadow-xl border border-white/10 py-2 z-50">
+            <div className="absolute top-full left-0 mt-2 w-64 bg-[#1a1b1e] rounded-lg shadow-xl border border-white/10 py-2 z-50">
               <Link href="/services" className="block px-4 py-2 text-white hover:bg-primary/20 hover:text-primary transition-colors">
                 🤖 Atendimento Automatizado
               </Link>
@@ -63,24 +65,18 @@ const Header = () => {
           Projetos
         </Link>
         
-        <Link href="#contact" className="text-white font-bold hover:text-primary cursor-pointer transition-colors duration-200">
-          Contato
+        <Link href="/join" className="hidden md:block">
+          <button className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-2 rounded-lg font-bold hover:opacity-90 transition-opacity duration-200">
+            Participar
+          </button>
         </Link>
         
-        {/* Theme Switcher */}
         <div className="ml-2">
           <ThemeSwitcher />
         </div>
-        
-        {/* CTA Button */}
-        <Link href="/join">
-          <button className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-2 rounded-lg font-bold hover:opacity-90 transition-opacity duration-200">
-            Solicitar Orçamento
-          </button>
-        </Link>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

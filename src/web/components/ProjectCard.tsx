@@ -1,11 +1,20 @@
+"use client";
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
-export default function ProjectCard({ project }) {
-  const router = useRouter();
+interface Project {
+  title: string;
+  description: string;
+  siteUrl: string;
+  repoUrl: string;
+  smartContractAddress?: string;
+}
 
+export default function ProjectCard({ project }: { project: Project }) {
   const handleSupportProject = () => {
-    window.location.href = `https://crowd-fund-connect.replit.app/crowdfunding?address=${project.smartContractAddress}`;
+    if (project.smartContractAddress) {
+      window.location.href = `https://crowd-fund-connect.replit.app/crowdfunding?address=${project.smartContractAddress}`;
+    }
   };
 
   return (
@@ -61,4 +70,4 @@ export default function ProjectCard({ project }) {
       </div>
     </div>
   );
-} 
+}
